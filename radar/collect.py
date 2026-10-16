@@ -31,6 +31,7 @@ class Result:
     complete: bool = True
     note: str = ""
     available: bool = True
+    failed: bool = False  # Preserve partial records while still failing source-health.
 
 class HTTP:
     """Serial, per-host throttled requests; no CAPTCHA/paywall bypass."""
@@ -134,25 +135,104 @@ def parse_feed(content: bytes, source: str, family: str, is_arxiv: bool = False)
                     code=code_links(abstract + " " + first(e, "comment"))))
     return records, total
 
+def source_error(exc: Exception) -> str:
+    """Keep a short, redacted diagnostic, rather than an entire long query URL."""
+    response = getattr(exc, "response", None)
+    if response is None:
+        return public_note(f"{type(exc).__name__}: {exc}", 400)
+    code = response.status_code
+    label = ""
+    try:
+        payload = response.json()
+        if isinstance(payload, dict):
+            error = payload.get("error", payload)
+            if isinstance(error, dict):
+                # Name/type only: never print tokens, cookies, or a full response body.
+                label = str(error.get("name") or error.get("type") or "")
+            label = label or str(payload.get("name") or "")
+    except (ValueError, TypeError):
+        pass
+    host = urlparse(response.url or "").hostname or "upstream"
+    return public_note(f"HTTP {code} from {host}" + (f" ({label})" if label else ""), 400)
+
+
+def source_terms(cfg: dict) -> list[str]:
+    return list(dict.fromkeys(str(term).replace('"', '').strip()
+                             for topic in cfg["topics"] for term in topic["terms"]
+                             if str(term).replace('"', '').strip()))
+
+
 def arxiv(http: HTTP, cfg: dict, since: str) -> Result:
+    """Bounded, serial batches. Keep successful batches if another request fails."""
     source = cfg["sources"]["arxiv"]
     cats = " OR ".join("cat:" + c for c in source["categories"])
-    terms = list(dict.fromkeys(t for topic in cfg["topics"] for t in topic["terms"]))
-    query = f'({cats}) AND (' + " OR ".join('all:"' + t.replace('"', '') + '"' for t in terms) + ")"
+    terms = source_terms(cfg)
+    if not cats or not terms:
+        raise ValueError("arXiv categories and topic terms must not be empty")
+    batch_size = max(1, min(8, int(source.get("query_batch_size", 8))))
+    page_size = max(1, min(100, int(source.get("page_size", 100))))
+    max_pages = max(1, int(cfg["fetch"]["max_pages"]))
+    batches = [terms[i:i + batch_size] for i in range(0, len(terms), batch_size)]
     result = Result()
-    page_size = min(source.get("page_size", 200), 2000)
-    for page in range(cfg["fetch"]["max_pages"]):
-        r = http.get("https://export.arxiv.org/api/query", params={"search_query": query, "start": page * page_size,
-                    "max_results": page_size, "sortBy": "lastUpdatedDate", "sortOrder": "descending"})
-        records, total = parse_feed(r.content, "arXiv", "arXiv", True)
-        result.records.extend(x for x in records if (x["updated_at"] or x["published_at"]) >= since)
-        if not records or (page + 1) * page_size >= total:
-            return result
-        if min((x["updated_at"] or x["published_at"]) for x in records) < since:
-            return result
-    result.complete = False
-    result.note = "达到分页上限；保留原增量时间水位，下次重试。请增大 max_pages 或缩小主题。"
+    rows: dict[str, dict] = {}
+    warnings = []
+    errors = 0
+    requested = 0
+    # Avoid issuing every batch against an API that is consistently unavailable.
+    consecutive_errors = 0
+    for index, batch in enumerate(batches, 1):
+        if consecutive_errors >= 2:
+            result.complete = False
+            warnings.append(f"连续两个批次请求失败；本次停止其余 {len(batches) - index + 1} 个批次，保留时间水位")
+            break
+        query = f'({cats}) AND (' + " OR ".join(f'all:"{t}"' for t in batch) + ")"
+        print(f"[arXiv] batch {index}/{len(batches)} ({len(batch)} terms)", flush=True)
+        requested += 1
+        reached_end = False
+        start = 0
+        batch_failed = False
+        for _ in range(max_pages):
+            try:
+                response = http.get("https://export.arxiv.org/api/query", params={
+                    "search_query": query, "start": start, "max_results": page_size,
+                    "sortBy": "lastUpdatedDate", "sortOrder": "descending"})
+                records, total = parse_feed(response.content, "arXiv", "arXiv", True)
+                if not records and start < total:
+                    raise ValueError("arXiv returned an empty page before totalResults was reached")
+                for record in records:
+                    stamp = record["updated_at"] or record["published_at"]
+                    if stamp >= since:
+                        key = record.get("arxiv_id") or record["url"]
+                        prior = rows.get(key)
+                        if prior is None or stamp > (prior["updated_at"] or prior["published_at"]):
+                            rows[key] = record
+                start += len(records)
+                if not records or start >= total:
+                    reached_end = True
+                    break
+                if min(r["updated_at"] or r["published_at"] for r in records) < since:
+                    reached_end = True
+                    break
+            except (requests.RequestException, ValueError, RuntimeError, ET.ParseError) as exc:
+                errors += 1
+                batch_failed = True
+                warnings.append(f"批次 {index}: {source_error(exc)}")
+                print(f"[arXiv] {warnings[-1]}", flush=True)
+                break
+        if batch_failed:
+            consecutive_errors += 1
+        else:
+            consecutive_errors = 0
+        if not reached_end:
+            result.complete = False
+            if not batch_failed:
+                warnings.append(f"批次 {index} 达到分页上限；保留时间水位")
+    result.records = list(rows.values())
+    result.failed = errors > 0
+    result.note = (f"分批检索 {requested}/{len(batches)}，每批最多 {batch_size} 个词，每页最多 {page_size} 条。"
+                   + " | ".join(warnings))
     return result
+
 
 def crossref_date(item: dict) -> str:
     for key in ["published-online", "published-print", "published", "issued"]:
@@ -230,22 +310,121 @@ def parse_openreview(note: dict, venue_id: str) -> dict | None:
                 doi=content_value(c, "doi"), code=code_links(urls), venue_id=venue_id,
                 submitted_at=iso(note.get("cdate", "")))
 
+def openreview_search(http: HTTP, cfg: dict, venue: str, reason: str,
+                      previous: list[dict] | None = None) -> Result:
+    """Documented public search endpoint; not an exhaustive venue listing.
+
+    Search is a degraded metadata source, NOT an acceptance signal. The existing
+    exact content.venueid check is still required for every record.
+    """
+    spec = cfg["sources"]["openreview"]
+    size = max(1, min(100, int(spec.get("search_page_size", 100))))
+    max_requests = max(1, int(spec.get("search_max_requests", 120)))
+    max_pages = max(1, int(cfg["fetch"]["max_pages"]))
+    terms = source_terms(cfg)
+    if not terms:
+        raise ValueError("OpenReview fallback requires nonempty topic terms")
+    rows = {record["url"]: record for record in (previous or [])}
+    warnings = []
+    requests_used = finished_terms = 0
+    failed = False
+    stop = False
+    previous_deny = getattr(http, "_paper_radar_openreview_search_denied", None)
+    if previous_deny:
+        return Result(records=list(rows.values()), complete=False, failed=True,
+                      note="本次运行搜索接口已拒绝访问，不重复请求。" + previous_deny)
+    for term in terms:
+        if stop or requests_used >= max_requests:
+            break
+        start = 0
+        ended = False
+        for _ in range(max_pages):
+            if requests_used >= max_requests:
+                break
+            requests_used += 1
+            try:
+                payload = http.get("https://api2.openreview.net/notes/search", params={
+                    "term": term, "content": "all", "group": venue,
+                    "source": "all", "limit": size, "offset": start}).json()
+                if not isinstance(payload, dict) or not isinstance(payload.get("notes"), list):
+                    raise ValueError("OpenReview search response has no notes list")
+                notes = payload["notes"]
+                for note in notes:
+                    if not isinstance(note, dict):
+                        raise ValueError("OpenReview search returned an invalid note")
+                    # No replies, reviews, private items, or unaccepted submissions.
+                    if note.get("replyto"):
+                        continue
+                    if "readers" in note and "everyone" not in note["readers"]:
+                        continue
+                    if record := parse_openreview(note, venue):
+                        prior = rows.get(record["url"])
+                        if prior is None or record["updated_at"] >= prior["updated_at"]:
+                            rows[record["url"]] = record
+                start += len(notes)
+                if len(notes) < size:
+                    ended = True
+                    break
+            except (requests.RequestException, ValueError, RuntimeError, KeyError, TypeError) as exc:
+                failed = True
+                warnings.append(f"搜索请求失败: {source_error(exc)}")
+                response = getattr(exc, "response", None)
+                if response is not None and response.status_code in {401, 403}:
+                    http._paper_radar_openreview_search_denied = warnings[-1]
+                # Avoid flooding an unavailable service; retry on the next daily run.
+                stop = True
+                break
+        if ended:
+            finished_terms += 1
+        elif not stop:
+            warnings.append("达到检索分页或请求预算，部分关键词未完成")
+    if finished_terms < len(terms) and not warnings:
+        warnings.append("达到请求预算，部分关键词未完成")
+    note = (f"/notes 不可用 ({reason})；使用官方 /notes/search 主题检索。"
+            f"完成 {finished_terms}/{len(terms)} 个关键词；仅保留 venueid 精确匹配的公开已录用论文。"
+            "这是降级检索，不是完整会集，时间水位不前移。")
+    if not rows:
+        note += " 当前未检索到可确认录用的论文；不能据此断言该会议没有论文。"
+    if warnings:
+        note += " | " + " | ".join(warnings)
+    return Result(records=list(rows.values()), complete=False, note=note, failed=failed)
+
+
 def openreview(http: HTTP, cfg: dict, venue: str) -> Result:
     result = Result()
-    size = min(1000, cfg["sources"]["openreview"].get("page_size", 1000))
-    for page in range(cfg["fetch"]["max_pages"]):
-        payload = http.get("https://api2.openreview.net/notes", params={"content.venueid": venue, "limit": size, "offset": page * size}).json()
-        if "notes" not in payload:
-            raise ValueError("OpenReview响应不含 notes")
-        notes = payload["notes"]
-        result.records.extend(r for n in notes if (r := parse_openreview(n, venue)))
-        if len(notes) < size:
-            if not result.records:
-                result.note = "未找到公开已录用条目；可能尚未公开或 venue ID 需要核对。"
+    spec = cfg["sources"]["openreview"]
+    size = max(1, min(1000, int(spec.get("page_size", 1000))))
+    denied = getattr(http, "_paper_radar_openreview_notes_denied", None)
+    if denied and spec.get("search_fallback", True):
+        return openreview_search(http, cfg, venue, denied)
+    for page in range(max(1, int(cfg["fetch"]["max_pages"]))):
+        try:
+            payload = http.get("https://api2.openreview.net/notes", params={
+                "content.venueid": venue, "limit": size, "offset": page * size}).json()
+            if not isinstance(payload, dict) or not isinstance(payload.get("notes"), list):
+                raise ValueError("OpenReview response has no notes list")
+            notes = payload["notes"]
+            result.records.extend(r for n in notes if (r := parse_openreview(n, venue)))
+            if len(notes) < size:
+                if not result.records:
+                    result.note = "未找到公开已录用条目；可能尚未公开或 venue ID 需要核对。"
+                return result
+        except (requests.RequestException, ValueError, RuntimeError, KeyError, TypeError) as exc:
+            response = getattr(exc, "response", None)
+            if (response is not None and response.status_code in {401, 403}
+                    and spec.get("search_fallback", True)):
+                reason = source_error(exc)
+                http._paper_radar_openreview_notes_denied = reason
+                print(f"[OpenReview] {reason}; trying documented public search", flush=True)
+                return openreview_search(http, cfg, venue, reason, result.records)
+            result.complete = False
+            result.failed = True
+            result.note = source_error(exc)
             return result
     result.complete = False
-    result.note = "OpenReview达到分页上限；应增大 max_pages，不能把当前结果视为完整会集。"
+    result.note = "OpenReview达到分页上限；不能把当前结果视为完整会集。"
     return result
+
 
 def xml_text(node: ET.Element | None) -> str:
     return text("".join(node.itertext())) if node is not None else ""

@@ -123,14 +123,18 @@ def main() -> int:
         print(f"[{name}] collecting...", flush=True)
         try:
             result = job()
+            if result.failed:
+                errors += 1
             new_count, change_count = store.ingest(result.records, attempted_at)
             added += new_count
             changed += change_count
             status = "ok" if result.complete else "partial"
+            if result.failed and not result.records:
+                status = "error"
             if not result.available:
                 status = "unavailable"
             report = dict(status=status, attempted_at=attempted_at,
-                          last_success_at=attempted_at if result.complete and result.available else old.get("last_success_at", ""),
+                          last_success_at=attempted_at if result.complete and result.available and not result.failed else old.get("last_success_at", ""),
                           fetched=len(result.records), added=new_count, changed=change_count, note=collect.public_note(result.note))
         except Exception as exc:
             errors += 1
