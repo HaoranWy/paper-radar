@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><title>论文雷达 · Paper Radar</title>
+<meta name="description" content="按研究主题筛选的每日论文雷达，区分预印本与正式发表，所有条目可追溯到原始来源。">
+<style>/*__STYLE__*/</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+ <a class="brand" href="#"><span class="brand-icon">↗</span><span>PAPER RADAR<small>个人研究观察站</small></span></a>
+ <div class="side-label">研究工作台</div>
+ <nav id="main-nav" aria-label="论文视图">
+  <button data-view="all" class="nav-item active"><span>◈</span>全部论文 <b id="nav-all"></b></button>
+  <button data-view="preprint" class="nav-item"><span>◇</span>最新预印本</button>
+  <button data-view="published" class="nav-item"><span>▤</span>已录用 / 已发表</button>
+  <button data-view="strict" class="nav-item"><span>✓</span>严选对比方法</button>
+  <button data-view="saved" class="nav-item"><span>☆</span>我的收藏 <b id="nav-saved"></b></button>
+ </nav>
+ <div class="side-label">关注的研究方向</div>
+ <div id="side-topics"></div>
+ <div class="side-note"><span class="tiny-dot"></span> 每日检查 · 持续积累<p>不把预印本当录用论文，<br>不把收录日期当发表日期。</p></div>
+ <button id="health-button" class="health-trigger">查看数据源状态 <span>↗</span></button>
+</aside>
+<main>
+ <header class="topbar"><div class="breadcrumb">研究工作台 <span>/</span> <b id="breadcrumb-view">全部论文</b></div><div class="top-actions"><button id="mode-badge" class="button" aria-label="查看数据来源与状态"></button><button id="export" class="button">导出当前结果 ↓</button></div></header>
+ <section class="hero"><div><div class="eyebrow">YOUR RESEARCH, IN FOCUS</div><h1>把新论文，放在一起。</h1><p id="subtitle">智能体 · 自进化 · 不确定性 · AI for Science</p></div><div class="hero-meta"><span id="update-label">最近数据检查</span><strong id="updated">尚未抓取</strong><span id="timezone"></span></div></section>
+ <div class="notice" id="notice" role="status"></div>
+ <section class="stats" aria-label="数据库统计">
+  <div><span>相关论文总量</span><strong id="stat-total">0</strong><small>当前网页中可检索的记录</small></div>
+  <div><span>最近一次新收录</span><strong id="stat-new">—</strong><small>与论文首次发表时间不同</small></div>
+  <div><span>已录用 / 已发表</span><strong id="stat-published">0</strong><small>以官方会集或出版记录为依据</small></div>
+  <div><span>官方代码有核验依据</span><strong id="stat-code">0</strong><small>不等于已验证可复现</small></div>
+ </section>
+ <section class="feed-header"><div><h2 id="view-title">论文动态</h2><p id="view-help">先看与你的研究相关的，再看来源。</p></div><span id="result-count"></span></section>
+ <section class="filters" aria-label="检索与筛选">
+  <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="搜索标题、作者、摘要或关键词…" aria-label="搜索论文"></div>
+  <select id="source" aria-label="来源"><option value="">全部来源</option></select>
+  <select id="period" aria-label="时间范围"><option value="all">全部时间</option><option value="1">最近 24 小时</option><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="90">最近 90 天</option></select>
+  <select id="date-field" aria-label="筛选日期类型"><option value="record_changed_at">按收录 / 记录更新</option><option value="published_at">按发表日期</option></select>
+  <select id="sort" aria-label="排序"><option value="relevance">相关度优先</option><option value="new">收录更新优先</option><option value="published">发表时间优先</option></select>
+ </section>
+ <div class="chips" id="topic-chips" aria-label="研究主题"></div>
+ <section id="papers" class="paper-list" aria-live="polite"></section>
+ <div class="load-area"><button id="load-more" class="button">加载更多</button></div>
+ <footer>公开元数据聚合 · 关键词匹配分数不是论文质量评分 · 收藏仅保存在当前浏览器<br><span id="footer-meta"></span></footer>
+</main>
+</div>
+<dialog id="health-dialog"><div class="dialog-head"><div><div class="eyebrow">SOURCE HEALTH</div><h2>每个来源，都有状态。</h2></div><button id="close-health" class="close" aria-label="关闭">×</button></div><p class="dialog-desc">“页面构建成功”不代表全部来源抓取成功。时间水位仅在完整抓取后前移；失败时保留旧记录。</p><div id="health-list"></div><p class="dialog-desc">PMLR / CVF 默认按标题初筛，可能漏掉仅在摘要中命中主题的论文。可在配置中关闭初筛，分批读取全部摘要。</p></dialog>
+<div id="toast" role="status"></div>
+<script>/*__DATA__*/</script><script>/*__APP__*/</script>
+</body></html>

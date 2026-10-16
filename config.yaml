@@ -1,0 +1,79 @@
+site:
+  title: 论文雷达
+  subtitle: 智能体 · 自进化 · 不确定性 · AI for Science
+  timezone: Asia/Shanghai
+  minimum_score: 3
+  hide_nonresearch: true
+  max_display: 12000
+fetch:
+  bootstrap_days: 30
+  overlap_days: 7
+  timeout_seconds: 35
+  retries: 3
+  user_agent: "PaperRadar/1.0 (personal academic metadata reader)"
+  # 建议设置环境变量 CROSSREF_MAILTO 为你的真实邮箱，加入 Crossref polite pool。
+  max_pages: 30
+  max_details_per_collection: 60
+  # PMLR/CVF 先按标题筛选再读取摘要；OpenReview/ACL/arXiv 按标题+摘要筛选。
+  # 设为 false 可扫描所有详情，但初次回填需要更多运行次数。
+  title_prefilter: true
+
+topics:
+  - id: agents
+    label: 智能体与工具使用
+    weight: 3
+    terms: ["llm agent", "llm agents", "language agent", "language agents", "agentic", "tool use", "tool-use", "tool calling", "multi-agent", "autonomous agent", "autonomous agents", "ai agent", "ai agents", "agent reliability", "theory of agents"]
+  - id: evolution
+    label: 自进化与可靠采用
+    weight: 4
+    terms: ["self-evolving", "self evolving", "self-improving", "self improving", "agent evolution", "self-evolution", "self-improvement", "candidate selection", "minimax regret", "best arm identification", "best-arm identification", "safe policy improvement", "heuristic evolution", "complementary heuristics"]
+  - id: uncertainty
+    label: 不确定性与可靠停止
+    weight: 4
+    terms: ["uncertainty quantification", "uncertainty-aware", "uncertainty aware", "value of information", "value of computation", "value of steering", "optimal stopping", "adaptive stopping", "stopping rule", "sequential testing", "confidence sequence", "conformal", "metareasoning", "calibration"]
+  - id: reasoning
+    label: 推理与计算预算
+    weight: 3
+    terms: ["test-time scaling", "test time scaling", "adaptive computation", "reasoning budget", "compute budget", "budget-aware", "budget aware", "reasoning tokens", "tool-augmented", "multi-hop reasoning", "deep research"]
+  - id: science
+    label: AI for Science
+    weight: 3
+    terms: ["ai for science", "ai scientist", "ai co-scientist", "scientific discovery", "scientific agent", "scientific agents", "autonomous discovery", "autonomous research", "research agent", "research agents", "biomedical ai"]
+  - id: vision_robotics
+    label: 视觉与机器人
+    weight: 1
+    terms: ["embodied agent", "embodied agents", "vision-language-action", "robot learning", "visual tracking", "panoptic segmentation"]
+
+sources:
+  arxiv:
+    enabled: true
+    categories: [cs.AI, cs.CL, cs.LG, stat.ML, cs.CV, cs.RO]
+    page_size: 200
+  journals:
+    - {name: Nature, family: Nature, issn: "0028-0836", rss: "https://www.nature.com/nature.rss"}
+    - {name: Nature Machine Intelligence, family: Nature, issn: "2522-5839", rss: "https://www.nature.com/natmachintell.rss"}
+    - {name: Nature Computational Science, family: Nature, issn: "2662-8457", rss: "https://www.nature.com/natcomputsci.rss"}
+    - {name: Nature Communications, family: Nature, issn: "2041-1723", rss: "https://www.nature.com/ncomms.rss"}
+    - {name: Science, family: Science, issn: "0036-8075", rss: "https://feeds.science.org/rss/science.xml"}
+    - {name: Science Advances, family: Science, issn: "2375-2548", rss: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"}
+    - {name: Science Robotics, family: Science, issn: "2470-9476", rss: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=scirobotics"}
+  openreview:
+    enabled: true
+    year_offsets: [0, -1]
+    venue_templates: ["ICLR.cc/{year}/Conference", "ICML.cc/{year}/Conference", "NeurIPS.cc/{year}/Conference"]
+    page_size: 1000
+  pmlr:
+    enabled: true
+    year_offsets: [0]
+    conferences: [ICML, AISTATS, UAI, COLT]
+  acl:
+    enabled: true
+    year_offsets: [0]
+    collections: [acl, emnlp, naacl]
+    volumes: [long, short, main]
+    # 官方仓库公开 XML；不抓 Findings、workshops、tutorials 或 front matter。
+    raw_root: "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml"
+  cvf:
+    enabled: true
+    year_offsets: [0, -1]
+    conferences: [CVPR, ICCV]

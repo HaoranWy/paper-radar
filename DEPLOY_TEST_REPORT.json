@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-16",
+  "offline_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "run": 33,
+    "passed": 33,
+    "failed": 0
+  },
+  "python_compile_check": "passed",
+  "javascript_syntax_check": "passed: node --check web/app.js",
+  "deployment_project_check": "passed: 24 allowlisted upload files",
+  "workflow_check": "YAML parsed and structural invariants tested; not executed on GitHub",
+  "deployment_sequence_test": "mocked CLI/API test passed; this does not validate real credentials or GitHub-side execution",
+  "real_github_deployment_tested": false,
+  "remote_repository_created": false,
+  "workflow_requested": false,
+  "live_site_url": null,
+  "live_collection_end_to_end_tested": false,
+  "network_probes": {
+    "arxiv_api": "DNS resolution failed in the execution environment",
+    "nature_rss": "DNS resolution failed in the execution environment",
+    "crossref_api": "DNS resolution failed in the execution environment"
+  },
+  "changed_since_original": [
+    "Added guarded first-deployment CLI script and Chinese quick start",
+    "Separated build, deploy, and source-health jobs with per-job permissions",
+    "Updated official Actions major versions and retained Beijing 08:17 using UTC cron",
+    "Rebuild only from production archives, never from preview fixtures",
+    "Preserve website deployment when collection/persistence fails, then report source-health failure",
+    "Redact Crossref contact email and credential query parameters before public diagnostics"
+  ],
+  "remaining_validation": [
+    "Authenticate locally with gh, create a new public repository and run the workflow",
+    "Check live API/RSS/proceedings adapter responses and source status",
+    "Confirm scheduled runs and public Pages output in GitHub"
+  ]
+}

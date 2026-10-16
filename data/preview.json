@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-10-16",
+  "notice": "人工核对的真实样例，只用于页面预览；并非最新论文全集，实时采集不会导入此文件。",
+  "records": [
+    {
+      "source": "arXiv",
+      "family": "arXiv",
+      "url": "https://arxiv.org/abs/2610.09115",
+      "title": "From Uncertainty to Action: Learning to Steer LLM Agents",
+      "authors": [
+        "Hanwen Li",
+        "Jinhao Duan",
+        "Guanhua Zhu",
+        "Junchi Lu",
+        "Bo Shen",
+        "Chenxi Yuan",
+        "Kaidi Xu"
+      ],
+      "abstract": "区分“发现智能体可能失败”和“找到干预真正有用的时刻”。作者用反事实续跑结果学习干预价值（value of steering），并通过干预预算限制对原本成功轨迹的扰动。与不确定性驱动的行动调度直接相关。",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "updated_at": "",
+      "status": "preprint",
+      "document_type": "research_article",
+      "doi": "",
+      "arxiv_id": "2610.09115",
+      "pdf_url": "",
+      "venue": "arXiv",
+      "code_links": [],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    },
+    {
+      "source": "arXiv",
+      "family": "arXiv",
+      "url": "https://arxiv.org/abs/2610.10468",
+      "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+      "authors": [
+        "Ali Asaria",
+        "Deep Gandhi",
+        "Tony Salomone"
+      ],
+      "abstract": "关注大规模研究智能体如何共享计算资源、分配预算、独立评审和累积研究经验。其核心是为 autonomous research agents 设计组织制度，而不只是增加单个智能体的提示指令。",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "updated_at": "",
+      "status": "preprint",
+      "document_type": "research_article",
+      "doi": "",
+      "arxiv_id": "2610.10468",
+      "pdf_url": "",
+      "venue": "arXiv",
+      "code_links": [],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "family": "Nature",
+      "url": "https://www.nature.com/articles/s42256-026-01307-8",
+      "title": "Large language models discover complementary heuristics for combinatorial optimization",
+      "authors": [
+        "Huatian Gong",
+        "Shuaian Wang",
+        "Dongping Song",
+        "Jiuh-Biing Sheu",
+        "Ran Yan"
+      ],
+      "abstract": "LACE 先明确可核验的问题约束，再演化互补的启发式算法组合。它强调多个策略之间的互补性，可作为思考候选生成、组合选择与评测预算的参考。出版方明确提供作者代码与 MIT 许可信息。",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "updated_at": "",
+      "status": "published",
+      "document_type": "research_article",
+      "doi": "10.1038/s42256-026-01307-8",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "venue": "Nature Machine Intelligence",
+      "code_links": [
+        "https://github.com/PJ-NTU/LACE"
+      ],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    },
+    {
+      "source": "Nature",
+      "family": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11044-y",
+      "title": "Reimagining research papers as interactive and reliable AI agents",
+      "authors": [
+        "Jiacheng Miao",
+        "Joe R. Davis",
+        "Yaohui Zhang",
+        "Jonathan K. Pritchard",
+        "James Zou"
+      ],
+      "abstract": "Paper2Agent 将论文、代码和数据组织成可交互的 AI agents，并通过生成与运行测试改进工具接口。它把文献阅读扩展为方法调用，适合关注科学智能体与研究成果复用的读者。",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "updated_at": "",
+      "status": "published",
+      "document_type": "research_article",
+      "doi": "10.1038/s41586-026-11044-y",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "venue": "Nature",
+      "code_links": [],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    },
+    {
+      "source": "ACL Anthology",
+      "family": "会议",
+      "url": "https://aclanthology.org/2026.acl-long.1/",
+      "title": "OctoTools: A Multi-Agent Framework with Extensible Tools for Complex Reasoning",
+      "authors": [
+        "Pan Lu",
+        "Bowen Chen",
+        "Sheng Liu",
+        "Rahul Thapa",
+        "Joseph Boen",
+        "James Zou"
+      ],
+      "abstract": "通过标准化工具卡、规划器和执行器，组织无需额外训练的多工具推理流程。该 multi-agent 框架研究工具扩展、任务规划和多步问题求解；这张卡片依据 ACL 官方出版记录，不依据预印本自述判断录用。",
+      "published_at": "2026-07",
+      "updated_at": "",
+      "status": "published",
+      "document_type": "research_article",
+      "doi": "10.18653/v1/2026.acl-long.1",
+      "arxiv_id": "",
+      "pdf_url": "https://aclanthology.org/2026.acl-long.1.pdf",
+      "venue": "ACL 2026",
+      "code_links": [],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    },
+    {
+      "source": "PMLR",
+      "family": "会议",
+      "url": "https://proceedings.mlr.press/v306/wu26bs.html",
+      "title": "Why Self-Distillation Helps and Hurts: Denoising vs. Signal Forgetting",
+      "authors": [
+        "Mingqi Wu",
+        "Archer Yi Yang",
+        "Qiang Sun"
+      ],
+      "abstract": "分析反复自蒸馏中的去噪收益与信号遗忘，并研究最优停止（optimal stopping）与数据驱动的停止规则。它不是智能体停止方法，但可能为“迭代何时应当停止”提供可迁移的理论视角。",
+      "published_at": "2026-07",
+      "updated_at": "",
+      "status": "published",
+      "document_type": "research_article",
+      "doi": "",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "venue": "ICML 2026",
+      "code_links": [],
+      "abstract_note": "人工整理的样例导读，非论文原文摘要；请以来源页面为准。"
+    }
+  ]
+}

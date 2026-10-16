@@ -1,0 +1,15 @@
+{
+  "unit_tests": 20,
+  "unit_result": "passed",
+  "browser_checks": [
+    "6 verified-source preview records rendered",
+    "preprint/formal/strict filters: 2/4/1",
+    "bookmark interaction passes; persistent storage not tested because local origins are blocked by browser policy",
+    "text/source filters and empty state",
+    "source health panel opens/closes",
+    "JSON export button generates payload (download transport not verified)",
+    "mobile viewport: no horizontal page overflow; health accessible",
+    "no browser JavaScript errors"
+  ],
+  "network_validation": "Not performed end-to-end: runtime DNS access unavailable; public documentation and preview sources verified via web."
+}

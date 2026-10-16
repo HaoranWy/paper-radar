@@ -1,0 +1,10 @@
+# 仅基于作者/出版方的明确证据确认“官方开源代码”。
+# 普通抓取到的 GitHub 链接不会自动进入“严选对比”。
+# match 可用 doi:…、arxiv:…、url:…，或页面导出中的记录 ID。
+- match: "doi:10.1038/s42256-026-01307-8"
+  document_type: research_article
+  official_code: true
+  code_url: "https://github.com/PJ-NTU/LACE"
+  evidence_url: "https://www.nature.com/articles/s42256-026-01307-8#code-availability"
+  checked_at: "2026-10-16"
+  note: "出版方 Code availability 明确列出作者代码及 MIT 许可；未运行代码或验证复现结果。"
