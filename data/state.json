@@ -1,27 +1,27 @@
 {
   "sources": {
     "arXiv": {
-      "status": "partial",
-      "attempted_at": "2026-10-16T13:49:08+00:00",
+      "status": "error",
+      "attempted_at": "2026-10-17T04:34:29+00:00",
       "last_success_at": "",
-      "fetched": 5920,
-      "added": 4175,
-      "changed": 4,
-      "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位 | 批次 8: HTTP 429 from export.arxiv.org | 批次 9: HTTP 429 from export.arxiv.org"
+      "fetched": 0,
+      "added": 0,
+      "changed": 0,
+      "note": "分批检索 2/9，每批最多 8 个词，每页最多 100 条。批次 1: HTTP 429 from export.arxiv.org | 批次 2: HTTP 429 from export.arxiv.org | 连续两个批次请求失败；本次停止其余 7 个批次，保留时间水位"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:19+00:00",
-      "last_success_at": "2026-10-16T13:54:19+00:00",
-      "fetched": 241,
+      "attempted_at": "2026-10-17T04:36:27+00:00",
+      "last_success_at": "2026-10-17T04:36:27+00:00",
+      "fetched": 246,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:21+00:00",
-      "last_success_at": "2026-10-16T13:54:21+00:00",
+      "attempted_at": "2026-10-17T04:36:29+00:00",
+      "last_success_at": "2026-10-17T04:36:29+00:00",
       "fetched": 6,
       "added": 0,
       "changed": 0,
@@ -29,8 +29,8 @@
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:21+00:00",
-      "last_success_at": "2026-10-16T13:54:21+00:00",
+      "attempted_at": "2026-10-17T04:36:30+00:00",
+      "last_success_at": "2026-10-17T04:36:30+00:00",
       "fetched": 12,
       "added": 0,
       "changed": 0,
@@ -38,17 +38,17 @@
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:23+00:00",
-      "last_success_at": "2026-10-16T13:54:23+00:00",
-      "fetched": 436,
+      "attempted_at": "2026-10-17T04:36:31+00:00",
+      "last_success_at": "2026-10-17T04:36:31+00:00",
+      "fetched": 455,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:25+00:00",
-      "last_success_at": "2026-10-16T13:54:25+00:00",
+      "attempted_at": "2026-10-17T04:36:34+00:00",
+      "last_success_at": "2026-10-17T04:36:34+00:00",
       "fetched": 69,
       "added": 0,
       "changed": 0,
@@ -56,43 +56,43 @@
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:26+00:00",
-      "last_success_at": "2026-10-16T13:54:26+00:00",
-      "fetched": 148,
-      "added": 0,
-      "changed": 0,
+      "attempted_at": "2026-10-17T04:36:35+00:00",
+      "last_success_at": "2026-10-17T04:36:35+00:00",
+      "fetched": 236,
+      "added": 1,
+      "changed": 1,
       "note": ""
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-10-16T13:54:28+00:00",
-      "last_success_at": "2026-10-16T13:54:28+00:00",
+      "attempted_at": "2026-10-17T04:36:37+00:00",
+      "last_success_at": "2026-10-17T04:36:37+00:00",
       "fetched": 6,
       "added": 0,
-      "changed": 1,
+      "changed": 0,
       "note": ""
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T13:54:28+00:00",
+      "attempted_at": "2026-10-17T04:36:37+00:00",
       "last_success_at": "",
-      "fetched": 229,
-      "added": 172,
-      "changed": 1,
+      "fetched": 227,
+      "added": 3,
+      "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T13:59:59+00:00",
+      "attempted_at": "2026-10-17T04:42:08+00:00",
       "last_success_at": "",
-      "fetched": 1444,
-      "added": 487,
-      "changed": 33,
+      "fetched": 1441,
+      "added": 0,
+      "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T14:06:12+00:00",
+      "attempted_at": "2026-10-17T04:48:21+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -101,44 +101,44 @@
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T14:10:11+00:00",
+      "attempted_at": "2026-10-17T04:52:20+00:00",
       "last_success_at": "",
-      "fetched": 197,
-      "added": 91,
-      "changed": 1,
+      "fetched": 196,
+      "added": 1,
+      "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T14:16:23+00:00",
+      "attempted_at": "2026-10-17T04:58:34+00:00",
       "last_success_at": "",
       "fetched": 918,
-      "added": 157,
-      "changed": 1,
+      "added": 0,
+      "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 3/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-16T14:22:36+00:00",
+      "attempted_at": "2026-10-17T05:04:47+00:00",
       "last_success_at": "",
-      "fetched": 1043,
-      "added": 245,
+      "fetched": 1034,
+      "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "PMLR": {
       "status": "partial",
-      "attempted_at": "2026-10-16T14:28:49+00:00",
+      "attempted_at": "2026-10-17T05:11:00+00:00",
       "last_success_at": "",
-      "fetched": 183,
-      "added": 44,
-      "changed": 16,
-      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 354 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
+      "fetched": 243,
+      "added": 49,
+      "changed": 11,
+      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 294 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-10-16T14:29:57+00:00",
-      "last_success_at": "2026-10-16T14:29:57+00:00",
+      "attempted_at": "2026-10-17T05:12:11+00:00",
+      "last_success_at": "2026-10-17T05:12:11+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,7 +146,7 @@
     },
     "2026.emnlp": {
       "status": "unavailable",
-      "attempted_at": "2026-10-16T14:30:01+00:00",
+      "attempted_at": "2026-10-17T05:12:17+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-10-16T14:30:02+00:00",
+      "attempted_at": "2026-10-17T05:12:17+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -164,17 +164,17 @@
     },
     "CVPR2026": {
       "status": "ok",
-      "attempted_at": "2026-10-16T14:30:03+00:00",
-      "last_success_at": "2026-10-16T14:30:03+00:00",
+      "attempted_at": "2026-10-17T05:12:18+00:00",
+      "last_success_at": "2026-10-17T05:12:18+00:00",
       "fetched": 108,
-      "added": 48,
+      "added": 0,
       "changed": 0,
       "note": "会集 4042 篇；标题初筛 108 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-10-16T14:31:07+00:00",
-      "last_success_at": "2026-10-16T14:31:07+00:00",
+      "attempted_at": "2026-10-17T05:12:48+00:00",
+      "last_success_at": "2026-10-17T05:12:48+00:00",
       "fetched": 38,
       "added": 0,
       "changed": 0,
@@ -182,8 +182,8 @@
     },
     "ICCV2025": {
       "status": "ok",
-      "attempted_at": "2026-10-16T14:31:17+00:00",
-      "last_success_at": "2026-10-16T14:31:17+00:00",
+      "attempted_at": "2026-10-17T05:13:03+00:00",
+      "last_success_at": "2026-10-17T05:13:03+00:00",
       "fetched": 29,
       "added": 0,
       "changed": 0,
@@ -191,12 +191,12 @@
     }
   },
   "last_run": {
-    "started_at": "2026-10-16T13:49:08+00:00",
-    "finished_at": "2026-10-16T14:31:28+00:00",
+    "started_at": "2026-10-17T04:34:29+00:00",
+    "finished_at": "2026-10-17T05:13:19+00:00",
     "attempted_sources": 21,
     "failed_sources": 1,
-    "added": 5419,
-    "changed": 57
+    "added": 54,
+    "changed": 12
   },
   "detail_cache": {
     "https://proceedings.mlr.press/v337/kazantsev26a.html": {
@@ -10258,6 +10258,1718 @@
         "code_links": []
       },
       "checked": "2026-10-16T14:30:19+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26bq.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26bq.html",
+        "title": "SpeedCP: Fast Kernel-based Conditional Conformal Prediction",
+        "authors": [
+          "Yating Liu",
+          "Yeo Jin Jung",
+          "Zixuan Wu",
+          "Sowon Jeong",
+          "Claire Donnat"
+        ],
+        "abstract": "Conformal prediction provides distribution-free prediction sets with finite-sample conditional guarantees. RKHS-based frameworks—while promising for complex covariate shifts—suffer from prohibitive computational costs. To guarantee conditional validity under such shifts while ensuring feasibility, we build upon the framework of Gibbs et al. (2025) by introducing a stable and efficient algorithm that computes the full solution path of the regularized RKHS conformal optimization problem, at essentially the same cost as a single kernel quantile fit. Our approach provides simultaneous hyperparameter tuning which provides smoothness control and data-adaptive calibration. To extend the method to high-dimensional settings, we further integrate our approach with low-rank latent embeddings that capture conditional validity in a data-driven latent space. Empirically, our method provides reliable conditional coverage across a variety of modern black-box predictors, improving the interval length of Gibbs et al. (2025) by 30%, while achieving a 40-fold speedup.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26bq/liu26bq.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/yeojin-jung/speedcp",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26eu.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26eu.html",
+        "title": "Beyond Reactivity: Proactive Adaptive Conformal Inference for Online LLM Factuality",
+        "authors": [
+          "Xinyu Liu",
+          "Jun Wu"
+        ],
+        "abstract": "Large Language Models (LLMs) often produce hallucinated outputs, which limit their reliability in high-stakes applications. Conformal prediction can provide guarantees on the correctness and factuality of LLM outputs, but existing approaches rely on the exchangeability assumption, which rarely holds in online settings where user queries and interests change over time. To solve this problem, in this paper, we propose PACE ( P roactive A daptive C onformal Inferenc E ), a novel framework that sequentially updates the time-varying target miscoverage parameter with a dynamic step size to maintain valid coverage under online distribution shifts. PACE is motivated by the theoretical connections between expected miscoverage error and key factors such as distribution shifts and instantaneous parameter error. It integrates two complementary signals: (1) a proactive shift detection to estimate the magnitude of distribution shifts, and (2) a reactive error that scales updates according to the local coverage gap. Extensive experiments on synthetic and real-world datasets demonstrate that PACE consistently outperforms advanced adaptive baselines. It reduces the deviation from the target error rate by up to 60% in QA tasks and accelerates coverage recovery by over 2.5x during abrupt shifts, ensuring stable factuality guarantees without compromising utility and stability.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26eu/liu26eu.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/hint-group/pace-adaptive-conformal-factuality",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26fp.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26fp.html",
+        "title": "Beyond Procedure: Substantive Fairness in Conformal Prediction",
+        "authors": [
+          "Pengqi Liu",
+          "Zijun Yu",
+          "Mouloud Belbahri",
+          "Arthur Charpentier",
+          "Masoud Asgharian",
+          "Jesse C. Cresswell"
+        ],
+        "abstract": "Conformal prediction (CP) offers distribution-free uncertainty quantification for machine learning models, yet its interplay with fairness in downstream decision-making remains underexplored. Moving beyond CP as a standalone operation (procedural fairness), we analyze the holistic decision-making pipeline to evaluate substantive fairness—the equity of downstream outcomes. Theoretically, we derive an upper bound that decomposes prediction-set size disparity into interpretable components, clarifying how label-clustered CP helps control method-driven contributions to unfairness. To facilitate scalable empirical analysis, we introduce an LLM-in-the-loop evaluator that approximates human assessment of substantive fairness across diverse modalities. Our experiments show that label-clustered CP often provides a favorable balance between utility and substantive fairness, while reducing set-size disparities in line with our theory. Finally, we empirically show that equalized set sizes, rather than coverage, strongly correlate with improved substantive fairness, enabling practitioners to design more fair CP systems. Our code is available at https://github.com/layer6ai-labs/llm-in-the-loop-conformal-fairness.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26fp/liu26fp.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/layer6ai-labs/llm-in-the-loop-conformal-fairness",
+          "https://github.com/layer6ai-labs/llm-in-the-loop-conformal-fairness",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26fu.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26fu.html",
+        "title": "Improving Backward Conformal Prediction via Non-Conformity Score Transformation",
+        "authors": [
+          "Junxian Liu",
+          "Hao Zeng",
+          "Hongxin Wei"
+        ],
+        "abstract": "Conformal Prediction (CP) provides a statistical framework for uncertainty quantification that constructs prediction sets with coverage guarantees. While CP yields uncontrolled prediction set sizes, Backward Conformal Prediction (BCP) inverts this paradigm by enforcing a predefined upper bound on set size and estimating the resulting coverage guarantee. However, the looseness induced by Markov’s inequality within the BCP framework causes a significant gap between the estimated coverage bound and the empirical coverage. In this work, we introduce ST-BCP, a novel method that introduces a data-dependent transformation of nonconformity scores to narrow the coverage gap. In particular, we develop a computable transformation and prove that it outperforms the baseline identity transformation. Extensive experiments demonstrate the effectiveness of our method, reducing the average coverage gap from 4.20% to 1.12% on common benchmarks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26fu/liu26fu.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26t.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26t.html",
+        "title": "Risk-Bounded Distribution Reconstruction: Stable Statistic Calibration for Long-Tailed Recognition",
+        "authors": [
+          "Guanliang Liu",
+          "Wenchao Chen",
+          "Long Tian",
+          "Xuefei Cao",
+          "Hongwei Liu",
+          "Bo Chen"
+        ],
+        "abstract": "Long-tailed recognition suffers from extreme class imbalance, where scarce tail data leads to biased and fragile feature distributions that exacerbate confusion with semantically or visually similar classes. Prior feature-space reconstruction methods transfer head-class structure or train conditional generators to synthesize tail features, yet the resulting statistical updates are often heuristic and can degrade multi-class separability when tail estimates are unreliable. Given this issue, we propose Risk-Bounded Distribution Reconstruction (RBDR), an offline statistic calibration framework for the two-stage long-tailed pipeline, grounded in an analysis of rival-induced discriminative directions. RBDR performs (i) risk-aware mean calibration by softly projecting any candidate update onto a supportive set such that a surrogate discriminative-risk upper bound does not increase, and (ii) covariance control by shrinking dispersion in a rival subspace while preserving diversity in orthogonal components. In the frozen-feature reconstruction setting, these calibration components convert heuristic reconstruction cues into controllable distributional updates, improving both performance and stability across multiple long-tailed benchmarks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26t/liu26t.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/liu26y.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/liu26y.html",
+        "title": "Online Conformal Prediction via Universal Portfolio Algorithms",
+        "authors": [
+          "Tuo Liu",
+          "Edgar Dobriban",
+          "Francesco Orabona"
+        ],
+        "abstract": "Online conformal prediction (OCP) seeks prediction intervals that achieve long-run $1-\\alpha$ coverage for arbitrary (possibly adversarial) data streams, while remaining as informative as possible. Existing OCP methods often require manual learning-rate tuning to work well, and may also require algorithm-specific analyses. Here, we develop a general regret-to-coverage theory for interval-valued OCP based on the $(1-\\alpha)$-pinball loss. Our first contribution is to identify linearized regret as a key notion, showing that controlling it implies coverage bounds for any online algorithm. This relies on a black-box reduction that depends only on the Fenchel conjugate of an upper bound on the linearized regret. Building on this theory, we propose UP-OCP, a parameter-free method for OCP, via a reduction to a two-asset portfolio selection problem, leveraging universal portfolio algorithms. We show strong finite-time bounds on the miscoverage of UP-OCP, even for polynomially growing predictions. Extensive experiments support that UP-OCP delivers consistently better size/coverage trade-offs than prior online conformal baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26y/liu26y.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/AdaMLLab/up-for-ocp",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/lv26m.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/lv26m.html",
+        "title": "NaviCache: Test-Time Self-Calibration Caching for Video Generation",
+        "authors": [
+          "Zheqi Lv",
+          "Zhibo Zhu",
+          "Jinke Wang",
+          "Qi Tian",
+          "Shengyu Zhang",
+          "Zhengyu Chen",
+          "Chengxi Zang",
+          "Zhou Zhao",
+          "Fei Wu"
+        ],
+        "abstract": "Video Diffusion Models (VDMs) is constrained by immense computational costs. While offline calibration-based acceleration suffers from calibration data dependency, prohibitive calibration duration, and susceptibility to distribution shifts, offline calibration-free methods eliminate these hurdles. However, since they rely on instantaneous zero-order approximations where the mapping between input and output differences varies in real-time, they are susceptible to observational noise and ignore the intrinsic momentum within the diffusion trajectory. In this paper, we propose NaviCache, a plug-and-play test-time self-calibration method re-conceptualizing feature evolution as an Inertial Navigation System (INS) problem. NaviCache bridges the fundamental domain gap and the non-stationary nature of diffusion by modeling the relative coupling between input and output variations. We introduce a dual-state estimation architecture that adaptively tracks the feature change ratio and its latent drift, initialized via a specialized Initial Alignment phase. By integrating a time-dependent noise schedule with an uncertainty-aware Measurement Update mechanism, NaviCache provides a theoretically grounded mechanism for error-bounded block skipping. Extensive experiments on the HunyuanVideo, Wan, and Open-Sora series demonstrate that NaviCache exhibits more accurate error judgment for block skipping and achieves outstanding comprehensive performance.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lv26m/lv26m.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ma26al.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ma26al.html",
+        "title": "Decoupling Reasoning and Confidence: Resurrecting Calibration in Reinforcement Learning from Verifiable Rewards",
+        "authors": [
+          "Zhengzhao Ma",
+          "Xueru Wen",
+          "Boxi Cao",
+          "Yaojie Lu",
+          "Hongyu Lin",
+          "Jinglin Yang",
+          "Min He",
+          "Xianpei Han",
+          "Le Sun"
+        ],
+        "abstract": "Reinforcement Learning from Verifiable Rewards (RLVR) significantly enhances large language models (LLMs) reasoning but severely suffers from calibration degeneration, where models become excessively over-confident in incorrect answers. Previous studies devote to directly incorporating calibration objective into existing optimization target. However, our theoretical analysis demonstrates that there exists a fundamental gradient conflict between the optimization for maximizing policy accuracy and minimizing calibration error. Building on this insight, we propose DCPO, a simple yet effective framework that systematically decouples reasoning and calibration objectives. Extensive experiments demonstrate that our DCPO not only preserves accuracy on par with GRPO but also achieves the best calibration performance and substantially mitigates the over-confidence issue. Our study provides valuable insights and practical solution for more reliable LLM deployment.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26al/ma26al.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/icip-cas/DCPO",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/menadjiev26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/menadjiev26a.html",
+        "title": "DistMatch: Adaptive Binning via Distribution Matching for Robust Sequential Conformal Prediction",
+        "authors": [
+          "Enver Menadjiev",
+          "Jihyeon Seong",
+          "Jisu Yeo",
+          "Jaesik Choi"
+        ],
+        "abstract": "Sequential conformal prediction (CP) provides valid uncertainty quantification under the assumption of residual exchangeability. However, this assumption is often violated in real-world time series due to temporal dependencies and distributional shifts. While recent methods attempt to approximate exchangeability through reweighting, identifying optimal weights remains an open challenge. To address this limitation, we propose DistMatch, a binning-based method that recursively partitions residuals within a binary tree using the Kolmogorov–Smirnov (KS) statistic. We theoretically show that this partitioning induces approximately exchangeable leaves, thereby avoiding the need for reweighting. By applying quantile regression with online updates within each leaf, DistMatch enables locally adaptive inference and improves robustness to distributional shifts. Extensive experiments demonstrate that DistMatch outperforms existing sequential CP methods.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/menadjiev26a/menadjiev26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/enver1323/dist_match_conformal",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mi26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mi26b.html",
+        "title": "Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution",
+        "authors": [
+          "Hongze Mi",
+          "Yibo Feng",
+          "Wenjie Lu",
+          "Song Cao",
+          "Jinyuan Li",
+          "Yanming Li",
+          "Xuelin Zhang",
+          "Haotian Luo",
+          "Songyang Peng",
+          "He Cui",
+          "Tengfei Tian",
+          "Jun Fang",
+          "Hua Chai",
+          "Naiqiang Tan"
+        ],
+        "abstract": "Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of \"survival of the fittest.\" DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks. The implementation is available at https://anonymous.4open.science/r/DMS-C48C.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mi26b/mi26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/miao26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/miao26a.html",
+        "title": "Correctness-Optimized Residual Activation Lens (CORAL): Transferable and Calibration-Aware Inference-Time Steering",
+        "authors": [
+          "Miranda Muqing Miao",
+          "Young Min Cho",
+          "Lyle Ungar"
+        ],
+        "abstract": "Large language models (LLMs) exhibit persistent miscalibration, especially after instruction tuning and preference alignment. Modified training objectives can improve calibration, but retraining is expensive. Inference-time steering offers a lightweight alternative, yet most existing methods optimize proxies for correctness rather than correctness itself. We introduce CORAL (Correctness-Optimized Residual Activation Lens), a regularized inference-time steering method that captures distributed correctness signals from model internal activations using weight-decay MLP probes. We evaluate CORAL across three 7B-parameter models and find that it consistently improves accuracy by 10% and expected calibration error (ECE) by 50% on average. We additionally demonstrate that these gains transfer without retraining to the complete published test sets of four held-out benchmarks (ARC-Challenge, HellaSwag, Math-MC, OpenBookQA), averaging 14% accuracy improvements and 49% ECE improvements. Our results support the hypothesis that distributed information in model internals can be extracted using regularized probes when individual neurons are insufficient. CORAL thus provides a compute-efficient, transferable, and calibration-aware approach to improve MCQA performance during inference.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/miao26a/miao26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mmiao2/CORAL_ICML",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/min26c.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/min26c.html",
+        "title": "Questioning the Coverage-Length Metric in Conformal Prediction: When Shorter Intervals Are Not Better",
+        "authors": [
+          "Yizhou Min",
+          "Yizhou Lu",
+          "Lanqi Li",
+          "Zhen Zhang",
+          "Jiaye Teng"
+        ],
+        "abstract": "Conformal prediction (CP) has become a cornerstone of distribution-free uncertainty quantification, conventionally evaluated by its coverage and interval length. This work critically examines the sufficiency of these standard metrics. We demonstrate that the interval length might be deceptively improved through a counter-intuitive approach termed Prejudicial Trick (PT), while the coverage remains valid. Specifically, for any given test sample, PT probabilistically returns an interval, which is either null or constructed using an adjusted confidence level, thereby preserving marginal coverage. While PT potentially yields a deceptively lower interval length, it introduces practical vulnerabilities: the same input can yield completely different prediction intervals across repeated runs of the algorithm. We formally derive the conditions under which PT achieves these misleading improvements and provide extensive empirical evidence across various regression and classification tasks. Furthermore, we introduce a new metric interval stability which helps detect whether a new CP method implicitly improves the length based on such PT-like techniques. Code is available at https://github.com/benben-cd/PT-Conformal-Prediction",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/min26c/min26c.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/benben-cd/PT-Conformal-Prediction",
+          "https://github.com/benben-cd/PT-Conformal-Prediction",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/min26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/min26d.html",
+        "title": "Stable Localized Conformal Prediction via Transduction",
+        "authors": [
+          "Yinjie Min",
+          "Liuhua Peng",
+          "Changliang Zou"
+        ],
+        "abstract": "Existing evaluations of conformal prediction, such as prediction efficiency and test-conditional coverage, are defined in expectation over the calibration data. In practice, when only one calibration set of limited size is available, prediction sets often exhibit high variability in size, especially for methods with localization. We formalize this concern as set stability, defined as the variance of the conditional expectation of the set size given the calibration data. To improve stability without requiring additional target-task labels, we propose Stable Conformal Prediction (StCP), a transfer learning approach that utilizes labeled source-task data and unlabeled target data. Theoretically, we characterize the marginal coverage and stability of StCP; empirically, it delivers more stable prediction sets than standard conformal prediction methods, especially for those with localization, when calibration data are limited.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/min26d/min26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/OswinMin/StCP",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mo26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mo26e.html",
+        "title": "MapUQ: Map with Uncertainty Quantification for Robust BEV Vectorized Construction",
+        "authors": [
+          "Shaoyuan Mo",
+          "Qi Ma",
+          "Leng Rui",
+          "Bohan Li",
+          "Ke Wang"
+        ],
+        "abstract": "End-to-end online map generation is a core component of autonomous driving perception systems. However, in complex traffic scenes, Bird’s-Eye-View (BEV) with vectorized mapping suffers from limitations such as target misclassification, spatial localization drift, and ambiguous semantic segmentation. Introducing uncertainty quantification can alleviate these problems, so we propose MapUQ, a robust BEV vectorized mapping method guided by uncertainty-aware optimization. Specifically, we quantify uncertainty at the feature level to enhance semantic perception, apply an error-driven dynamic receptive field adaptation mechanism at the decoding stage to enforce geometric consistency, and leverage negative sample information at the output head to improve lane classification accuracy. Experimental results on the nuScenes and Argoverse 2 datasets show that our method outperforms prior approaches in AP across three road types, achieving an average improvement of 1.5% over the baseline with marginal computational overhead. In addition, our method surpasses the baseline on uncertainty metrics such as ECE and NLL, significantly improving robustness and mapping accuracy in complex scenarios. Our code has been released at github: https://anonymous.4open.science/r/MapUQ-D287.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mo26e/mo26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/CQU-AVL/MapUQ",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/muller26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/muller26a.html",
+        "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+        "authors": [
+          "Lorenz K Muller",
+          "Philippe Bich",
+          "Jiawei Zhuang",
+          "Ahmet Çelik",
+          "Luca Benfenati",
+          "Lukas Cavigelli"
+        ],
+        "abstract": "Post-training quantization has emerged as the most widely used strategy for deploying large language models at low precision. Still, current methods show perplexity degradation at bit-widths $\\leq 4$, partly because representing outliers causes precision issues in parameters that share the same scales as these outliers. This problem is especially pronounced for calibration-free, uniform quantization methods. We introduce SINQ to augment existing post-training quantizers with an additional second-axis scale factor and a fast Sinkhorn–Knopp–style algorithm that finds scales to normalize per-row and per-column variances. We show that this approximates activation-aware quantization by recovering column scales from the weight matrix structure that are predictive of the typical activation magnitudes the matrix received during training. Our method has no interactions between layers and can be trivially applied to new architectures to quantize any linear layer. We evaluate our method on the Qwen3 model family, among others. SINQ reduces the perplexity gap on WikiText2 and C4 by over 50% against uncalibrated uniform quantization baselines, incurs zero to negligible compute overhead, and can be further enhanced by combining it with calibration and non-uniform quantization levels. Code is available in the supplementary.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/muller26a/muller26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/huawei-csl/SINQ",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/noorani26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/noorani26b.html",
+        "title": "Human-AI Collaborative Uncertainty Quantification",
+        "authors": [
+          "Sima Noorani",
+          "Shayan Kiyani",
+          "George J. Pappas",
+          "Hamed Hassani"
+        ],
+        "abstract": "AI predictive systems increasingly support high-stakes decision making, yet robust decisions under uncertainty often rely on human capabilities beyond AI alone. This motivates collaborative approaches that combine human judgment with AI predictions. We study this problem through the lens of uncertainty quantification and introduce Human-AI Collaborative Uncertainty Quantification , a framework in which an AI system refines a human expert’s proposed prediction set subject to two principles: counterfactual harm , requiring that the AI not degrade correct human judgments, and complementarity , requiring recovery of correct outcomes the human missed. At the population level, we show that the optimal collaborative prediction set has a simple two-threshold structure over a single score function, governing pruning and augmentation relative to the human proposal. Building on this characterization, we develop offline and online calibration algorithms with distribution-free finite-sample guarantees. The online algorithm adapts to arbitrary distribution shifts, including settings where human behavior evolves through interaction with the AI. Empirically, we show that collaborative prediction sets outperform human-only and AI-only baselines, achieving improved coverage–efficiency tradeoffs across image classification, regression, and text-based medical decision making.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/noorani26b/noorani26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ns26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ns26a.html",
+        "title": "GAUSS: Graph-Assisted Uncertainty Quantification using Structure and Semantics for Long-Form Generation in LLMs",
+        "authors": [
+          "Karthik Somayaji Ns",
+          "Yuxuan Yin",
+          "Peng Li"
+        ],
+        "abstract": "In critical domains like clinical reporting, legal analysis, and policy drafting, large language models (LLMs) are increasingly expected to produce extended, fact-rich narratives rather than isolated sentences. Reliable uncertainty quantification in such long-form outputs is crucial. Existing techniques either assign a single confidence score to an entire paragraph or evaluate factual consistency by comparing extracted atomic facts across multiple generations. Some recent approaches represent fact–paragraph relationships using bipartite entailment graphs and derive uncertainty from fact centrality. However, these methods ignore the explicit dependencies among facts within a paragraph and the structural and semantic variation across multiple LLM outputs for the same prompt, missing a key source of uncertainty specific to long-form generation. We propose GAUSS ( G raph- A ssisted U ncertainty Q uantification using S tructure and S emantics), a principled framework that models each generated paragraph as a semantic graph of atomic facts and their relations. We posit that uncertainty arises from structural and semantic discrepancies among these graphs across different samples. GAUSS quantifies uncertainty as the expected alignment cost between the semantic graph of an anchor paragraph and those of alternative generations. By capturing both semantic content and structural coherence, GAUSS offers a more interpretable and theoretically grounded measure of uncertainty than coarse, sentence-level scores.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ns26a/ns26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/park26x.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/park26x.html",
+        "title": "Quantile-Free Uncertainty Quantification in Graph Neural Networks",
+        "authors": [
+          "Soyoung Park",
+          "Hwanjun Song",
+          "Sungsu Lim"
+        ],
+        "abstract": "Uncertainty quantification (UQ) in graph neural networks (GNNs) is crucial in high-stakes domains but remains a significant challenge. In graph settings, message passing often relies on strong assumptions such as exchangeability, which are rarely satisfied in practice. Moreover, achieving reliable UQ typically requires costly resampling or post-hoc calibration. To address these issues, we introduce Quantile-free Prediction Interval GNN (QpiGNN), a framework that builds on quantile regression (QR) to enable GNN-based UQ by directly optimizing coverage and interval width without requiring quantile inputs or post-processing. QpiGNN employs a dual-head architecture that decouples prediction and uncertainty, and is trained with label-only supervision through a quantile-free joint loss. This design allows efficient training and yields robust prediction intervals, with theoretical guarantees of asymptotic coverage and near-optimal width under mild assumptions. Experiments on 19 synthetic and real-world benchmarks show QpiGNN achieves average 22% higher coverage and 50% narrower intervals than baselines, while ensuring efficiency and robustness to noise and structural shifts.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/park26x/park26x.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/sybeam27/QpiGNN",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pion26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pion26a.html",
+        "title": "Goal-Oriented Lower-Tail Calibration of Gaussian Processes for Bayesian Optimization",
+        "authors": [
+          "Aurélien Pion",
+          "Emmanuel Vazquez"
+        ],
+        "abstract": "Gaussian process (GP) predictive distributions are commonly used in Bayesian optimization (BO) to guide the selection of evaluation points for expensive objective functions. The choice of kernel and hyperparameters has a strong influence on the exploration–exploitation trade-off. For minimization, sampling criteria such as expected improvement (EI) depend on both the probability mass below the current best value and the shape of the predictive distribution in this region. This article studies goal-oriented calibration of GP predictive distributions below a low threshold $t$ in the noiseless setting, for standard GP models with hyperparameters selected by maximum likelihood. We consider two complementary forms of calibration below $t$ for inputs distributed according to a reference measure $\\mu$: occurrence calibration over the design space and thresholded $\\mu$-calibration on sublevel sets of the form $\\lbrace x\\in\\mathbb{X}, f(x)\\le t \\rbrace$. We propose tcGP, a post-hoc method that combines these two forms of calibration for GP predictive distributions below $t$. With fixed GP hyperparameters, the exact EI sampling criterion based on tcGP generates a sequence of evaluation points that is dense in the design space. Experiments on standard benchmarks show improved lower-tail calibration and BO performance relative to standard GP models and globally calibrated GP models.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pion26a/pion26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/prinster26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/prinster26a.html",
+        "title": "Conformal Policy Control",
+        "authors": [
+          "Drew Prinster",
+          "Clara Fannjiang",
+          "Ji Won Park",
+          "Kyunghyun Cho",
+          "Anqi Liu",
+          "Suchi Saria",
+          "Samuel Don Stanton"
+        ],
+        "abstract": "An agent must try new behaviors to explore and improve. In high-stakes environments, an agent that violates safety constraints may cause harm and must be taken offline, curtailing any future interaction. Imitating old behavior is safe, but excessive conservatism discourages exploration. How much behavior change is too much? We show how to use any safe reference policy as a probabilistic regulator for any optimized but untested policy. Conformal calibration on data from the safe policy determines how aggressively the new policy can act, while provably enforcing the user’s declared risk tolerance. Unlike conservative optimization methods, we do not assume the user has identified the correct model class nor tuned any hyperparameters. Unlike previous conformal methods, our theory provides finite-sample guarantees even for non-monotonic bounded loss functions, and it introduces a new policy control setting. Our experiments on applications ranging from natural language question answering to biomolecular engineering show that safe exploration is not only possible from the first moment of deployment, but can also improve performance.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/prinster26a/prinster26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/samuelstanton/conformal-policy-control",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ruhlmann26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ruhlmann26a.html",
+        "title": "Flow Matching Calibration for Simulation-Based Inference under Model Misspecification",
+        "authors": [
+          "Pierre-Louis Ruhlmann",
+          "Michael Arbel",
+          "Florence Forbes",
+          "Pedro L. C. Rodrigues"
+        ],
+        "abstract": "Simulation-based inference (SBI) is transforming experimental sciences by enabling parameter estimation in complex non-linear models from simulated data. A persistent challenge, however, is model misspecification. In a Bayesian setting, targeting posterior distributions, errors may arise from the simulator, the noise or prior modelling. These model components are only approximations of reality, and severe mismatches can yield biased or overconfident posteriors. We address this issue by introducing Flow Matching Corrected Posterior Estimation (FMCPE), a framework that leverages the flow matching paradigm to refine simulation-trained posterior estimators using a small set of calibration samples. Our approach proceeds in two stages: first, a posterior approximator is trained on abundant simulated data; second, flow matching transports its predictions toward the true posterior supported by calibration observations. We rely on the later to guide the correction, without requiring explicit knowledge of the misspecification form or of which model components are affected. This design enables FMCPE to combine the scalability of SBI with robustness to distributional shift. Across synthetic benchmarks and real-world datasets, we show that our proposal consistently mitigates the effects of misspecification, delivering improved inference accuracy and uncertainty quantification compared to standard SBI baselines, while remaining computationally efficient.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ruhlmann26a/ruhlmann26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/pruhlmann/FMCPE",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/rui26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/rui26a.html",
+        "title": "Optimizing Inference-Time Compute for Medical Reasoning via Uncertainty Quantification",
+        "authors": [
+          "Shaohao Rui",
+          "Kaitao Chen",
+          "Weijie Ma",
+          "Xiaosong Wang"
+        ],
+        "abstract": "Extended Chain-of-Thought (CoT) reasoning has significantly bolstered the capabilities of medical large language models (LLMs). However, current models exhibit static computational expenditure, applying lengthy reasoning processes indiscriminately to both simple queries and complex diagnostic cases. This inefficiency is particularly prohibitive in real-world healthcare, where clinical scenarios range from time-sensitive emergencies requiring rapid response to intricate pathologies demanding deep analysis. To address this, we propose AdaThink-Med , an end-to-end framework for adaptive reasoning via uncertainty-guided length calibration. Although the underlying mechanism is generalizable, we demonstrate its critical value in the medical domain, where balancing inference latency with diagnostic precision is paramount. AdaThink-Med leverages entropy-based uncertainty estimation within reinforcement fine-tuning to dynamically shape reward signals: it penalizes verbosity for high-confidence correct answers (e.g., straightforward knowledge retrieval) while incentivizing extended exploration for uncertain or ambiguous scenarios. Across six medical benchmarks, AdaThink-Med reduces inference token consumption by 4.7$\\times$ to 6.4$\\times$ on Qwen and Llama architectures, respectively, with minimal performance trade-offs. Notably, our reward design naturally produces distinct \"non-thinking\" and \"thinking\" modes within a single model, enabling efficient allocation of computational resources without any external router or classifier.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/rui26a/rui26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/shaohao011/AdaThinkMed",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sethi26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sethi26a.html",
+        "title": "Asymptotically Optimal Sequential Testing with Markovian Data",
+        "authors": [
+          "Alhad Sethi",
+          "Kavali Sofia Sagar",
+          "Shubhada Agrawal",
+          "Debabrota Basu",
+          "P. N. Karthik"
+        ],
+        "abstract": "We study one-sided and $\\alpha$-correct sequential hypothesis testing for data generated by an ergodic, finite-state Markov chain. The null hypothesis is that the unknown transition matrix belongs to a prescribed set $\\cal P$ of stochastic matrices, and the alternative corresponds to a disjoint set $\\cal Q$. We establish a non-asymptotic instance-dependent lower bound on the expected stopping time of any valid sequential test under the alternative, which is asymptotically tight. Our novel analysis improves the existing lower bounds, which are either asymptotic or provably sub-optimal in this setting. Our lower bound incorporates both the stationary distribution and the transition structure induced by the unknown Markov chain. We further propose an optimal test whose expected stopping time matches this lower bound asymptotically as $\\alpha \\to 0$. We illustrate the usefulness of our framework through applications to sequential detection of model misspecification in Markov Chain Monte Carlo and to testing structural properties, such as the linearity of transition dynamics, in Markov decision processes. Our findings yield a sharp and general characterization of optimal sequential testing procedures under Markovian dependence.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sethi26a/sethi26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Alhad-Sethi/Sequential-Markovian-Testing",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shaer26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shaer26a.html",
+        "title": "Testing For Distribution Shifts with Conditional Conformal Test Martingales",
+        "authors": [
+          "Shalev Shaer",
+          "Yarin Bar",
+          "Drew Prinster",
+          "Yaniv Romano"
+        ],
+        "abstract": "We propose a sequential test for distribution-shift detection that allows conformal test martingales (CTMs) to work under a fixed, reference-conditional setting. Existing CTM detectors construct test martingales by continually growing a reference set with each incoming sample, using it to assess how atypical the new sample is relative to past observations. While this design yields anytime-valid type-I error control, it suffers from test-time contamination: after a change, post-shift observations enter the reference set and dilute the evidence for distribution shift, increasing detection delay and reducing power. In contrast, our method avoids contamination by design by comparing each new sample to a fixed null reference dataset. Our main technical contribution is a robust martingale construction that remains valid conditional on the null reference data, achieved by explicitly accounting for the estimation error in the reference distribution induced by the finite reference set. This yields anytime-valid type-I error control together with guarantees of asymptotic power one and bounded expected detection delay. Empirically, our method detects shifts faster than standard CTMs, providing a powerful and reliable distribution-shift detector.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shaer26a/shaer26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/shaersh/cctm",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sheng26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sheng26a.html",
+        "title": "From Individual Calibration to Reliable Classifiers: ALD Parameterization with mPAIC Guarantees",
+        "authors": [
+          "Deming Sheng",
+          "Ricardo Henao"
+        ],
+        "abstract": "Modern neural classifiers can achieve remarkable predictive performance, yet often suffer from miscalibration . In this paper, we introduce a unified calibration framework applicable to arbitrary distribution-based classifiers. The proposed calibration objective guarantees a monotone Probably Approximately Individually Calibrated (mPAIC) predictor, which theoretically implies the properties of a Probably Approximately Calibrated Classifier (PACC) with explicit error bounds. To enable stable and effective optimization, we further devise a Decoupled Dual-Stream Optimization (DDSO) strategy with gradient detachment to reconcile discriminative representation learning and continuous calibration. Notably, our framework bridges calibration paradigms, supporting flexible deployment either as an end-to-end pre-calibration objective or as a lightweight post-calibration adapter. Extensive experiments across nine real-world datasets demonstrate that our approach consistently outperforms strong baselines, achieving superior performance on both accuracy and multi-level calibration .",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sheng26a/sheng26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/demingsheng/HICALD",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26j.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26j.html",
+        "title": "Tackling Fake Forgetting through Uncertainty Quantification",
+        "authors": [
+          "Yingdan Shi",
+          "Sijia Liu",
+          "Kaize Ding",
+          "Ren Wang"
+        ],
+        "abstract": "Machine unlearning seeks to remove the influence of specified data from a trained model. While the unlearning accuracy provides a widely used metric for assessing unlearning performance, it falls short in assessing the reliability of forgetting. In this paper, we find that the forgetting data points misclassified by unlearning accuracy still have their ground truth labels included in the conformal prediction set from the uncertainty quantification perspective, leading to a phenomenon we term fake forgetting. To address this issue, we propose a novel metric CR, inspired by conformal prediction, that offers a more reliable assessment of forgetting quality. Building on these insights, we further propose an unlearning framework CPU that incorporates conformal prediction into the Carlini & Wagner adversarial attack loss, enabling the ground truth label to be effectively removed from the conformal prediction set. Through extensive experiments on image classification tasks, we demonstrate both the effectiveness of our proposed metric and the superior forgetting quality achieved by our framework. Code is available at https://github.com/TIML-Group/Conformal-Prediction-Unlearning.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26j/shi26j.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/TIML-Group/Conformal-Prediction-Unlearning",
+          "https://github.com/TIML-Group/Conformal-Prediction-Unlearning",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shihab26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shihab26b.html",
+        "title": "CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures",
+        "authors": [
+          "Ibne Farabi Shihab",
+          "Sanjeda Akter",
+          "Anuj Sharma"
+        ],
+        "abstract": "Deep protein structure predictors such as AlphaFold provide confidence estimates (e.g., pLDDT) that are not calibrated and degrade under distribution shifts across experimental modalities, temporal changes, and disordered regions. We introduce CalPro , a prior-aware evidential conformal framework for shift-robust uncertainty quantification. CalPro combines three components: (i) a geometric evidential head outputting Normal Inverse Gamma distributions via graph neural networks; (ii) a differentiable calibration surrogate that shapes representations during training, followed by split-conformal calibration for finite-sample coverage; and (iii) domain priors (disorder, flexibility) encoded as soft constraints on predicted uncertainty. Theoretically, we derive structure-aware sensitivity bounds for coverage degradation under distribution shift using PAC-Bayesian control over ambiguity sets, quantifying how miscoverage increases with model complexity and shift magnitude. Empirically, CalPro achieves at most 5 percentage points coverage degradation across modalities compared to 15 to 25 points for baselines, reduces calibration error by 30% to 50%, and improves downstream docking success from 52% to 75% when filtering by uncertainty. The framework extends beyond proteins to structured regression tasks where priors encode local reliability.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shihab26b/shihab26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/su26l.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/su26l.html",
+        "title": "RC-FCL: Combating Asynchronous Concept Drift in Federated Continual Learning via Retrospective Calibration",
+        "authors": [
+          "Hang Su",
+          "Yijun Mo",
+          "Zhiyu Zhang",
+          "Yankai Jiang",
+          "Bo Liu",
+          "Yichen Li",
+          "Imran Razzak"
+        ],
+        "abstract": "Federated Continual Learning (FCL) enables the continuous acquisition of knowledge from streaming tasks, but inherently struggles with the temporal dynamics of client data distributions. These dynamics naturally induce asynchronous concept drift, where distribution shifts occur independently across clients at unsynchronized times and with varying magnitudes. Such asynchrony generates conflicting updates that destabilize global convergence and exacerbate catastrophic forgetting. However, existing FCL research focuses on static or incremental settings, typically treating all incoming updates uniformly, which obscures concept drift under divergent distributions and fails to adapt to the evolution of learned concepts. To address these limitations, we propose RC-FCL, a retrospective calibration framework for FCL that can effectively distinguish asynchronous concept drift and adjust the learning strategy adaptively. Specifically, RC-FCL leverages a conditional generative model to synthesize class-conditional reference distributions of previously learned concepts for local drift detection. It calibrates local adaptation using a weighting mechanism driven by the local discriminator to prioritize informative samples, and executes a global aggregation strategy based on drift magnitude. Our experimental results demonstrate that RC-FCL achieves competitive performance against state-of-the-art methods.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/su26l/su26l.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/subramani26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/subramani26a.html",
+        "title": "The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust",
+        "authors": [
+          "Nishant Subramani",
+          "Palash Goyal",
+          "Yiwen Song",
+          "Mani Malek",
+          "Yuan Xue",
+          "Tomas Pfister",
+          "Hamid Palangi"
+        ],
+        "abstract": "As language models improve and become increasingly deployed to solve a variety of tasks, trustworthiness becomes essential. Calibration is a good proxy for trust: well-calibrated confidence estimates help inform the risk versus reward trade-off when trusting a specific model output. Unfortunately, even as models improve, they remain poorly calibrated, often biasing towards overconfidence. Additionally, calibration can be gamed: a policy that always predicts the base rate is perfectly calibrated, but completely uninformative. To resolve this, we develop a new metric, expected utility renormalized by the oracle (EURO) , that balances calibration and informativeness. We also propose a general-purpose activation-based confidence, utility, and trust estimation protocol (ACUTE) to appropriately adjudicate uncertainty. The ACUTE protocol provides flexible, sample-efficient, and compute-efficient confidence estimators for 3 tasks including multiple choice question answering, tool-calling, and scientific document summarization across 6 models from 4 model families. ACUTE outperforms strong baselines on EURO, while maintaining low calibration error. Taken together, our work shows that equipping LLMs with the ACUTE protocol can improve calibration, utility, and trustworthiness in numerous settings.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/subramani26a/subramani26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/waldron26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/waldron26a.html",
+        "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+        "authors": [
+          "Maja Waldron"
+        ],
+        "abstract": "One-shot prediction enables rapid adaptation of pretrained foundation models to new tasks using only one labeled example, but lacks principled uncertainty quantification. While conformal prediction provides finite-sample coverage guarantees, standard split conformal methods are inefficient in the one-shot setting due to data splitting and reliance on a single predictor. We propose Conformal Aggregation of One-Shot Predictors (CAOS), a conformal framework that adaptively aggregates multiple one-shot predictors and uses a leave-one-out calibration scheme to fully exploit scarce labeled data. Despite violating classical exchangeability assumptions, we prove that CAOS achieves valid marginal coverage using a monotonicity-based argument. Experiments on one-shot facial landmarking and RAFT text classification tasks show that CAOS produces substantially smaller prediction sets than split conformal baselines while maintaining reliable coverage.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/waldron26a/waldron26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ap.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ap.html",
+        "title": "Accurate Large-sample Uncertainty Quantification using Stochastic Gradient Markov Chain Monte Carlo",
+        "authors": [
+          "Yu Wang",
+          "Jie Ding",
+          "Jonathan H. Huggins"
+        ],
+        "abstract": "Tuning stochastic gradient methods such as stochastic gradient descent (SGD) and stochastic gradient Langevin dynamics (SGLD) for approximate sampling and uncertainty quantification remains challenging, particularly in relevant settings using a large batch size or when the model is misspecified. Existing theory that provides tuning guidance relies on continuous-time limits or strong statistical assumptions, which can become quantitatively inaccurate in these regimes. We address these shortcomings by proposing a new discrete-time approximations to SG(L)D with and without momentum, which enables accurate predictions of the stationary covariance, iterate average covariance, and integrated autocorrelation time. Moreover, we prove quantitative, non-asymptotic error bounds showing that these estimates are sufficiently accurate for practical tuning and uncertainty quantification. Numerical experiments demonstrate that our theory yields improved tuning guidance across a range of models and data-generating distributions where existing approaches fail, including when using the $\\beta$-divergence rather than log-loss to obtain statistically robust inferences.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ap/wang26ap.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26cd.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26cd.html",
+        "title": "Dual-Calibration Multi-View Clustering via Compact Anchor Learning",
+        "authors": [
+          "Huibing Wang",
+          "Yuemeng Huang",
+          "Yawei Chen",
+          "Jiaxin Yang",
+          "Qian Liu",
+          "Jinjia Peng",
+          "Zetian Mi",
+          "Ximing Li"
+        ],
+        "abstract": "The anchor-based multi-view clustering methods have received extensive attention due to their efficiency and scalability in large-scale data scenarios. Existing anchor-based methods still face challenges in learning compact and semantically discriminative anchors. Current mainstream approaches typically rely on random sampling strategies or orthogonal constraints for anchor selection and learning. However, they often optimize anchor learning and cluster assignment in a relatively separate manner, leaving the clustering semantics in the sample space insufficiently exploited for calibrating the anchor space. As a result, the learned anchors may suffer from redundant coverage and ambiguous cluster boundaries. Unlike existing anchor-based multi-view clustering methods, this paper proposes a Dual-Calibration Multi-view Clustering via Compact Anchor Learning (DCMC), which effectively improves anchor quality through a dual-space alignment mechanism. Specifically, DCMC initializes view-specific anchors to capture the underlying data distribution, and then enforces bidirectional consistency between the anchor space and the clustering space to jointly optimize both the sample-to-anchor assignments and the cluster assignments. The alternating optimization process effectively enhances cross-view semantic consistency while preserving the discriminative characteristics of each view. Experimental results demonstrate that DCMC outperforms state-of-the-art methods across multiple benchmark tests, confirming its effectiveness and reliability.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26cd/wang26cd.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ck.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ck.html",
+        "title": "Large-scale Uncertainty Quantification for Latent Variable Models Using Subsampling Markov Chain Monte Carlo",
+        "authors": [
+          "Xiaoyu Wang",
+          "Jonathan H. Huggins"
+        ],
+        "abstract": "Stochastic gradient Langevin dynamics combined with Gibbs updates (SGLD-Gibbs) provides a highly scalable approach to approximate Bayesian inference in latent variable models. However, it remains unclear how to tune the algorithm’s hyperparameters in a principled manner to ensure the uncertainty estimates are statistically meaningful. In this work, we address this gap in tuning guidance by developing a statistical scaling limit theory for SGLD-Gibbs. We derive a joint asymptotic limit for the global parameters and latent variables under appropriate space-time rescaling. We show that global parameters converge to a diffusion-type limit, while individual latent variables converge to a jump process reflecting their intermittent Gibbs updates. This joint jump-diffusion structure reveals how latent-variable randomness contributes to the stationary distribution of the global parameters. We leverage our results to provide explicit guidance on hyperparameter tuning for SGLD-Gibbs that ensures meaningful uncertainty quantification. Our empirical results show that SGLD-Gibbs with our tuning guidance leads to better parameter estimates and uncertainty quantification than stochastic variational inference.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ck/wang26ck.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/shawngyn-stack/LVM_scaling_limits",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26gg.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26gg.html",
+        "title": "EVOLVING ROLLOUTS: Harnessing Historical Experience for Web Agent Evolution in Reinforcement Learning",
+        "authors": [
+          "Sinuo Wang",
+          "Wang Piaohong",
+          "Tianrui Qin",
+          "Maojia Song",
+          "Qianben Chen",
+          "Qiexiang Wang",
+          "Gengze Zhou",
+          "Zeyu Zhang",
+          "He Zhu",
+          "Dingfeng Shi",
+          "Yutong Xie",
+          "Minghao Liu",
+          "Jiaheng Liu",
+          "Ge Zhang",
+          "Jiawei Ma",
+          "Yuchen Eleanor Jiang",
+          "Qi Wu",
+          "Wangchunshu Zhou"
+        ],
+        "abstract": "Agentic reinforcement learning (RL) for web search is prohibitively expensive due to long context lengths and costly environment interactions, and this inefficiency is further exacerbated by group-based optimization, which discards learning signals from entire rollout groups with zero reward variance. In this work, we propose EVOLVING ROLLOUTS, an RL framework for web-search agents that moves beyond episodic training and distills collected rollouts into in-context guidance for future policy behavior. By extracting the reward-labeled trajectories into strategic experiences, our method augments standard parameter-space optimization with implicit context-space optimization guided by prior experience. This enables the agent to recover learning signals from zero-variance rollouts, thereby fostering co-evolution between the policy and the experience repository. EVOLVING ROLLOUTS improves sample efficiency and task performance across representative web search benchmarks, with Qwen3-8B surpassing the much larger Qwen3-30B-A3B in average performance across GAIA, xBench, and HLE, and Qwen3-4B attaining comparable results on GAIA and HLE.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gg/wang26gg.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26gw.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26gw.html",
+        "title": "Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models",
+        "authors": [
+          "Ting Wang",
+          "Yuanjie Shi",
+          "Yan Yan",
+          "Huan Zhang"
+        ],
+        "abstract": "Large language models (LLMs) increasingly perform multi-step reasoning, where intermediate claims form implicit directed acyclic graphs whose node correctness is structurally conditioned on their ancestors. This makes factuality uncertainty structural, rather than a trivial accumulation of node-wise errors, and necessitates inference-time uncertainty quantification over the reasoning structure. While conformal prediction (CP) offers flexible user-specified factuality control, existing work remains post-hoc and cannot intervene during generation. To fill the gap between CP’s flexibility and its post-hoc limitation, we propose an Inference-Time Conformal Reasoning (ITCR) framework that integrates CP directly into reasoning graph generation. ITCR learns a structure-level factuality uncertainty function that aggregates claim-level factuality signals over reasoning graphs without complex modeling assumptions. We then design the non-conformity score based on graph-level factuality uncertainty and calibrate the conformal threshold to decide when to stop generation. We theoretically show such generation is nested, yielding valid coverage guarantees for factuality control. Experiments over multiple datasets and coverage objectives demonstrate empirically valid coverage. In downstream reasoning tasks, inference-time calibrated graphs yield more accurate generation than post-hoc pruned graphs.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gw/wang26gw.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wilson26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wilson26a.html",
+        "title": "Is the Last Layer Sufficient for Uncertainty Quantification?",
+        "authors": [
+          "Joseph Wilson",
+          "Chris Van Der Heide",
+          "Liam Hodgkinson",
+          "Fred Roosta"
+        ],
+        "abstract": "Epistemic uncertainty quantification (UQ) for deep neural networks (DNNs) is a requirement for safe adoption of AI in mission-critical settings. Several leading methods for UQ linearize DNNs to form Bayesian Generalized Linear Models (GLMs), where epistemic uncertainty is modeled via the predictive posterior distribution. Linearizing around the parameters of the final connected layer of a DNN is a commonly used approximation for reducing the computational burden of such GLMs, though it is often believed to come at the cost of degraded performance. In this work, we compare GLMs arising from full-network and last-layer linearization using both theoretical and empirical approaches. We first employ tools from random matrix theory to conduct a theoretical comparison; this analysis reveals no meaningful improvement in the UQ capabilities of full linearization. Coupled with a large-scale empirical evaluation across a range of modern machine learning tasks, we arrive at the following conclusion: a last-layer approximation yields comparable UQ performance while offering substantially improved computational efficiency.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wilson26a/wilson26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/josephwilsonmaths/ll_uq",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26aa.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26aa.html",
+        "title": "Adaptively Grouped Contextual Bandits for Heterogeneous Human-AI Decision Making with Conformal Prediction Sets",
+        "authors": [
+          "Yanchen Wu",
+          "Bo Li"
+        ],
+        "abstract": "Personalizing AI decision support for heterogeneous human decision-makers remains a key challenge. We study a collaboration workflow where AI provides a reduced prediction set via conformal prediction and the human makes the final decision based on the set. We formulate this personalization problem as a contextual bandit, where individual and task features form the context, candidate significance levels $\\alpha$ serve as arms, and the optimal prediction-set size varies across contexts. To address large arm spaces and high-dimensional contexts, we introduce the Adaptively Grouped Contextual Bandit (AGCB) framework, which avoids global function approximation by exploiting two Human-AI structural assumptions: continuity and monotonicity. Continuity enables information sharing across nearby contexts and decisions, and drives a data-driven Zooming Mechanism that balances intra-group estimation error against inter-group approximation bias. Monotonicity converts each observation into directional counterfactual information over the $K$ candidate $\\alpha$ values, reducing the arm-dependence factor from polynomial to logarithmic in $K$. Together, these mechanisms yield minimax-optimal dependence on the learning horizon $T$ for both cumulative and simple regret objectives. Empirical results confirm that AGCB achieves the strongest overall performance across most heterogeneous, data-scarce settings.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26aa/wu26aa.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26ap.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26ap.html",
+        "title": "RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience",
+        "authors": [
+          "Yang Wu",
+          "Junran Pan",
+          "Yifan Zhang",
+          "Ning Xu",
+          "Fanshuo Zeng",
+          "Jian Cheng"
+        ],
+        "abstract": "Automatic Heuristic Design (AHD) has emerged as a transformative approach for solving combinatorial optimization problems. While recent Large Language Model (LLM)-based methods have shown promise, they predominantly rely on fixed evolutionary operators and struggle to effectively accumulate and reuse historical search experience. This paper proposes RefineEvo, a novel evolutionary framework that transforms AHD from a static trial-and-error process into a planning-guided, experience-driven system. RefineEvo introduces a Planner to dynamically schedule evolutionary operators and trigger refinement based on the current search state, and a Reflector to distill valuable lessons into a Bidirectional Experience Pool containing both positive insights and negative pitfalls. This synergistic framework enables the system to adapt its search tools to the evolving complexity of the problem and leverage trajectory-aware, situation-conditioned insights to guide generation. Experiments on several classic combinatorial optimization benchmarks demonstrate that RefineEvo consistently outperforms strong baselines. In particular, RefineEvo delivers superior solution quality while improving token efficiency, enabling more efficient and autonomous heuristic design.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26ap/wu26ap.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/samwu-learn/RefineEvo",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26b.html",
+        "title": "Optimal Stopping in Latent Diffusion Models",
+        "authors": [
+          "Yu-Han Wu",
+          "Quentin Berthet",
+          "Gérard Biau",
+          "Claire Boyer",
+          "Romuald Elie",
+          "Pierre Marion"
+        ],
+        "abstract": "We identify and analyze a surprising phenomenon of $\\textit{Latent}$ Diffusion Models (LDMs) where the final steps of the diffusion can $\\textit{degrade}$ sample quality. In contrast to conventional arguments that justify early stopping for numerical stability, this phenomenon is intrinsic to the dimensionality reduction in LDMs. We provide a principled explanation by analyzing the interaction between latent dimension and stopping time. Under a Gaussian framework with linear autoencoders, we characterize the conditions under which early stopping is needed to minimize the distance between generated and target distributions. More precisely, we show that lower-dimensional representations benefit from earlier termination, whereas higher-dimensional latent spaces require later stopping time. We further establish that the latent dimension interplays with other hyperparameters of the problem such as constraints in the parameters of score matching. Crucially, this framework suggests that the reconstruction quality of the autoencoder alone can serve as a proxy to estimate the potential performance of the full LDM. Experiments on synthetic and real datasets illustrate these properties, underlining that early stopping can improve generative quality. Together, our results offer a theoretical foundation for understanding how the latent dimension influences the sample quality, and highlight stopping time as a key hyperparameter in LDMs.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26b/wu26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xian26c.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xian26c.html",
+        "title": "Logit-Attention Divergence: Mitigating Position Bias in Multi-Image Retrieval via Attention-Guided Calibration",
+        "authors": [
+          "Mingtao Xian",
+          "Yifeng Yang",
+          "Qinying Gu",
+          "Xinbing Wang",
+          "Nanyang Ye"
+        ],
+        "abstract": "Multimodal Large Language Models (MLLMs) have shown strong performance in multi-image cross-modal retrieval, yet suffer from severe position bias, where predictions are dominated by input order rather than semantic relevance. Through empirical analysis, we identify a phenomenon termed Logit-Attention Divergence, in which output logits are heavily biased while internal attention maps remain well-aligned with relevant visual evidence. This observation reveals a fundamental limitation of existing logit-level calibration methods such as PriDe. Based on this insight, we propose a training-free, attention-guided debiasing framework that leverages intrinsic attention signals for instance-level correction at inference time, requiring only a minimal calibration set with negligible computational overhead. Experiments on MS-COCO-based benchmarks show that our method substantially improves permutation invariance and achieves state-of-the-art performance, enhancing accuracy by over 40% compared to baselines. Code is available at https://github.com/brightXian/LAD.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xian26c/xian26c.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/brightXian/LAD",
+          "https://github.com/brightXian/LAD",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xiong26o.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xiong26o.html",
+        "title": "VGGT-Motion: Motion-Aware Calibration-Free Monocular SLAM for Long-Range Consistency",
+        "authors": [
+          "Zhuang Xiong",
+          "Chen Zhang",
+          "Qingshan Xu",
+          "Wenbing Tao"
+        ],
+        "abstract": "Despite recent progress in calibration-free monocular SLAM via 3D vision foundation models, scale drift remains severe on long sequences. Motion-agnostic partitioning breaks contextual coherence and causes zero-motion drift, while conventional geometric alignment is computationally expensive. To address these issues, we propose VGGT-Motion, a calibration-free SLAM system for efficient and robust global consistency over kilometer-scale trajectories. Specifically, we first propose a motion-aware submap construction mechanism that uses optical flow to guide adaptive partitioning, prune static redundancy, and encapsulate turns for stable local geometry. We then design an anchor-driven direct Sim(3) registration strategy. By exploiting context-balanced anchors, it achieves search-free, pixel-wise dense alignment and efficient loop closure without costly feature matching. Finally, a lightweight submap-level pose graph optimization enforces global consistency with linear complexity, enabling scalable long-range operation. Experiments show that VGGT-Motion markedly improves trajectory accuracy and efficiency, achieving state-of-the-art performance in zero-shot, long-range calibration-free monocular SLAM.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xiong26o/xiong26o.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yajima26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yajima26a.html",
+        "title": "PINE: Pruning Boosted Tree Ensembles with Conformal In-Distribution Prediction Equivalence",
+        "authors": [
+          "Haruki Yajima",
+          "Yusuke Matsui"
+        ],
+        "abstract": "Tree ensembles are machine learning models with strong predictive performance and interpretability, and remain widely used for tabular data. Standard pruning methods for tree ensembles typically optimize an accuracy-compression trade-off and may change a subset of predictions, potentially compromising decision consistency. Faithful pruning methods address this issue by preserving prediction equivalence over the entire input space, but this requirement leads to lower compression ratios. We propose PINE , a pruning method that provides strong guarantees within an in-distribution region. PINE preserves prediction equivalence within this region and controls the region size using a single parameter $\\alpha$ via conformal calibration. Experiments on 12 public tabular datasets show that PINE improves the compression ratio by up to 30% while preserving predictions at a comparable level to existing faithful pruning methods.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yajima26a/yajima26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Haruk1y/pine",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yanagisawa26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yanagisawa26a.html",
+        "title": "A Strictly Proper Scoring Rule and a Calibration Metric for Interval-Censored Data Analysis",
+        "authors": [
+          "Hiroki Yanagisawa",
+          "Shunta Akiyama"
+        ],
+        "abstract": "Interval-censored data present unique challenges in statistical analysis due to the partial observability of event times within known intervals, requiring assumptions about the censoring mechanism. This paper explores the theoretical relationship between two foundational assumptions: independent monitoring and non-informative censoring. We demonstrate that these assumptions are equivalent for Case-1 interval-censored data, but not for Case-$K$ interval-censored data, where $K \\geq 2$, through a synthetic dataset example. Additionally, we propose the first strictly proper scoring rule and calibration metric specifically designed for interval-censored data under the constant-sum assumption and the non-informative censoring assumption, respectively. Our empirical evaluations on real-world datasets show that a neural network model trained with our scoring rule is competitive with established statistical baselines, offering enhanced flexibility. These contributions provide significant advancements in the theoretical understanding and practical analysis of interval-censored data.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yanagisawa26a/yanagisawa26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/CyberAgentAILab/cenreg",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yang26ad.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yang26ad.html",
+        "title": "Multi-Distribution Robust Conformal Prediction",
+        "authors": [
+          "Yuqi Yang",
+          "Ying Jin"
+        ],
+        "abstract": "In many fairness and distribution robustness problems, one has access to labeled data from multiple source distributions yet the test data may come from an arbitrary member or a mixture of them. We study the problem of constructing a conformal prediction set that is uniformly valid across multiple, heterogeneous distributions, in the sense that no matter which distribution the test point is from, the coverage of the prediction set is guaranteed to exceed a pre-specified level. We first propose a max-p aggregation scheme that delivers finite-sample, multi-distribution coverage given any conformity scores associated with each distribution. Upon studying several efficiency optimization programs subject to uniform coverage, we prove the optimality and tightness of our aggregation scheme, and propose a general algorithm to learn conformity scores that lead to efficient prediction sets after the aggregation under standard conditions. We discuss how our framework relates to group-wise distributionally robust optimization, sub-population shift, fairness, and multi-source learning. In synthetic and real-data experiments, our method delivers valid worst-case coverage across multiple distributions while greatly reducing the set size compared with naively applying max-p aggregation to single-source conformity scores, and can be comparable in size to single-source prediction sets with popular, standard conformity scores.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yang26ad/yang26ad.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/AragornBFRer/mdcp",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yu26bc.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yu26bc.html",
+        "title": "Probability-Entropy Calibration: An Elastic Indicator for Adaptive Fine-tuning",
+        "authors": [
+          "Wenhao Yu",
+          "Shaohang Wei",
+          "Jiahong Liu",
+          "Yifan Li",
+          "Minda Hu",
+          "Aiwei Liu",
+          "Hao Zhang",
+          "Irwin King"
+        ],
+        "abstract": "Token-level reweighting is a simple yet effective mechanism for controlling supervised fine-tuning, but common indicators are largely one-dimensional: the ground-truth probability reflects downstream alignment, while token entropy reflects intrinsic uncertainty induced by the pre-training prior. Ignoring entropy can misidentify noisy or easily replaceable tokens as learning-critical, while ignoring probability fails to reflect target-specific alignment. RankTuner introduces a probability–entropy calibration signal, the Relative Rank Indicator , by comparing the rank of the ground-truth token with its expected rank under the predictiondiction distribution. The inverse indicator is used as a token-wise Relative Scale to reweight the fine-tuning objective, focusing updates on truly under-learned tokens without over-penalizing intrinsically uncertain positions. Experiments on multiple backbones show consistent improvements on mathematical reasoning benchmarks, transfer gains on out-of-distribution reasoning, and pre code generation performance over probability- or entropy-only reweighting baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yu26bc/yu26bc.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/LvAoAo/Ranktuner_VERL/",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yu26by.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yu26by.html",
+        "title": "Conditional Quantile Adjusted Conformal Prediction for Time Series",
+        "authors": [
+          "Cheng Yu",
+          "Zhoufan Zhu",
+          "Ke Zhu"
+        ],
+        "abstract": "Conformal prediction is challenging for time series with time-varying conditional distributions. Existing sequential conformal methods can yield volatile, non-nested prediction intervals due to noisy tail conditional quantile estimation and quantile crossing issue. To overcome these challenges, we construct prediction intervals for time series via a novel method called Conditional Quantile Adjusted Conformal Prediction (CQACP), which stabilizes sequential conformal calibration by modeling the conditional quantile curve of nonconformity score. At each time step, CQACP evaluates a base conditional quantile learner on a grid of quantile levels and fits a Cornish–Fisher approximation parameterized by conditional moments of nonconformity score with monotonicity constraints. Asymptotically, we prove the conditional validity of the prediction interval under serial dependence and show improved conditional quantile estimation accuracy. Experiments on multiple real-world datasets demonstrate that CQACP maintains accurate coverage and produces smooth, narrow, and nested prediction intervals across different significance levels and prediction models.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yu26by/yu26by.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yu26v.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yu26v.html",
+        "title": "Multi-Adapter Representation Interventions via Energy Calibration",
+        "authors": [
+          "Manjiang Yu",
+          "Hongji Li",
+          "Junwei Chen",
+          "Xue Li",
+          "Priyanka Singh",
+          "Yang Cao",
+          "Lijie Hu"
+        ],
+        "abstract": "Representation intervention has emerged as a promising paradigm for aligning large language models toward desired behaviors without modifying model weights. Existing methods typically apply a fixed intervention uniformly across all inputs. However, we find that the appropriate intervention direction and strength vary substantially across samples, and such indiscriminate intervention leads to degradation of general capabilities on benign inputs. To address these challenges, we propose Multi-Adapter Representation Interventions via Energy Calibration (MARI). Specifically, we introduce a competitive multi-adapter mechanism in which specialized experts capture non-linear correction patterns and adaptively determine the appropriate intervention direction and strength for different samples. Furthermore, we design an energy-based gating module that leverages internal propagation dynamics to distinguish inputs that are applicable for intervention. Extensive experiments across diverse model families and parameter scales demonstrate that MARI achieves state-of-the-art alignment performance. Our method significantly improves performance on TruthfulQA, BBQ, and safety benchmarks, while maintaining and even improving general capabilities on tasks such as MMLU and ARC. Our code is available at https://github.com/V1centNevwake/MARI.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yu26v/yu26v.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/V1centNevwake/MARI",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zeng26o.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zeng26o.html",
+        "title": "Normality Calibration in Semi-supervised Graph Anomaly Detection",
+        "authors": [
+          "Guolei Zeng",
+          "Hezhe Qiao",
+          "Guoguo Ai",
+          "Jinsong Guo",
+          "Guansong Pang"
+        ],
+        "abstract": "Semi-supervised graph anomaly detection (GAD), which assumes a subset of labeled normal nodes for training, is widely studied. However, existing methods learn normality only from these labeled nodes, often overfitting their patterns and causing high detection errors, such as many false positives. To overcome this limitation, we propose $GraphNC$, a graph normality calibration framework that leverages both labeled and unlabeled data to calibrate the normality from a teacher (a pre-trained semi-supervised GAD model) jointly in anomaly score and representation spaces. GraphNC includes two main components, anomaly score distribution alignment ($ScoreDA$) and perturbation-based normality regularization ($NormReg$). ScoreDA optimizes our model’s anomaly scores by aligning them with the teacher’s score distribution. Because the teacher provides accurate scores for most normal nodes and some anomalies, this alignment pulls the scores of the two classes toward opposite ends, making them more separable. To reduce the impact of inaccurate teacher scores, NormReg regularizes normality in the representation space, making normal node representations more compact via a perturbation-guided consistency loss applied only to the labeled nodes. Comprehensive experiments on six benchmarks demonstrate that GraphNC (1) consistently and substantially enhances the performance of teacher models from different GAD methods (2) achieves new state-of-the-art performance. Our code is available at https://github.com/mala-lab/GraphNC.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zeng26o/zeng26o.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mala-lab/GraphNC",
+          "https://github.com/mala-lab/GraphNC",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhang26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhang26a.html",
+        "title": "Decomposition-Based Modular Conformal Prediction for Two-Stage Modeling",
+        "authors": [
+          "William Zhang",
+          "Saurabh Amin",
+          "Georgia Perakis"
+        ],
+        "abstract": "Conformal prediction offers finite-sample coverage guarantees under minimal assumptions. However, existing methods treat the entire modeling process as a black box, overlooking opportunities to exploit and understand modular structure. We introduce a conformal prediction framework for two-stage sequential models, where an upstream predictor generates intermediate representations for a downstream model. By decomposing the overall prediction residual into stage-specific components, our method enables practitioners to attribute uncertainty to specific pipeline stages. We develop a risk-controlled parameter selection procedure using family-wise error rate (FWER) control to calibrate stage-wise scaling parameters, and introduce an adaptive extension for non-stationary settings. Experiments on synthetic distribution shifts, as well as real-world supply chain and stock market data, demonstrate that our approach improves coverage under structural, stage-wise shifts compared to standard conformal methods, while identifying stage-wise error contribution. This framework offers diagnostic advantages and robust coverage that standard conformal methods lack.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26a/zhang26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhang26cm.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhang26cm.html",
+        "title": "D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning",
+        "authors": [
+          "Ru Zhang",
+          "Renda Li",
+          "Ziyu Ma",
+          "Weijie Qiu",
+          "Chongyang Tao",
+          "Yong Wang",
+          "Xiangxiang Chu"
+        ],
+        "abstract": "Reinforcement learning (RL) has demonstrated potential for enhancing reasoning in large language models (LLMs). However, effective RL training, which requires medium-difficulty training samples, faces two fundamental challenges: Effective Data Scarcity and Dynamic Difficulty Shifts, where medium-difficulty samples are scarce and become trivial as models improve. Existing methods mitigate this scarcity to some extent by generating training samples. However, these approaches suffer from anchor-free generation, ignoring co-evolution, and difficulty mismatch. To address these issues, we propose D$^2$Evo, a Dual Difficulty-aware self-Evolution RL framework. In each iteration, our method mines medium-difficulty anchors based on the current Solver’s capability, trains the Questioner to generate diverse questions at appropriate difficulty levels, and jointly optimizes both components to enable progressive reasoning gains. Extensive experiments demonstrate that D$^2$Evo outperforms existing methods on mathematical reasoning benchmarks with fewer than 2K real mathematical samples, and exhibits strong generalization on general reasoning benchmarks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26cm/zhang26cm.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhang26he.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhang26he.html",
+        "title": "Target-Agnostic Calibration under Distribution Shift with Frequency-Aware Gradient Rectification",
+        "authors": [
+          "Yilin Zhang",
+          "Cai Xu",
+          "You Wu",
+          "Ziyu Guan",
+          "Wei Zhao"
+        ],
+        "abstract": "Real-world model deployments inevitably encounter distribution shifts, rendering the confidence estimates of deep neural networks highly unreliable, posing severe risks in safety-critical applications. Existing methods improve calibration via training-time regularization or post-hoc adjustment, but often rely on access to (or simulation of) target domains, limiting practicality. We propose Frequency-aware Gradient Rectification (FGR), a target-agnostic training framework for robust calibration. From a frequency perspective, FGR applies low-pass filtering to a subset of training images to diminish spurious high-frequency cues and encourage the learning of domain-invariant features. However, the associated information loss can degrade In-Distribution (ID) calibration. To resolve this trade-off, FGR treats ID calibration as a hard constraint and rectifies conflicting parameter updates via geometric projection. This ensures a first-order non-increase in the ID calibration objective without introducing an additional loss-balancing coefficient. Extensive experiments on synthetic, real-world, and semantic shift datasets demonstrate that FGR significantly improves calibration under diverse shifts while preserving ID performance, and it remains compatible with post-hoc calibration methods. Our code is available at https://github.com/YilinZhang107/FGR-Calib.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26he/zhang26he.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/YilinZhang107/FGR-Calib",
+          "https://github.com/YilinZhang107/FGR-Calib",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhao26ca.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhao26ca.html",
+        "title": "Advancing Analytic Class-Incremental Learning through Vision-Language Calibration",
+        "authors": [
+          "Binyu Zhao",
+          "Wei Zhang",
+          "Xingrui Yu",
+          "Zhaonian Zou",
+          "Ivor Tsang"
+        ],
+        "abstract": "Class-incremental learning (CIL) with pre-trained models (PTMs) faces a critical trade-off between efficient adaptation and long-term stability. While analytic learning enables rapid, recursive closed-form updates, its efficacy is often compromised by accumulated errors and feature incompatibility. In this paper, we first conduct a systematic study to dissect the failure modes of PTM-based analytic CIL, identifying representation rigidity as the primary bottleneck. Motivated by this insight, we propose VILA , a novel dual-branch framework that advances analytic CIL via a two-level vision-language calibration strategy. Specifically, we coherently fuse plastic, task-adapted features with a frozen, universal visual anchor at the feature level through geometric calibration, and leverage cross-modal semantic priors at the decision level to rectify prediction bias. This confluence maintains analytic-learning’s extreme efficiency while overcoming its inherent brittleness. Extensive experiments across eight benchmarks demonstrate that VILA consistently yields superior performance, particularly in fine-grained and long-sequence scenarios. Our framework harmonizes high-fidelity prediction with the simplicity of analytic learning. Our code is available at https://github.com/byzhaoAI/VILA.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhao26ca/zhao26ca.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/byzhaoAI/VILA",
+          "https://github.com/byzhaoAI/VILA",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhao26cb.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhao26cb.html",
+        "title": "Beyond Unidirectional Bias: Reciprocal Perspective Calibration in Scene Graph Generation",
+        "authors": [
+          "Haifeng Zhao",
+          "Wenbo Zhao",
+          "Xuemei Luo",
+          "Lei-Lei Ma",
+          "Dengdi Sun"
+        ],
+        "abstract": "Scene Graph Generation (SGG) paradigms predominantly model relationships as static, unidirectional mappings ($s \\to o$), effectively treating objects as passive recipients of actions. This formulation suffers from an inherent unidirectional bias , violating the physical reality that visual interactions are intrinsically reciprocal. Consequently, existing models often fail to maintain logical self-consistency when the reasoning anchor shifts from the subject to the object. To rectify this cognitive deficiency, we establish the Mutual-Perspective Inverse Relations (MPIR) principle, positing that a robust visual representation must satisfy logical consistency across dual perspectives. Guided by this principle, we propose the Reciprocal Perspective Calibration (RPC) framework, a model-agnostic framework that operationalizes MPIR via a novel Adaptive Inverse-Relation Augmentation (AIRA) strategy. Furthermore, we introduce Hypernym-Guided Prompts (HGP) to bridge the gap between semantic context and computational efficiency in vision-language models, enabling precise modeling of inverse relations. Extensive experiments demonstrate that RPC not only achieves competitive performance on standard benchmarks but also significantly enhances the model’s capability to understand inverse relations, as verified by a new inverse consistency evaluation protocol, demonstrating the cognitive robustness of our method.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhao26cb/zhao26cb.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhong26c.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhong26c.html",
+        "title": "Better, Faster: Harnessing Self-Improvement in Large Reasoning Models",
+        "authors": [
+          "Qihuang Zhong",
+          "Liang Ding",
+          "Juhua Liu",
+          "Bo Du",
+          "Leszek Rutkowski",
+          "Dacheng Tao"
+        ],
+        "abstract": "Self-improvement training enables the large reasoning models (LRMs) to improve themselves by self-generating reasoning trajectories as training data without external supervision. However, we find that this method often falls short in complex reasoning tasks and even leads to model collapse. Through a series of preliminary analyses, we reveal two problems: (1) data imbalance, where most training samples are simple, but the challenging yet crucial samples are scarce; (2) overthinking, where many undesired samples with redundant reasoning steps are used for self-training. To this end, we propose HSIR, which effectively Harnesses Self-Improvement in large Reasoning models via two simple-yet-effective approaches. Specifically, HSIR introduces a verify-then-exit sampling strategy to mitigate data imbalance by efficiently collecting more accurate solutions for difficult queries, and designs an Intrinsic Diversity score to quantify overthinking and filter out the undesired solutions. We apply HSIR to various post-training paradigms, among which we further propose H-GRPO, an enhanced GRPO algorithm that leverages the intrinsic diversity as an external reward to encourage concise and diverse reasoning via reinforcement learning. Extensive results show that HSIR not only effectively enhances the reasoning performance, i.e., bringing up to +10.9% average performance gains, but also significantly improves the reasoning efficiency by reducing up to 42.4% relative inference overhead.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhong26c/zhong26c.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhong26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhong26e.html",
+        "title": "Learn to Think: Improving Multimodal Reasoning through Vision-Aware Self-Improvement Training",
+        "authors": [
+          "Qihuang Zhong",
+          "Liang Ding",
+          "Wenjie Xuan",
+          "Juhua Liu",
+          "Bo Du",
+          "Dacheng Tao"
+        ],
+        "abstract": "Post-training with explicit reasoning traces is common to improve the reasoning capabilities of Multimodal Large Language Models (MLLMs). However, acquiring high-quality reasoning traces is often costly and time-consuming. Hence, the self-improvement paradigm has emerged, enabling MLLMs to self-generate reasoning traces for training without external supervision. Despite its effectiveness, we reveal two shortcomings in the self-improvement training of MLLMs: 1) data imbalance, where simple samples are over-trained, but the challenging yet crucial samples are under-trained; 2) language prior bias, where MLLMs overly rely on linguistic priors while neglecting the visual cues. To this end, we propose VISTA, a VIsion-aware Self-improvement Training framework for enhancing the multimodal Reasoning of MLLMs. Specifically, VISTA first introduces a prefix resampling strategy to reuse the partial correct reasoning traces for efficient data collection, and then designs a vision-aware attention score to quantify the model’s focus on visual information. Extensive experiments show that VISTA can be applied to various post-training scenarios, i.e., supervised fine-tuning and preference learning, and effectively enhances the multimodal reasoning performance across various MLLMs and tasks, e.g., bringing up to +13.66% average performance gains for Qwen2.5-VL-3B-Instruct.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhong26e/zhong26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhou26bv.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhou26bv.html",
+        "title": "Calibrating Decision Robustness via Inverse Conformal Risk Control",
+        "authors": [
+          "Wenbin Zhou",
+          "Shixiang Zhu"
+        ],
+        "abstract": "Robust optimization safeguards decisions against uncertainty by optimizing against worst-case scenarios, yet their effectiveness hinges on a prespecified robustness level that is often chosen ad hoc, leading to either insufficient protection or overly conservative and costly solutions. Recent approaches using conformal prediction construct data-driven uncertainty sets with finite-sample coverage guarantees, but they still fix coverage targets a priori and offer little guidance for selecting robustness levels. We propose a new framework that provides distribution-free, finite-sample guarantees on both miscoverage and regret for any family of robust predict-then-optimize policies. Our method constructs valid estimators that trace out the miscoverage–regret Pareto frontier, enabling decision-makers to reliably evaluate and calibrate robustness levels according to their cost–risk preferences. The framework is simple to implement, broadly applicable across classical optimization formulations, and achieves sharper finite-sample performance. This paper offers a principled data-driven methodology for guiding robustness selection and empowers practitioners to balance robustness and conservativeness in high-stakes decision-making.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhou26bv/zhou26bv.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/wbzhou2001/Inverse-Conformal-Risk-Control",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhou26h.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhou26h.html",
+        "title": "PGC: Peak-Guided Calibration for Generalizable AI-Generated Image Detection",
+        "authors": [
+          "Xiaoyu Zhou",
+          "Jianwei Fei",
+          "Peipeng Yu",
+          "Jingchang Xie",
+          "Chong Cheng",
+          "Zhihua Xia"
+        ],
+        "abstract": "The rapid evolution of generative AI, from GANs to modern diffusion models, has resulted in increasingly subtle discriminative clues. These fine-grained signals are often overshadowed by dominant, high-fidelity image content (e.g., the main subject), limiting the reliability of existing detectors that predominantly rely on global representations. To address this challenge, we propose the Peak-Guided Calibration (PGC) framework. PGC introduces a novel strategy that aggregates salient features via a peak-focusing mechanism. Specifically, by employing a peak-sensitive aggregation that accentuates the most discriminative local clues, PGC leverages these critical signals to calibrate the global decision. This approach recovers subtle patterns that would otherwise be submerged in the global context. Furthermore, to better simulate real-world threats, we introduce the CommGen15 dataset, a challenging benchmark comprising samples from 15 commercial models. Extensive experiments demonstrate that PGC achieves state-of-the-art performance. Specifically, it improves mean accuracy by +12.3% on our CommGen15 dataset, and sets new records on standard benchmarks, including GenImage (+2.1%), AIGI (+3.5%), and UniversalFakeDetect (+1.7%). Code is available at https://github.com/xiaoyu6868/PGC.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhou26h/zhou26h.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/xiaoyu6868/PGC",
+          "https://github.com/xiaoyu6868/PGC",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/zhu26z.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/zhu26z.html",
+        "title": "Conformal Risk-Averse Decision Making with Action Conditional Guarantee",
+        "authors": [
+          "Zihan Zhu",
+          "Shayan Kiyani",
+          "George J. Pappas",
+          "Hamed Hassani"
+        ],
+        "abstract": "Reliable decision making pipelines powered by machine learning models require uncertainty quantification (UQ) methods that come with explicit safety guarantees. Conformal prediction provides such UQ by wrapping ML predictions into prediction sets, and recent work by Kiyani et al. (2025b) established that these sets can be translated into optimal risk-averse decision policies – yet only inheriting marginal safety guarantees. We generalize and strengthen their results by (i) introducing action-conditional conformal prediction, which yields safety guarantees conditioned explicitly on each action taken by the decision maker, (ii) showing that action-conditional prediction sets serve as a proxy for the feasible decision space for risk-averse decision makers aiming to optimize action-conditional value-at-risk, and (iii) proposing a principled finite-sample algorithm based on pinball-loss minimization, connecting the framework of Gibbs et al. (2025) to action-conditional guarantees. Experiments on two real-world datasets confirm that our approach significantly improves action-conditional performance over conformal baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26z/zhu26z.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/abbadi26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/abbadi26a.html",
+        "title": "What Preferences Can—and Cannot—Predict in Multi-Agent Online Learning",
+        "authors": [
+          "Omar Abbadi",
+          "Rida Laraki",
+          "Panayotis Mertikopoulos"
+        ],
+        "abstract": "We examine the interplay between ordinal, preference-based solution concepts in games and the long-run behavior of game dynamics, asking in particular to what extent the combinatorial data of a game—its preference graph —determine the outcomes of no-regret learning dynamics—such as follow-the-regularized-leader (FTRL). In one direction, we show that the skeleton of every dynamically stable set (i.e. the set of pure profiles it contains) must also be preferentially stable , that is, it must be closed under profitable deviations. We then ask the converse question: when do preferences determine the long-run behavior of the players’ learning dynamics? We begin by showing that preferences characterize asymptotic stability in the case of subgames —i.e. subsets of pure profiles obtained by restricting players’ action sets. Beyond this case however, the equivalence between dynamic and preferential stability collapses: concretely, we construct a three-player game with a preferentially stable set whose span is dynamically unstable , showing in this way that preferences do not suffice as a criterion of dynamic stability. We then bridge this gap via the notion of resilience under aggregate deviations , an easy-to-check payoff-based condition that guarantees asymptotic stability of arbitrary spans of pure strategies.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/abbadi26a/abbadi26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ai26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ai26a.html",
+        "title": "An Interactive Paradigm for Deep Research",
+        "authors": [
+          "Lin Ai",
+          "Victor Bursztyn",
+          "Xiang Chen",
+          "Julia Hirschberg",
+          "Saayan Mitra"
+        ],
+        "abstract": "Recent advances in large language models (LLMs) have enabled deep research systems that synthesize comprehensive, report-style answers to open-ended queries by combining retrieval, reasoning, and generation. Yet, most frameworks rely on rigid workflows with one-shot scoping and long autonomous runs, offering little room for course correction if user intent shifts mid-process. We present SteER , a framework for steerable deep research that introduces interpretable, mid-process control into long-horizon research workflows. At each decision point, SteER uses a cost–benefit formulation to determine whether to pause for user input or proceed autonomously. It combines diversity-aware planning with utility signals that reward alignment, novelty, and coverage, and maintains a live persona model that evolves throughout the session. SteER outperforms state-of-the-art open-source and proprietary baselines by up to 22.80% on alignment, leads on quality metrics such as breadth and balance, and is preferred by human readers in 85%+ of pairwise alignment judgments. We also introduce a persona–query benchmark and data-generation pipeline. To our knowledge, this is the first work to advance deep research with an interactive, interpretable control paradigm, paving the way for controllable, user-aligned agents in long-form tasks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ai26a/ai26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-17T05:11:09+00:00"
     }
   }
 }
