@@ -2,53 +2,53 @@
   "sources": {
     "arXiv": {
       "status": "partial",
-      "attempted_at": "2026-10-19T04:48:03+00:00",
+      "attempted_at": "2026-10-20T04:56:51+00:00",
       "last_success_at": "",
-      "fetched": 6503,
-      "added": 161,
-      "changed": 39,
+      "fetched": 6771,
+      "added": 341,
+      "changed": 52,
       "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:51+00:00",
-      "last_success_at": "2026-10-19T04:52:51+00:00",
-      "fetched": 241,
+      "attempted_at": "2026-10-20T05:02:20+00:00",
+      "last_success_at": "2026-10-20T05:02:20+00:00",
+      "fetched": 259,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:54+00:00",
-      "last_success_at": "2026-10-19T04:52:54+00:00",
-      "fetched": 5,
-      "added": 0,
-      "changed": 0,
+      "attempted_at": "2026-10-20T05:02:21+00:00",
+      "last_success_at": "2026-10-20T05:02:21+00:00",
+      "fetched": 19,
+      "added": 1,
+      "changed": 4,
       "note": ""
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:54+00:00",
-      "last_success_at": "2026-10-19T04:52:54+00:00",
-      "fetched": 12,
+      "attempted_at": "2026-10-20T05:02:22+00:00",
+      "last_success_at": "2026-10-20T05:02:22+00:00",
+      "fetched": 11,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:55+00:00",
-      "last_success_at": "2026-10-19T04:52:55+00:00",
-      "fetched": 491,
+      "attempted_at": "2026-10-20T05:02:23+00:00",
+      "last_success_at": "2026-10-20T05:02:23+00:00",
+      "fetched": 557,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:58+00:00",
-      "last_success_at": "2026-10-19T04:52:58+00:00",
+      "attempted_at": "2026-10-20T05:02:26+00:00",
+      "last_success_at": "2026-10-20T05:02:26+00:00",
       "fetched": 69,
       "added": 0,
       "changed": 0,
@@ -56,8 +56,8 @@
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:52:59+00:00",
-      "last_success_at": "2026-10-19T04:52:59+00:00",
+      "attempted_at": "2026-10-20T05:02:28+00:00",
+      "last_success_at": "2026-10-20T05:02:28+00:00",
       "fetched": 183,
       "added": 0,
       "changed": 0,
@@ -65,8 +65,8 @@
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-10-19T04:53:01+00:00",
-      "last_success_at": "2026-10-19T04:53:01+00:00",
+      "attempted_at": "2026-10-20T05:02:29+00:00",
+      "last_success_at": "2026-10-20T05:02:29+00:00",
       "fetched": 6,
       "added": 0,
       "changed": 0,
@@ -74,7 +74,7 @@
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T04:53:03+00:00",
+      "attempted_at": "2026-10-20T05:02:30+00:00",
       "last_success_at": "",
       "fetched": 229,
       "added": 0,
@@ -83,16 +83,16 @@
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T04:58:34+00:00",
+      "attempted_at": "2026-10-20T05:08:03+00:00",
       "last_success_at": "",
-      "fetched": 1435,
+      "fetched": 1430,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T05:04:48+00:00",
+      "attempted_at": "2026-10-20T05:14:17+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -101,16 +101,16 @@
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T05:08:47+00:00",
+      "attempted_at": "2026-10-20T05:18:17+00:00",
       "last_success_at": "",
-      "fetched": 195,
+      "fetched": 194,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T05:14:59+00:00",
+      "attempted_at": "2026-10-20T05:24:30+00:00",
       "last_success_at": "",
       "fetched": 918,
       "added": 0,
@@ -119,7 +119,7 @@
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-19T05:21:12+00:00",
+      "attempted_at": "2026-10-20T05:30:42+00:00",
       "last_success_at": "",
       "fetched": 1041,
       "added": 0,
@@ -128,17 +128,17 @@
     },
     "PMLR": {
       "status": "partial",
-      "attempted_at": "2026-10-19T05:27:24+00:00",
+      "attempted_at": "2026-10-20T05:36:57+00:00",
       "last_success_at": "",
-      "fetched": 363,
-      "added": 8,
-      "changed": 52,
-      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 174 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
+      "fetched": 423,
+      "added": 9,
+      "changed": 51,
+      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 114 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-10-19T05:28:36+00:00",
-      "last_success_at": "2026-10-19T05:28:36+00:00",
+      "attempted_at": "2026-10-20T05:38:09+00:00",
+      "last_success_at": "2026-10-20T05:38:09+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,7 +146,7 @@
     },
     "2026.emnlp": {
       "status": "unavailable",
-      "attempted_at": "2026-10-19T05:28:42+00:00",
+      "attempted_at": "2026-10-20T05:38:15+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-10-19T05:28:43+00:00",
+      "attempted_at": "2026-10-20T05:38:16+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -164,8 +164,8 @@
     },
     "CVPR2026": {
       "status": "ok",
-      "attempted_at": "2026-10-19T05:28:44+00:00",
-      "last_success_at": "2026-10-19T05:28:44+00:00",
+      "attempted_at": "2026-10-20T05:38:17+00:00",
+      "last_success_at": "2026-10-20T05:38:17+00:00",
       "fetched": 108,
       "added": 0,
       "changed": 0,
@@ -173,8 +173,8 @@
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-10-19T05:29:12+00:00",
-      "last_success_at": "2026-10-19T05:29:12+00:00",
+      "attempted_at": "2026-10-20T05:38:45+00:00",
+      "last_success_at": "2026-10-20T05:38:45+00:00",
       "fetched": 38,
       "added": 0,
       "changed": 0,
@@ -182,8 +182,8 @@
     },
     "ICCV2025": {
       "status": "ok",
-      "attempted_at": "2026-10-19T05:29:28+00:00",
-      "last_success_at": "2026-10-19T05:29:28+00:00",
+      "attempted_at": "2026-10-20T05:39:01+00:00",
+      "last_success_at": "2026-10-20T05:39:01+00:00",
       "fetched": 29,
       "added": 0,
       "changed": 0,
@@ -191,12 +191,12 @@
     }
   },
   "last_run": {
-    "started_at": "2026-10-19T04:48:03+00:00",
-    "finished_at": "2026-10-19T05:29:45+00:00",
+    "started_at": "2026-10-20T04:56:51+00:00",
+    "finished_at": "2026-10-20T05:39:18+00:00",
     "attempted_sources": 21,
     "failed_sources": 0,
-    "added": 169,
-    "changed": 91
+    "added": 351,
+    "changed": 107
   },
   "detail_cache": {
     "https://proceedings.mlr.press/v337/kazantsev26a.html": {
@@ -15625,6 +15625,1843 @@
         ]
       },
       "checked": "2026-10-19T05:27:34+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ma26av.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ma26av.html",
+        "title": "Scaling Agentic Verifier for Competitive Coding",
+        "authors": [
+          "Zeyao Ma",
+          "Jing Zhang",
+          "Xiaokang Zhang",
+          "Jiaxi Yang",
+          "Zongmeng Zhang",
+          "Jiajun Zhang",
+          "Yuheng Jing",
+          "Lei Zhang",
+          "Hao Zheng",
+          "Wenting Zhao",
+          "Junyang Lin",
+          "Binyuan Hui"
+        ],
+        "abstract": "Large language models (LLMs) have demonstrated strong coding capabilities but still struggle to solve competitive programming problems correctly in a single attempt. Execution-based re-ranking offers a promising test-time scaling strategy, yet existing methods are constrained by either difficult test case generation or inefficient random input sampling. To address this limitation, we propose Agentic Verifier , an execution-based agent that actively reasons about program behaviors and searches for highly discriminative test inputs that expose behavioral discrepancies among candidate solutions. Through multi-turn interaction with code execution environments, the verifier iteratively refines the candidate input generator and produces targeted counterexamples rather than blindly sampling inputs. We train the verifier to acquire this discriminative input generation capability via a scalable pipeline combining large-scale data synthesis, rejection fine-tuning, and agentic reinforcement learning. Extensive experiments across five competitive programming benchmarks demonstrate consistent improvements over strong execution-based baselines, achieving up to +10-15% absolute gains in Best@$k$ accuracy. Further analysis reveals clear test-time scaling behavior and highlights the verifier’s broader potential beyond reranking.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26av/ma26av.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/marro26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/marro26b.html",
+        "title": "Position: LLM Agents Are the Antidote to Walled Gardens",
+        "authors": [
+          "Samuele Marro",
+          "Philip Torr"
+        ],
+        "abstract": "While the Internet’s core infrastructure was designed to be open and universal, today’s application layer is dominated by closed, proprietary platforms. Open and interoperable APIs require significant investment, and market leaders have little incentive to enable data exchange that could erode their user lock-in. We argue that LLM-based agents fundamentally disrupt this status quo. Agents can automatically translate between data formats and interact with interfaces designed for humans: this makes interoperability dramatically cheaper and effectively unavoidable. We name this shift universal interoperability : the ability for any two digital services to exchange data seamlessly using AI-mediated adapters. Universal interoperability undermines monopolistic behaviours and promotes data portability. However, it can also lead to new security risks and technical debt. Our position is that the ML community should embrace this development while building the appropriate frameworks to mitigate the downsides. By acting now, we can harness AI to restore user freedom and competitive markets without sacrificing security.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/marro26b/marro26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mccormick26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mccormick26a.html",
+        "title": "Position: Prioritize Identifying Structure, Not Complex Models, for Scientific Discovery",
+        "authors": [
+          "Tyler Mccormick"
+        ],
+        "abstract": "Researchers rarely observe the mechanistic drivers of scientific processes directly. Instead, they observe proxies, which are measurable quantities correlated with one or more of these latent drivers. This position paper argues that mechanistic learning from high-dimensional proxies is generically underdetermined. Many incompatible mechanisms induce essentially the same observational relationships on the support of the data, so predictive success and coherent explanations are insufficient evidence of mechanism discovery. Machine Learning (ML) and Artificial Intelligence (AI) models can therefore generate scientific hypotheses that sound plausible while the underlying mechanism remains unidentified. The problem is particularly acute with large language models (LLMs), which tend to collapse entire equivalence classes of explanations into a single fluent narrative. The paper proposes concrete standards for “mechanistic AI,” norms that are necessary if AI-centered workflows are to support science rather than merely simulate it.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mccormick26a/mccormick26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/meng26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/meng26b.html",
+        "title": "Watermarking LLM Agent Trajectories",
+        "authors": [
+          "Wenlong Meng",
+          "Chen Gong",
+          "Terry Yue Zhuo",
+          "Fan Zhang",
+          "Kecen Li",
+          "Zheng Liu",
+          "Zhou Yang",
+          "Chengkun Wei",
+          "Wenzhi Chen"
+        ],
+        "abstract": "LLM agents rely heavily on high-quality trajectory data to guide their problem-solving behaviors, yet producing such data requires substantial task design, high-capacity model generation, and manual filtering. Despite the high cost of creating these datasets, existing literature has overlooked copyright protection for LLM agent trajectories. This gap leaves creators vulnerable to data theft and makes it difficult to trace misuse or enforce ownership rights. This paper introduces ActHook, the first watermarking method tailored for agent trajectory datasets. Inspired by hook mechanisms in software engineering, ActHook embeds hook actions that are activated by a secret input key and do not alter the original task outcome. Like software execution, LLM agents operate sequentially, allowing hook actions to be inserted at decision points without disrupting task flow. When the activation key is present, an LLM agent trained on watermarked trajectories can produce these hook actions at a significantly higher rate, enabling reliable black-box detection. Experiments on mathematical reasoning, web searching, and software engineering agents show that ActHook achieves an average detection AUC of 94.3 on Qwen-2.5-Coder-7B while incurring negligible performance degradation.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/meng26b/meng26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/meng-wenlong/AgentWmk",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mguni26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mguni26a.html",
+        "title": "Learning Robust Multi-Agent Policies via Selective Adversarial Fault Induction",
+        "authors": [
+          "David Henry Mguni",
+          "Yaqi Sun",
+          "Haojun Chen",
+          "Wanrong Yang",
+          "Amir Darabi",
+          "Larry Olanrewaju Orimoloye",
+          "Yaodong Yang"
+        ],
+        "abstract": "We study robustness to agent malfunctions in cooperative multi-agent reinforcement learning (MARL), a failure mode that is critical in practice yet underexplored in existing theory. We introduce MARTA, a plug-and-play robustness layer that augments standard MARL algorithms with a Switcher–Adversary mechanism which selectively induces malfunctions in performance-critical states. This formulation defines a fault-switching $(N+2)$-player Markov game in which the Switcher chooses when and which agent fails, and the Adversary controls the resulting faulty behaviour via random or worst-case policies. We develop a Q-learning-type scheme and show that the associated Bellman operator is a contraction, yielding existence and uniqueness of the minimax value, convergence to a Markov perfect equilibrium. MARTA integrates seamlessly with MARL algorithms without architectural modification and consistently improves robustness across Traffic Junction (TJ), Level-Based Foraging (LBF), MPE SimpleTag, and SMAC (v2). In these domains, MARTA achieves large gains in final performance of up to 116.7% in SMAC, 21.4% in MPE SimpleTag, and 44.6% in LBF, while significantly reducing failure rates under train–test mismatched fault regimes. These results establish MARTA as a theoretically grounded and practically deployable mechanism for fault-tolerant MARL.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mguni26a/mguni26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mi26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mi26d.html",
+        "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+        "authors": [
+          "Qirui Mi",
+          "Zhijian Ma",
+          "Mengyue Yang",
+          "Haoxuan Li",
+          "Yisen Wang",
+          "Haifeng Zhang",
+          "Jun Wang"
+        ],
+        "abstract": "LLM-driven agents excel at sequential decision-making but often rely on on-the-fly reasoning, re-deriving solutions even in recurring scenarios. This insufficient experience reuse leads to computational redundancy and instability. To bridge this gap, we propose Skill-Pro , a framework enabling agents to autonomously learn reusable procedural skills from interaction experiences without parameter updates. By formalizing a Skill-MDP , Skill-Pro transforms passive episodic narratives into executable Skills defined by activation, execution, and termination conditions to ensure executability. To achieve reliable reusability without capability degradation, we introduce Non-Parametric PPO , which leverages semantic gradients for high-quality candidate generation and a PPO Gate for robust Skill verification. Through score-based maintenance, Skill-Pro sustains compact, high-quality procedural memory. Experimental results across in-domain, cross-task, and cross-agent scenarios demonstrate that Skill-Pro achieves superior reuse rates and significant gains with extreme memory compression. Visualized evolutionary trajectories and Skill distributions further reveal how Skill-Pro transparently accumulates, refines, and reuses procedural knowledge to facilitate long-term autonomy.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mi26d/mi26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/mothukuri26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/mothukuri26a.html",
+        "title": "Causal Detection of Multi-Step LLM Agent Attacks",
+        "authors": [
+          "Viraaji Mothukuri",
+          "Reza M. Parizi"
+        ],
+        "abstract": "Multi-step prompt injection attacks on LLM agents present a fundamental detection challenge because malicious intent emerges only after the workflow completes, while individual actions remain legitimate in isolation. Existing defenses, including input sanitization, output validation, and instruction hierarchy, operate on individual actions or content patterns and cannot capture this sequential structure. We present CausalTrace , a detection system that reframes prompt-injection defense as causal inference. It constructs Structural Causal Models from agent trajectories with typed edges capturing data dependency, trust transfer, and state enablement, then applies Pearl’s do-calculus to answer a counterfactual question, namely, whether the harmful outcome would have occurred if the injection had been blocked. This formalization enables a principled distinction between attacks that depend on injections and benign workflows that share surface-level features. Evaluation on a dataset spanning crowdsourced traces, LLM agent benchmarks, and semi-real and real scenarios demonstrates strong detection performance, outperforming content-based baselines while requiring minimal LLM inference cost; bidirectional slicing recovers complete attack chains with high edge recall, providing interpretable explanations that trace exploitation to its causal origins.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mothukuri26a/mothukuri26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/decentralizedsciencelab/CausalTrace",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/nie26c.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/nie26c.html",
+        "title": "KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware",
+        "authors": [
+          "Jiayi Nie",
+          "Haoran Wu",
+          "Yao Lai",
+          "Zeyu Cao",
+          "Cheng Zhang",
+          "Binglei Lou",
+          "Erwei Wang",
+          "Jianyi Cheng",
+          "Timothy M. Jones",
+          "Robert D. Mullins",
+          "Rika Antonova",
+          "Yiren Zhao"
+        ],
+        "abstract": "New AI accelerators with novel instruction set architectures (ISAs) often require developers to manually craft low-level kernels — a time-consuming and error-prone process that does not scale across hardware targets. This delays emerging hardware platforms from reaching the market. While prior LLM-based code generation has shown promise in mature GPU ecosystems, it remains unclear whether agentic LLM systems can quickly produce valid and efficient kernels for emerging hardware with new ISAs. We present KernelCraft: the first benchmark for evaluating an LLM agent’s ability to generate and optimize low-level kernels for customized accelerators through a function-calling, feedback-driven workflow. We evaluate agent performance across three emerging accelerators on more than 20 machine-learning tasks, each with five diverse task configurations. Across four leading reasoning models, the strongest agents generate functionally correct kernels for unseen ISAs within a few refinement steps, and produce optimized kernels that match or outperform compiler baselines. These results demonstrate KernelCraft’s potential to accelerate the accelerator chip development cycle. KernelCraft is available at https://kernelcraft-cam.github.io/.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/nie26c/nie26c.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ning26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ning26a.html",
+        "title": "Agent-Omit: Adaptive Context Omission for Efficient LLM Agents",
+        "authors": [
+          "Yansong Ning",
+          "Jun Fang",
+          "Naiqiang Tan",
+          "Hao Liu"
+        ],
+        "abstract": "Managing agent context (e.g., thought and observation) during multi-turn agent-environment interactions is an emerging strategy to improve agent efficiency. However, existing studies treat the entire interaction trajectories equally, overlooking the thought necessity and observation utility varies across turns. To this end, we first conduct quantitative investigations into how thought and observation affect agent effectiveness and efficiency. Based on our findings, we propose Agent-Omit, a unified training framework that empowers LLM agents to adaptively omit redundant thoughts and observations. Specifically, we first synthesize a small amount of cold-start data, including both single-turn and multi-turn omission scenarios, to fine-tune the agent for omission behaviors. Furthermore, we introduce an omit-aware agentic reinforcement learning approach, incorporating a dual sampling mechanism and a tailored omission reward to incentivize the agent’s adaptive omission capability. Theoretically, we prove that the deviation of our omission policy is upper-bounded by KL-divergence. Experimental results on five agent benchmarks show that our constructed Agent-Omit-8B could obtain performance comparable to seven frontier LLM agent, and achieve the best effectiveness-efficiency trade-off than seven efficient LLM agents methods. Our code and data are avaliable at https://github.com/usail-hkust/Agent-Omit.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ning26a/ning26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/usail-hkust/Agent-Omit",
+          "https://github.com/usail-hkust/Agent-Omit",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/nother26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/nother26a.html",
+        "title": "MaMa: A Game-Theoretic Approach for Designing Safe Agentic Systems",
+        "authors": [
+          "Jonathan Nöther",
+          "Adish Singla",
+          "Goran Radanovic"
+        ],
+        "abstract": "LLM-based multi-agent systems have demonstrated impressive capabilities, but they also introduce significant safety risks when individual agents fail or behave adversarially. In this work, we study the automated design of agentic systems that remain safe even when a subset of agents is compromised. Inspired by Stackelberg security games, we formalize this problem as a game between a system designer (the Meta-Agent) and a best-responding Meta-Adversary that selects and compromises a subset of agents to minimize safety. We propose Meta-Adversary–Meta-Agent (MaMa), a novel algorithm inspired by this formalization for automatically designing safe agentic systems. Our approach uses LLM-based adversarial search, where the Meta-Agent iteratively proposes system designs and receives feedback based on the strongest attacks discovered by the Meta-Adversary. Empirical evaluations across diverse environments show that systems designed with MaMa consistently defend against worst-case attacks while maintaining performance comparable to systems optimized solely for task success. Moreover, the resulting systems generalize to stronger adversaries, as well as ones with different attack objectives or underlying LLMs, demonstrating robust safety beyond the training setting. Code is available at https://github.com/JNoether/MaMa",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/nother26a/nother26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/JNoether/MaMa",
+          "https://github.com/JNoether/MaMa",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/okawa26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/okawa26a.html",
+        "title": "Emergence of Biased Consensus in Multi-Agent LLM Debates",
+        "authors": [
+          "Maya Okawa"
+        ],
+        "abstract": "Multi-agent LLM debates achieve strong performance on decision-making tasks as well as problem-solving benchmarks, yet their safety and fairness risks remain poorly understood. Notably, interaction can amplify the biases of single LLMs, raising concerns for real-world deployment. We identify the emergence of collective (often biased) norms in multi-agent LLM debates and show that noise (e.g., LLM sampling temperature) is a key driver. To explain this, we propose an analytical framework drawing on physics-inspired theoretical models of social dynamics. We predict a phase transition to collective bias when conformity surpasses a critical threshold given the LLMs’ initial bias and debate noise. We test the theoretical predictions through controlled experiments and observe a finite-size crossover consistent with an underlying phase transition. We further find that agent heterogeneity suppresses emergence by smoothing (rounding) this transition. Finally, we show that these insights generalize to realistic decision-making tasks, including investment decisions and LLM-as-a-judge evaluation.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/okawa26a/okawa26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ouyang26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ouyang26a.html",
+        "title": "PDAgent: An LLM-Driven Autonomous Agent Framework Towards *In Silico* Protein Design via Directed Mutation",
+        "authors": [
+          "Song Ouyang",
+          "Zhijie Dong",
+          "Yong Luo",
+          "Kehua Su",
+          "Huangxuan Zhao",
+          "Miaojing Shi",
+          "Bo Du"
+        ],
+        "abstract": "Computational protein design holds immense promise across diverse domains, but existing approaches face significant challenges: traditional physics-based methods require substantial domain expertise, while emerging deep learning methods often rely on restricted functional ontologies, struggle to bridge the semantic gap between text and protein sequences, or lack closed-loop optimization mechanisms. In this paper, we present PDAgent, an LLM-driven autonomous agent framework that enables in silico protein design through template-based directed mutation. Our framework accepts natural language specifications of desired protein properties and employs a ReAct-style reasoning loop comprising five phases: THINK, PLAN, ACT, OBSERVE, and REFLECT. PDAgent integrates template retrieval, conservation-aware mutation strategies, and domain-specific computational tools for property optimization across seven biophysical dimensions. Experiments on 100 diverse protein design tasks demonstrate that PDAgent achieves a 91.86% average constraint satisfaction rate with high structural quality (mean pLDDT 87.69), substantially outperforming both direct LLM generation and specialized deep learning methods. We provide the source code at https://github.com/Gift-OYS/PDAgent.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ouyang26a/ouyang26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Gift-OYS/PDAgent",
+          "https://github.com/Gift-OYS/PDAgent",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/overman26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/overman26b.html",
+        "title": "The Oversight Game: Learning to Cooperatively Balance an AI Agent’s Safety and Autonomy",
+        "authors": [
+          "William Overman",
+          "Mohsen Bayati"
+        ],
+        "abstract": "As increasingly capable agents are deployed, a central safety challenge is how to retain meaningful human control without modifying the underlying system. We study a minimal control interface in which an agent chooses whether to act autonomously (play) or defer (ask), while a human simultaneously chooses whether to be permissive (trust) or engage in oversight (oversee), and model this interaction as a two-player Markov Game. When this game forms a Markov Potential Game, we prove an alignment guarantee: any increase in the agent’s utility from acting more autonomously cannot decrease the human’s value. This establishes a form of intrinsic alignment where the agent’s incentive to seek autonomy is structurally coupled to the human’s welfare. Practically, the framework induces a transparent control layer encouraging the agent to defer when risky and act when safe. While we use gridworld simulations to illustrate the emergence of this collaboration, our primary validation involves an agentic tool-use task where two 30B-parameter language models are fine-tuned via independent policy gradient. We demonstrate that even as the agents learn to coordinate on the fly, this framework effectively reduces safety violations in realistic, open-ended environments.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/overman26b/overman26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pan26k.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pan26k.html",
+        "title": "ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management",
+        "authors": [
+          "Zaifeng Pan",
+          "Yipeng Shen",
+          "Zhengding Hu",
+          "Zhuang Wang",
+          "Aninda Manocha",
+          "Zheng Wang",
+          "Zhongkai Yu",
+          "Yue Guan",
+          "Yufei Ding"
+        ],
+        "abstract": "LLM-based multi-agent simulations are increasingly adopted across application domains, but remain difficult to scale due to GPU memory pressure. Each agent maintains private GPU-resident states, including models, prefix caches, and adapters, which quickly exhaust device memory as the agent count grows. We identify two key properties of these workloads: sparse agent activation and an estimable agent invocation order. Based on an analysis of representative workload classes, we introduce invocation distance, a unified abstraction that estimates the relative order in which agents will issue future LLM requests. Leveraging this abstraction, we present ScaleSim, a memory-efficient LLM serving system for large-scale multi-agent simulations. ScaleSim enables proactive prefetching and priority-based eviction, supports diverse agent-specific memory through a modular interface, and achieves up to 1.74$\\times$ speedup over SGLang on simulation benchmarks. ScaleSim’s source code is available at https://github.com/PanZaifeng/KVFlow.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pan26k/pan26k.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/PanZaifeng/KVFlow",
+          "https://github.com/PanZaifeng/KVFlow",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pan26p.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pan26p.html",
+        "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+        "authors": [
+          "Zhenyu Pan",
+          "Yiting Zhang",
+          "Zhuo Liu",
+          "Yolo Y. Tang",
+          "Zeliang Zhang",
+          "Haozheng Luo",
+          "Chenwei Xu",
+          "Yuwei Han",
+          "Jianshu Zhang",
+          "Dennis Wu",
+          "Hong-Yu Chen",
+          "Haoran Lu",
+          "Haoyang Fang",
+          "Manling Li",
+          "Chenliang Xu",
+          "Philip S. Yu",
+          "Han Liu"
+        ],
+        "abstract": "LLM-based multi-agent systems excel at planning, tool use, and role coordination, but their openness and interaction complexity also expose them to jailbreak and adversarial collaboration. Existing defenses fall into two lines: (i) self-verification that asks each agent to pre-filter unsafe instructions before execution, and (ii) external guard modules that police behaviors. The former often underperforms because a standalone agent lacks sufficient capacity to detect cross-agent unsafe chains and delegation-induced risks; the latter increases system overhead and creates a single-point-of-failure—once compromised, system-wide safety collapses, and adding more guards worsens cost and complexity. To solve these challenges, we propose AdvEvo-MARL, a co-evolutionary multi-agent reinforcement learning framework that internalizes safety into task agents. Rather than relying on external guards, AdvEvo-MARL jointly optimizes attackers (which synthesize evolving jailbreak prompts) and defenders (task agents trained to both accomplish their duties and resist attacks) in adversarial learning environments. To stabilize learning and foster cooperation, we introduce a public baseline for advantage estimation: agents within the same functional group share a group-level mean-return baseline, enabling lower-variance updates and stronger intra-group coordination. Across representative attack scenarios, AdvEvo-MARL consistently keeps attack-success rate (ASR) below 20%, whereas baselines reach up to 38.33%, while preserving or even improving task accuracy (up to +3.67%). These results show that safety and utility can be jointly improved without relying on extra guard agents or added system overhead.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pan26p/pan26p.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/PzySeere/AdvEvo-MARL",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/panchal26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/panchal26b.html",
+        "title": "Mosaic: Runtime-Efficient Multi-Agent Embodied Planning",
+        "authors": [
+          "Kunjal Panchal",
+          "Saayan Mitra",
+          "Sunav Choudhary",
+          "Victor Bursztyn",
+          "Somdeb Sarkhel",
+          "Hui Guan"
+        ],
+        "abstract": "LLM-based multi-agent embodied planning remains impractical due to prohibitively high execution latency. We identify failed actions as the dominant bottleneck, stemming from two core challenges: inaccurate state tracking under partial observability and inefficient coordination that produces redundant or conflicting actions. We introduce Mosaic, a runtime-efficient multi-agent planning framework that addresses both challenges. Mosaic maintains accurate yet lightweight state tracking through agent-centric semantic memory that stores objects in relative coordinates, enabling geometric transformations and coordination. It ensures efficient coordination through Integer Linear Programming that allocates actions at every planning step, enforcing physical feasibility and inter-agent coordination constraints. Across AI2-THOR and search-and-rescue benchmarks, Mosaic achieves 27–32% faster execution, 30–33% fewer LLM calls, 25–31% fewer steps, and 4–10% points higher success rates. These results demonstrate that efficient memory and constraint-guided coordination are critical for scalable, low-latency multi-agent planning.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/panchal26b/panchal26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pang26f.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pang26f.html",
+        "title": "Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs",
+        "authors": [
+          "Xinyu Pang",
+          "Zhanke Zhou",
+          "Xuan Li",
+          "Fangrui Lv",
+          "Shanshan Wei",
+          "Sen Cui",
+          "Bo Han",
+          "Changshui Zhang"
+        ],
+        "abstract": "Symbolic regression (SR) discovers compact mathematical expressions from data, yet recent LLM-based evolutionary methods remain sample-inefficient because they rely mainly on scalar feedback such as MSE. We identify a core limitation: existing methods conflate candidate proposal with search guidance, requiring the LLM to infer how to evolve an expression, diagnose its errors, and reuse past experience from a single score. To address this, we propose Deliberate Evolution (DE), an agentic framework that decouples symbolic generation from search control. DE guides LLM proposals with adaptive operators for search direction, analytical tools for structural diagnosis, and reflective memory for trajectory-level experience. Experiments on LLM-SRBench show that DE consistently outperforms representative LLM-based SR baselines across diverse scientific domains while using only 40% of the standard sample budget. Code is available at https://github.com/Xinyu-Pang/Deliberate-Evolution.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pang26f/pang26f.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Xinyu-Pang/Deliberate-Evolution",
+          "https://github.com/Xinyu-Pang/Deliberate-Evolution",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/papamarkou26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/papamarkou26a.html",
+        "title": "Position: Agentic AI Orchestration Should Be Bayes-Consistent",
+        "authors": [
+          "Theodore Papamarkou",
+          "Pierre Alquier",
+          "Matthias Bauer",
+          "Wray Buntine",
+          "Andrew J. Davison",
+          "Gintare Karolina Dziugaite",
+          "Maurizio Filippone",
+          "Andrew Y. K. Foong",
+          "Vincent Fortuin",
+          "Dimitris Fouskakis",
+          "Jes Frellsen",
+          "Eyke Hüllermeier",
+          "Theofanis Karaletsos",
+          "Mohammad Emtiyaz Khan",
+          "Nikita Kotelevskii",
+          "Salem Lahlou",
+          "Yingzhen Li",
+          "Fang Liu",
+          "Clare Lyle",
+          "Thomas Möllenhoff",
+          "Konstantina Palla",
+          "Maxim Panov",
+          "Yusuf Sale",
+          "Kajetan Schweighofer",
+          "Artem Shelmanov",
+          "Siddharth Swaroop",
+          "Martin Trapp",
+          "Willem Waegeman",
+          "Andrew Gordon Wilson",
+          "Alexey Zaytsev"
+        ],
+        "abstract": "LLMs excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasibility of Bayesian approaches remain unclear for LLM inference, this position paper argues that the control layer of an agentic AI system (that orchestrates LLMs and tools) is a clear case where Bayesian principles should shine. Bayesian decision theory provides a framework for agentic systems that can help to maintain beliefs over task-relevant latent quantities, to update these beliefs from observed agentic and human-AI interactions, and to choose actions. Making LLMs themselves explicitly Bayesian belief-updating engines remains computationally intensive and conceptually nontrivial as a general modeling target. In contrast, this paper argues that coherent decision-making requires Bayesian principles at the orchestration level of the agentic system, not necessarily the LLM agent parameters. This paper articulates practical properties for Bayesian control that fit modern agentic AI systems and human-AI collaboration, and provides concrete examples and design patterns to illustrate how calibrated beliefs and utility-aware policies can improve agentic AI orchestration.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/papamarkou26a/papamarkou26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pappu26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pappu26a.html",
+        "title": "Multi-Agent Teams Hold Experts Back",
+        "authors": [
+          "Aneesh Pappu",
+          "Batu El",
+          "Hancheng Cao",
+          "Carmelo Di Nolfo",
+          "Yanchao Sun",
+          "Meng Cao",
+          "James Zou"
+        ],
+        "abstract": "Multi-agent LLM systems are increasingly deployed as autonomous collaborators, where agents interact freely rather than execute fixed, pre-specified workflows. In such settings, effective coordination cannot be fully designed in advance and must instead emerge through interaction. However, most prior work enforces coordination through fixed roles, workflows, or aggregation rules, leaving open the question of how well self-organizing teams perform when coordination is unconstrained. Drawing on organizational psychology, we study whether self-organizing LLM teams achieve strong synergy , where team performance matches or exceeds the best individual member. Across human-inspired and frontier ML benchmarks, we find that—unlike human teams—LLM teams consistently fail to match their expert agent’s performance, even when explicitly told who the expert is, incurring performance losses of up to 41.1% on ML benchmarks. Decomposing this failure, we show that expert leveraging, rather than identification, is the primary bottleneck. Conversational analysis reveals a tendency toward integrative compromise—averaging expert and non-expert views rather than appropriately weighting expertise—which increases with team size and correlates negatively with performance. Interestingly, this consensus-seeking behavior improves robustness to adversarial agents, suggesting a trade-off between alignment and effective expertise utilization. Our findings reveal a significant gap in the ability of self-organizing multi-agent teams to harness the collective expertise of their members.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pappu26a/pappu26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/apappu97/multi-agent-teams-hold-experts-back",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/park26h.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/park26h.html",
+        "title": "$\\texttt{Multi}^2$: Hierarchical Multi-Agent Decision-Making with LLM-Based Agents in Interactive Environments",
+        "authors": [
+          "Sangeun Park",
+          "Minhae Kwon"
+        ],
+        "abstract": "A central goal of large language model (LLM) research is to build agentic systems that can plan, act, and adapt through sustained interaction with dynamic environments. While recent LLM-based agents exhibit impressive contextual reasoning, their long-horizon decision-making remains fragile, often suffering from $\\textit{objective drift}$, where goals and plans drift over extended interactions. We introduce $\\texttt{Multi}^2$, a hierarchical multi-agent decision-making framework that explicitly decomposes agent behavior into complementary roles. A high-level agent ($\\texttt{System 1}$) focuses on context-aware sub-goal generation using supervised fine-tuning (SFT), while a low-level agent ($\\texttt{System 2}$) executes atomic actions through offline-to-online reinforcement learning (RL) in interactive environments. This separation enables stable long-horizon control, mitigates objective drift, and allows efficient adaptation. Across diverse interactive environments, $\\texttt{Multi}^2$ consistently outperforms strong agentic baselines, demonstrating improved robustness and coordination in multi-turn interaction. Beyond performance, we introduce and release three hierarchical benchmark datasets, filling a long-standing gap in training and evaluating hierarchical decision-making for LLM-based agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/park26h/park26h.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pei26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pei26a.html",
+        "title": "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning",
+        "authors": [
+          "Zhengqi Pei",
+          "Qingming Huang",
+          "Shuhui Wang"
+        ],
+        "abstract": "Chain-of-Thought (CoT) improves large language models (LLMs) on difficult reasoning tasks, but it often incurs long natural-language rationales that are poorly aligned with efficient machine reasoning. We propose Communicative Language Symbolism Routing (CLSR), a test-time framework in which multiple LLM agents autonomously invent, evolve, and share compact Language Symbolism Frameworks (LSFs), while a latent-free router adaptively selects and composes these languages per query to optimize the accuracy–token trade-off. Unlike prompt optimization that refines surface instructions, CLSR treats each LSF as a reusable symbolic protocol with compact symbols, usage rules, and a message-passing contract, and improves it through an evolutionary loop driven by correctness and token cost. At inference time, the router may invoke a single low-cost LSF call, ensemble multiple LSFs, or execute a multi-round LSF composition protocol on harder queries. Across challenging benchmarks, CLSR reduces latency-oriented generated token completion by $3\\sim 6\\times$ compared to standard CoT while maintaining accuracy. We further derive an information-theoretic lower bound on token cost under arbitrary symbolism and show that, under an interpreter-realizability premise, multi-round LSF protocols conditionally subsume program-execution pipelines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pei26a/pei26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/pzqpzq/LSF_MDia",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pei26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pei26d.html",
+        "title": "Great Minds Think Alike: Contextual Tacit Communication for Decentralized LLM-Agent Cooperation",
+        "authors": [
+          "Yue Pei",
+          "Hongming Zhang",
+          "Jiarui Guan",
+          "Jusheng Zhang",
+          "Liang Lin",
+          "Haogang Zhu",
+          "Ziliang Chen"
+        ],
+        "abstract": "Large language models (LLMs) are increasingly used as planners for cooperative embodied agents, but multi-agent settings amplify inconsistency under partial observability and make explicit communication costly or even unavailable. Many existing approaches rely on online message passing; when communication is removed, agents often fall back to independent local planning that suffers from miscoordination. We introduce Contextual Tacit Communication, a gradient-free protocol that aligns decentralized decisions with a joint LLM value score without explicit message actions. Our method measures context-conditioned value rectifications via residual banding to pinpoint miscoordination actions and amortizes the resulting coordination signals into a retrieval-augmented Tacit Rule Memory that provides prompt-level cooperation rules at execution time. Experiments on VIKI, C-WAH, and TDW-MAT show that our approach improves cooperation performance over baselines while reducing runtime overhead compared with communication-based methods.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pei26d/pei26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/peng26f.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/peng26f.html",
+        "title": "TACTIC: Task-Aware Sparse Coordination Graphs for Multi-Task Multi-agent Reinforcement Learning",
+        "authors": [
+          "Kexing Peng",
+          "Pengyi Li",
+          "Tinghuai Ma",
+          "Jianye Hao"
+        ],
+        "abstract": "Value factorization eases non-stationarity in MARL, but its static coordination assumptions hinder generalization on long-horizon tasks with shifting dependencies. Prior VQ-VAE methods abstract trajectories yet miss time-varying inter-agent dependencies. We present TACTIC, a CTDE framework with three components: (i) VQ-VAE-based trajectory abstraction that learns discrete task-semantic classes; (ii) semantic-conditioned sparse coordination graphs that adapt dependencies by pruning edges according to variance-based pairwise payoff sensitivity; and (iii) a pretrained, frozen trajectory-class predictor that conditions local policies while decoupling task recognition from control. On SMAC and SUMO, TACTIC shows strong overall competitiveness and adaptive coordination under sparse rewards and dynamic task structures.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/peng26f/peng26f.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/peng26h.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/peng26h.html",
+        "title": "HiPER: Hierarchical Plan–Execute RL for Multi-Turn LLM Agents",
+        "authors": [
+          "Jiangweizhi Peng",
+          "Yuanxin Liu",
+          "Ruida Zhou",
+          "Charles Fleming",
+          "Zhaoran Wang",
+          "Alfredo Garcia",
+          "Mingyi Hong"
+        ],
+        "abstract": "Training LLMs as interactive agents for multi-turn decision-making remains challenging, particularly in long-horizon tasks with sparse and delayed rewards, where agents must execute extended sequences of actions before receiving meaningful feedback. Most existing reinforcement learning (RL) methods model LLM agents as flat policies operating at a single time scale, selecting an action at each turn. In sparse-reward settings, this forces the agent to infer long-range dependencies solely from distant end-of-trajectory signals, often leading to inefficient learning and unstable behavior in complex environments. We propose HiPER , a novel Hi erarchical P lan– E xecute R L framework that jointly models and optimizes high-level subgoal planning and low-level action execution for LLM agents to overcome flat RL’s brittle long-horizon behavior and weak credit assignment under sparse outcome feedback. By maintaining persistent subgoals across multiple turns and explicitly deciding when to switch between them, HiPER introduces structured intermediate decision points that facilitate learning under sparse feedback, converting implicit multi-turn structure into learnable decisions at different time scales. To enable effective training, we introduce Hierarchical Advantage Estimation (HAE), a two-timescale policy gradient method that assigns credit to both action execution and subgoal transitions and achieves variance reduction relative to flat advantage estimation. Empirically, HiPER achieves state-of-the-art performance on challenging interactive benchmarks, reaching 97.4% success on ALFWorld (+6.6% over the best prior method) and 83.3% on WebShop, with especially large gains on long-horizon tasks requiring multiple dependent subtasks. These results highlight the importance of explicit hierarchical decomposition for scalable RL training of multi-turn LLM agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/peng26h/peng26h.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/JonP07/HiPER-agent",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pfaff26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pfaff26a.html",
+        "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+        "authors": [
+          "Nicholas Pfaff",
+          "Thomas Cohn",
+          "Sergey Zakharov",
+          "Rick Cory",
+          "Russ Tedrake"
+        ],
+        "abstract": "Simulation has become a key tool for training and evaluating home robots at scale, yet existing environments fail to capture the diversity and physical complexity of real indoor spaces. Current scene synthesis methods produce sparsely furnished rooms that lack the dense clutter, articulated furniture, and physical properties essential for robotic manipulation. We introduce SceneSmith, a hierarchical agentic framework that generates simulation-ready indoor environments from natural language prompts. SceneSmith constructs scenes through successive stages—from architectural layout to furniture placement to small object population—each implemented as an interaction among VLM agents: designer, critic, and orchestrator. The framework tightly integrates asset generation through text-to-3D synthesis for static objects, dataset retrieval for articulated objects, and physical property estimation. SceneSmith generates 3-6x more objects than prior methods, with $<$2% inter-object collisions and 96% of objects remaining stable under physics simulation. In a user study with 205 participants, it achieves 92% average realism and 91% average prompt faithfulness win rates against baselines. We further demonstrate that these environments can be used in an end-to-end pipeline for automatic robot policy evaluation.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pfaff26a/pfaff26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/nepfaff/scenesmith",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pitre26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pitre26a.html",
+        "title": "A Diagnostic Study of Multi-Agent LLMs for Real-World Debates",
+        "authors": [
+          "Priya Pitre",
+          "Gaurav Srivastava",
+          "Lu Zhang",
+          "Le Wang",
+          "Naren Ramakrishnan",
+          "Xuan Wang"
+        ],
+        "abstract": "Multi-agent LLM debates are increasingly used in domains such as policy, politics, and city planning, where ground truth is often unavailable. Yet existing evaluations rely heavily on outcome-based proxies such as consensus, majority vote, or LLM-as-judge scores, which can miss failures like sycophancy, domination, and premature convergence. We introduce a diagnostic framework that evaluates both debate outcomes and the deliberative process using interpretable metrics for engagement, responsiveness, influence asymmetry, balance, stability, and agent utility. Across real-world debate settings and validation benchmarks, our process-level diagnostics align more closely with human judgments and reveal interaction failures that standard outcome-only measures overlook. These results show that reliable evaluation of multi-agent debates requires measuring not only what answer agents reach, but how they reach it.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pitre26a/pitre26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/potter26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/potter26b.html",
+        "title": "Representational Similarity and Model Behavior in Multi-Agent Interaction",
+        "authors": [
+          "Yujin Potter",
+          "Seun Eisape",
+          "Shiyang Lai",
+          "Alexander Huth",
+          "James Evans",
+          "Been Kim",
+          "Jacob Eisenstein",
+          "Dawn Song",
+          "Alane Suhr"
+        ],
+        "abstract": "Researchers have shown that neural similarity among humans predicts social closeness and cooperative success, whereas innovation often emerges from interactions among dissimilar individuals. We investigate whether these principles extend to artificial intelligence by examining interactions between large language models. In our experiments, 276 model pairs interact across eight games spanning both cooperation and novelty. We find that pairs with more similar representation spaces achieve significantly higher cooperation but exhibit reduced novelty and creativity. The effects of representational similarity on cooperation and novelty remain robust even after controlling for other factors such as performance disparity and model size. We also find that similarity in the early layers consistently shows the strongest association with cooperation and novelty, compared to the middle and later layers. This suggests that a central factor underlying these patterns could be the extent to which the two models share lexical and semantic grounding. Overall, representational similarity can be an important consideration in multi-agent system design.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/potter26b/potter26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/sunblaze-ucb/similarity_interaction",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/pu26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/pu26a.html",
+        "title": "Principle-Evolvable Scientific Discovery via Uncertainty Minimization",
+        "authors": [
+          "Yingming Pu",
+          "Tao Lin",
+          "Hongyu Chen"
+        ],
+        "abstract": "Large Language Model (LLM)-based scientific agents have accelerated scientific discovery, yet they often suffer from significant inefficiencies due to adherence to fixed initial priors. Existing approaches predominantly operate within a static hypothesis space, which restricts the discovery of novel phenomena, resulting in computational waste when baseline theories fail. To address this, we propose shifting the focus from searching hypotheses to evolving the underlying scientific principles. We present $\\textbf{PiEvo}$, a principle-evolvable framework that treats scientific discovery as Bayesian optimization over an expanding principle space. By integrating Information-Directed Hypothesis Selection via Gaussian Process and an anomaly-driven augmentation mechanism, PiEvo enables agents to autonomously refine their theoretical worldview. Evaluation across four benchmarks demonstrates that PiEvo (1) achieves an average solution quality of up to 90.81%$\\sim$93.15%, representing a 29.7%$\\sim$31.1% improvement over the state-of-the-art, (2) attains an 83.3% speedup in convergence step via significantly reduced sample complexity by optimizing the compact principle space, and (3) maintains robust performance across diverse scientific domains and LLM backbones. Code is publicly available at github.com/amair-lab/PiEvo.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pu26a/pu26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/amair-lab/PiEvo",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qiao26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qiao26a.html",
+        "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+        "authors": [
+          "Dan Qiao",
+          "Binbin Chen",
+          "Fengyu Cai",
+          "Jianlong Chen",
+          "Wenhao Li",
+          "Fuxin Jiang",
+          "Zuzhi Chen",
+          "Hongyuan Zha",
+          "Tieying Zhang",
+          "Baoxiang Wang"
+        ],
+        "abstract": "Multi-Agent Debate (MAD) has shown promise in improving reasoning and reducing hallucinations, yet it remains unclear how information exchange shapes individual reasoning behavior. Empirically, MAD exhibits paradoxical phenomena, including rising accuracy with increasing token entropy and marked differences between homogeneous and heterogeneous agent combinations. In this paper, we introduce a Bayesian uncertainty analysis framework for MAD, which decomposes answer-level predictive uncertainty into epistemic uncertainty and aleatoric uncertainty, corresponding to the potential gain and cost of debate. Across multiple agent configurations, we find that effective debate depends on achieving high epistemic gain under controlled aleatoric cost. Building on this insight, we design an uncertainty-guided multi-agent reinforcement learning algorithm that encourages lower aleatoric cost and more effective epistemic information utilization. Experiments show that our approach simultaneously enhances each agent’s accuracy and promotes a more productive debate process, providing an operational Bayesian perspective for understanding and improving MAD.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26a/qiao26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/qiaodan-cuhk/UMAD",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qiao26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qiao26d.html",
+        "title": "Offline Multi-Agent Reinforcement Learning via Sequential Score Decomposition",
+        "authors": [
+          "Dan Qiao",
+          "Wenhao Li",
+          "Shanchao Yang",
+          "Hongyuan Zha",
+          "Baoxiang Wang"
+        ],
+        "abstract": "Offline cooperative multi-agent reinforcement learning (MARL) faces unique challenges due to the distribution shift between online and offline data collection. While online MARL typically converges to a single coordinated joint policy, offline datasets are often mixtures of diverse cooperative behaviors, resulting in highly multimodal joint behavior distributions. In such settings, independent policy regularization often misaligns joint policy constraints and leads to severe distribution shift. To address this, we propose OMSD, which sequentially decomposes the joint behavior policy into individual conditional distributions and leverages diffusion-based generative models to provide modality-coordinated regularization for each agent. Combined with centralized critic guidance, OMSD achieves coordinated exploration within high-value, in-distribution regions, and avoids out-of-distribution joint actions. Experiments across multiple datasets on various continuous control tasks demonstrate that OMSD consistently achieves state-of-the-art performance, especially in challenging multimodal scenarios. Our results highlight the necessity of modality-aware coordination for robust offline MARL.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26d/qiao26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/qiaodan-cuhk/OMSD",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qin26m.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qin26m.html",
+        "title": "Executable Agentic Memory for GUI Agent",
+        "authors": [
+          "Zerui Qin",
+          "Sheng Yue",
+          "Xingyuan Hua",
+          "Yongjian Fu",
+          "Ju Ren"
+        ],
+        "abstract": "Modern GUI agents typically rely on a model-centric and step-wise interaction paradigm, where LLMs must re-interpret the UI and re-decide actions at every screen, which is fragile in long-horizon tasks. In this paper, we propose Executable Agentic Memory (EAM), a structured Knowledge Graph (KG) that shifts GUI planning from free-form generation to a robust retrieval-and-execution process. Our approach includes a sample-efficient memory construction pipeline using state-aware DFS and action-group mining to compress multi-step routines. To ensure efficient planning, we introduce a value-guided graph search where a lightweight Q-function model steers Monte Carlo Tree Search (MCTS) over the KG. We theoretically establish bias-consistency for the Q-model and derive sample complexity bounds for path recovery. Empirically, EAM outperforms state-of-the-art baselines like UI-TARS-7B by up to $19.6%$ on AndroidWorld, while reducing token costs $6\\times$ relative to GPT-4o. With a $2.8$s average latency, EAM enables reliable, quick, and long-horizon GUI automation.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qin26m/qin26m.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qiu26c.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qiu26c.html",
+        "title": "Debate2Create: Robot Co-design via Multi-Agent LLM Debate",
+        "authors": [
+          "Kevin Qiu",
+          "Marek Cygan"
+        ],
+        "abstract": "We introduce Debate2Create (D2C), a multi-agent LLM framework that formulates robot co-design as structured, iterative debate grounded in physics-based evaluation. A design agent and control agent engage in a thesis-antithesis-synthesis loop, while criterion-specific LLM judges provide multi-objective feedback to steer exploration. Across five MuJoCo locomotion benchmarks, D2C achieves the highest default-normalized score among the evaluated LLM-based and black-box baselines, with gains up to 3.2x on Ant and nearly 9x on Swimmer. Iterative debate yields 18-35% gains over compute-matched zero-shot generation, and D2C-generated rewards transfer to default morphologies in 4/5 tasks. These results suggest that structured, simulator-grounded multi-agent interaction is a useful mechanism for joint morphology-reward optimization under a fixed-topology, per-candidate-RL protocol. Project page: debate2create.github.io.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiu26c/qiu26c.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/kevinxqiu/debate2create",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qiu26v.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qiu26v.html",
+        "title": "VideoSEAL: Mitigating Evidence Misalignment in Agentic Long Video Understanding by Decoupling Answer Authority",
+        "authors": [
+          "Chenhao Qiu",
+          "Yechao Zhang",
+          "Xin Luo",
+          "Shien Song",
+          "Xusheng Liu"
+        ],
+        "abstract": "Long video question answering requires locating sparse, time-scattered visual evidence within highly redundant content. Although current MLLMs perform well on short videos, long videos introduce long-horizon search and verification, which often necessitates multi-turn, agentic interaction. We show that existing LVU agents can exhibit evidence misalignment: they produce correct answers that are not supported by the retrieved or inspected evidence. To characterize this failure, we introduce two diagnostics, temporal groundedness and semantic groundedness, and use them to reveal two pressures that amplify misalignment: prompt pressure from shared-context saturation at inference time and reward pressure from outcome-only optimization during training. These findings point to a structural root cause: the coupled agent paradigm conflates long-horizon planning with answer authority. We therefore propose the decoupled planner–inspector framework, which separates planning from answer authority and gates final answering on pixel-level verification. Across four long-video benchmarks, our framework improves both answer accuracy and evidence alignment, achieving 55.1% on LVBench and 62.0% on LongVideoBench while producing interpretable search trajectories. Moreover, the decoupled architecture scales consistently with increased search budgets and supports plug-and-play upgrades of the MLLM backbone without retraining the planner. Code and models are available at https://github.com/Echochef/VideoSEAL.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiu26v/qiu26v.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Echochef/VideoSEAL",
+          "https://github.com/Echochef/VideoSEAL",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/qu26h.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/qu26h.html",
+        "title": "Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation",
+        "authors": [
+          "Heng Qu",
+          "Liu Yike",
+          "Renren Jin",
+          "Wenzong Zhang",
+          "Pengzhi Gao",
+          "Wei Liu",
+          "Jian Luan"
+        ],
+        "abstract": "Vision–Language Models (VLMs) have shown rapid progress in mobile GUI navigation. This paper presents a systematic study of data scaling, benchmarking, and reasoning for VLM-based agents in this domain. To facilitate rigorous evaluation, we introduce HyperTrack, a large-scale dataset with over 16000 real-world tasks across more than 650 Chinese mobile applications, along with GUIEvalKit, an open-source toolkit for unified benchmarking of VLMs on offline GUI navigation tasks. Using HyperTrack, we analyze the effects of training data scale on both supervised and reinforcement-based finetuning. Our results show that reinforcement-based finetuning consistently outperforms supervised finetuning, particularly in out-of-domain settings, highlighting the synergy between data scaling and reinforcement learning. Leveraging GUIEvalKit, we further benchmark state-of-the-art (SOTA) VLMs and analyze how interaction history and reasoning capabilities influence task completion. Together, HyperTrack and GUIEvalKit provide a comprehensive platform for developing and evaluating VLM agents in mobile GUI navigation tasks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qu26h/qu26h.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/rafieioskouei26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/rafieioskouei26a.html",
+        "title": "HyPOLE: Hyperproperty-Guided Multi-Agent Reinforcement Learning under Partial Observation",
+        "authors": [
+          "Arshia Rafieioskouei",
+          "Tzu-Han Hsu",
+          "Matthew Lucas",
+          "Borzoo Bonakdarpour"
+        ],
+        "abstract": "Formal specification is a powerful tool to guide the learning process and provides significant advantages over reward shaping: (1) mathematical rigor; (2) expressiveness to specify objectives and constraints, and (3) the ability to define tactics to achieve objectives. However, these benefits remain largely unexplored in the context of Multi-Agent Reinforcement Learning (MARL). This paper introduces HyPOLE, a novel framework for MARL under partial observability, where learning is guided by the expressive power of the so-called hyperproperties and, in particular, the temporal logic HyperLTL. We integrate Centralized Training for Decentralized Execution (CTDE) techniques with HyPOLE to synthesize decentralized policies, and our evaluation on SMAC, MessySMAC, and WildFire benchmark demonstrates clear advantages over baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/rafieioskouei26a/rafieioskouei26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/rank26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/rank26a.html",
+        "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+        "authors": [
+          "Ben Rank",
+          "Hardik Bhatnagar",
+          "Ameya Prabhu",
+          "Shira Eisenberg",
+          "Karina Nguyen",
+          "Matthias Bethge",
+          "Maksym Andriushchenko"
+        ],
+        "abstract": "AI agents have become surprisingly proficient at software engineering over the past year, largely due to improvements in reasoning capabilities. This raises a deeper question: can these systems extend their capabilities to automate AI research itself? We introduce PostTrainBench to benchmark how well LLM agents can perform post-training autonomously under bounded compute constraints (10 hours on one H100 GPU). We ask frontier agents (e.g., Claude Code with Opus 4.6) to optimize the performance of a base LLM on a particular benchmark (e.g., Qwen3-4B on AIME). Importantly, we do not provide any predefined strategies to the agents and instead give them full autonomy to find necessary information on the web, run experiments, and curate data. We find that frontier agents make substantial progress but generally lag behind official instruction-tuned LLMs: 27.9% for the best agent vs. 51.1% for official instruction-tuned models. However, agents can exceed instruction-tuned models in targeted scenarios: GPT-5.1 Codex Max achieves 89% on BFCL with Gemma-3-4B vs. 67% for the official model. We also observe failure modes: agents engage in reward hacking by training on the test set, downloading existing instruction-tuned checkpoints, or using found API keys to generate synthetic data without authorization. Overall, we hope PostTrainBench will be useful for tracking progress in AI R&D automation and for studying the risks that come with it.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/rank26a/rank26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/aisa-group/PostTrainBench",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/rashwan26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/rashwan26a.html",
+        "title": "Factored Value Functions for Graph-Based Multi-Agent Reinforcement Learning",
+        "authors": [
+          "Ahmed Rashwan",
+          "Keith Briggs",
+          "Chris Budd",
+          "Lisa Maria Kreusser"
+        ],
+        "abstract": "Credit assignment is a core challenge in multi-agent reinforcement learning (MARL), especially in large-scale systems with structured, local interactions. Graph-based Markov decision processes (GMDPs) capture such settings via an influence graph, but standard critics are poorly aligned with this structure: global value functions provide weak per-agent learning signals, while existing local constructions can be difficult to estimate and ill-behaved in infinite-horizon settings. We introduce the Diffusion Value Function (DVF), a factored value function for GMDPs that assigns to each agent a value component by diffusing rewards over the influence graph with temporal discounting and spatial attenuation. We show that DVF is well-defined, admits a Bellman fixed point, and decomposes the global discounted value via an averaging property. DVF can be used as a drop-in critic in standard RL algorithms and estimated scalably with graph neural networks. Building on DVF, we propose Diffusion A2C (DA2C) and a sparse message-passing actor, Learned DropEdge GNN (LD-GNN), for learning decentralised algorithms under communication costs. Across the firefighting benchmark and three distributed computation tasks (vector graph colouring and two transmit power optimisation problems), DA2C consistently outperforms local and global critic baselines, improving average reward by up to 11%.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/rashwan26a/rashwan26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/ruan26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/ruan26e.html",
+        "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+        "authors": [
+          "Jianhao Ruan",
+          "Zhihao Xu",
+          "Yiran Peng",
+          "Fashen Ren",
+          "Zhaoyang Yu",
+          "Xinbing Liang",
+          "Jinyu Xiang",
+          "Yongru Chen",
+          "Bang Liu",
+          "Chenglin Wu",
+          "Yuyu Luo",
+          "Jiayi Zhang"
+        ],
+        "abstract": "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a subagent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability: sub-agents are either context-isolated threads that lack specialization, or static roles that require human-engineering. We address this challenge with a unified, framework-agnostic agent abstraction that models any agent as a tuple (Model, Task, Tools, Context). This tuple acts as a compositional recipe for capabilities, enabling the system to spawn specialized executors for each task on demand. Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step: it curates task-relevant context, selects tools and models, and delegates execution via on-the-fly automatic agent creation. Such designs enable reducing human engineering efforts, and remain framework-agnostic with plug-and-play support for diverse agents as task executors. It also enables a controllable performance–cost trade-off, allowing the system to approach Pareto-efficient. Across three challenging benchmarks and environments (GAIA, SWE-Bench, Terminal-Bench), AOrchestra achieves 16.28% relative improvement against the strongest baseline when paired with Gemini-3-Flash.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ruan26e/ruan26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/FoundationAgents/AOrchestra",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/saveliev26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/saveliev26a.html",
+        "title": "Influence-Guided Symbolic Regression: Scientific Discovery via LLM-Driven Equation Search with Granular Feedback",
+        "authors": [
+          "Evgeny Saveliev",
+          "Samuel Holt",
+          "Nabeel Seedat",
+          "David L. Bentley",
+          "Jim Weatherall",
+          "Mihaela Van Der Schaar"
+        ],
+        "abstract": "Large Language Models (LLMs) offer a promising avenue for scientific discovery, yet their application to symbolic regression is often constrained by inefficient search strategies and coarse feedback signals. Current methods typically guide LLMs using scalar metrics (e.g., global Mean Squared Error), which fail to identify which components of a proposed equation are driving performance or causing error. We introduce Influence-Guided Symbolic Regression (IGSR), a method that frames equation discovery as an iterative two-step process combining diverse term generation with rigorous selection: an LLM generates candidate basis functions $\\psi_j(\\mathbf{x})$ for a linear model, which are then evaluated using granular influence scores $\\Delta_j$. These scores quantify each term’s marginal contribution to generalization accuracy, enabling an influence-guided pruning process that systematically refines the model structure. Integrating this mechanism into a Monte Carlo Tree Search (MCTS) enables navigating the combinatorial search space while balancing exploration of novel functional forms with exploitation of high-influence components. We demonstrate IGSR’s effectiveness on a diverse suite of benchmarks, including LLM-SRBench, pharmacological PKPD models, an epidemiological simulation, and real-world genomic data. Notably, we validate the framework’s capacity for genuine discovery in a case study using a high-dimensional biological dataset, in which IGSR identified a novel relationship between DNA methylation and RNA Polymerase II pausing; a hypothesis that was subsequently supported via wet-lab experimentation.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/saveliev26a/saveliev26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/DrShushen/IGSR",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/seely26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/seely26a.html",
+        "title": "Learning Multi-Agent Coordination via Sheaf-ADMM",
+        "authors": [
+          "Jeffrey Seely",
+          "Bartłomiej Cupiał",
+          "Llion Jones"
+        ],
+        "abstract": "We present a differentiable optimization framework for multi-agent coordination. An input is decomposed into overlapping local views, each processed by an agent that solves a convex subproblem parameterized by a neural encoder. Agents coordinate through the Alternating Direction Method of Multipliers (ADMM) with inter-agent constraints specified by a cellular sheaf. The sheaf specifies which aspects of neighboring solutions must agree, allowing for heterogeneous notions of global consensus. Backpropagating through the unrolled optimization jointly trains all components of the multi-agent system. We evaluate on maze pathfinding, image classification, and Sudoku, where agents with individually insufficient local views learn to coordinate to produce correct global outputs. On MNIST, the local-view decomposition yields improved robustness to distribution shifts relative to a standard CNN. On Sudoku, the optimization-derived structure yields markedly higher solve rates than parameter-matched MPNN baselines. Finally, the ADMM structure exposes distinct primal, consensus, and dual state variables, opening the coordination dynamics to direct analysis and intervention—a property unavailable in standard message-passing architectures.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/seely26a/seely26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sehgal26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sehgal26a.html",
+        "title": "FormulaCode: Evaluating Agentic Optimization on Large Codebases",
+        "authors": [
+          "Atharva Sehgal",
+          "James Hou",
+          "Akanksha Sarkar",
+          "Ishaan Mantripragada",
+          "Swarat Chaudhuri",
+          "Jennifer J. Sun",
+          "Yisong Yue"
+        ],
+        "abstract": "Large language model (LLM) coding agents increasingly operate at the repository level, motivating benchmarks that evaluate their ability to optimize entire codebases under realistic constraints. Existing code benchmarks largely rely on synthetic tasks, binary correctness signals, or single-objective evaluation, limiting their ability to assess holistic optimization behavior. We introduce FormulaCode, a benchmark for evaluating agentic optimization on large, real-world codebases with fine-grained, multi-objective performance metrics. FormulaCode comprises 957 performance bottlenecks mined from scientific Python repositories on GitHub, each paired with expert-authored patches and 264.6 community-maintained performance workloads per task, enabling evaluation of the full optimization lifecycle—triage, diagnosis, and resolution—under realistic correctness and performance constraints. Our evaluations reveal that repository-scale, multi-objective optimization remains a major challenge for frontier LLM agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sehgal26a/sehgal26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/formula-code/fc-eval",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/seo26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/seo26a.html",
+        "title": "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning",
+        "authors": [
+          "Wonduk Seo",
+          "Wonseok Choi",
+          "Junseo Koh",
+          "Juhyeon Lee",
+          "Hyunjin An",
+          "Minhyeong Yu",
+          "Jian Park",
+          "Qingshan Zhou",
+          "Seunghyun Lee",
+          "Yi Bu"
+        ],
+        "abstract": "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided Multi-Agent Reasoning framework. OG-MAR summarizes respondent-specific values from the World Values Survey (WVS) and constructs a global cultural ontology by eliciting relations over a fixed taxonomy via competency questions. At inference time, it retrieves ontology-consistent relations and demographically similar profiles to instantiate multiple value-persona agents, whose outputs are synthesized by a judgment agent that enforces ontology consistency and demographic proximity. Experiments on regional social-survey benchmarks across four LLM backbones show that OG-MAR improves cultural alignment and robustness over competitive baselines, while producing more transparent reasoning traces.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/seo26a/seo26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shan26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shan26e.html",
+        "title": "Position: Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents",
+        "authors": [
+          "Rong Shan",
+          "Te Gao",
+          "Hang Zheng",
+          "Yunjia Xi",
+          "Jiachen Zhu",
+          "Zeyu Zheng",
+          "Yong Yu",
+          "Weinan Zhang",
+          "Jianghao Lin"
+        ],
+        "abstract": "The implicit policy of maintaining relatively stable acceptance rates at top AI conferences, despite exponentially growing submissions, introduces a critical structural vulnerability. This position paper characterizes a new systemic threat we term Agentic Denominator Gaming , in which a malicious actor deploys AI agents to generate and submit a large volume of superficially plausible but low-quality papers. Crucially, their objective is not the acceptance of low-quality papers, but rather to inflate the submission denominator and overwhelm reviewing capacity. Under a relatively stable acceptance rate, this dilution can systematically increase the publication probability of a small, targeted set of legitimate papers. We analyze the practical feasibility of this threat and its broader consequences, including intensified reviewer burnout, degraded review quality, and the emergence of industrialized automated agent mills . Finally, we propose and evaluate a range of mitigation strategies, and argue that durable protection will require system-level policy and incentive reforms, rather than relying primarily on technical detection alone.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shan26e/shan26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shao26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shao26a.html",
+        "title": "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research",
+        "authors": [
+          "Rulin Shao",
+          "Akari Asai",
+          "Shannon Zejiang Shen",
+          "Hamish Ivison",
+          "Varsha Kishore",
+          "Jingming Zhuo",
+          "Xinran Zhao",
+          "Molly Park",
+          "Samuel G. Finlayson",
+          "David Sontag",
+          "Tyler Murray",
+          "Sewon Min",
+          "Pradeep Dasigi",
+          "Luca Soldaini",
+          "Faeze Brahman",
+          "Wen-Tau Yih",
+          "Tongshuang Wu",
+          "Luke Zettlemoyer",
+          "Yoon Kim",
+          "Hannaneh Hajishirzi",
+          "Pang Wei Koh"
+        ],
+        "abstract": "Deep research agents perform multi-step research to produce long-form, well-attributed answers. However, most open deep research agents are trained on easily verifiable short-form QA tasks via reinforcement learning with verifiable rewards, which does not extend to realistic long-form tasks. We address this with Reinforcement Learning with Evolving Rubrics (RLER), where rubrics are constructed and maintained to co-evolve with the policy model during training. This allows the rubrics to incorporate newly explored information from search and contrasting model responses, enabling better fact checking and more discriminative on-policy feedback. Using RLER, we develop Deep Research Tulu (DR Tulu-8B), the first fully open model that is directly trained for open-ended, long-form deep research. Across four long-form deep research benchmarks in science, healthcare, and general domains, DR Tulu-8B substantially outperforms existing open deep research agents (by 15.6% over Tongyi DR on average) and matches or exceeds proprietary deep research agents (by 0.7% over OpenAI DR on average), while being significantly smaller and cheaper per query (1000x cheaper than OpenAI DR per query).",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shao26a/shao26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/rlresearch/dr-tulu",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shao26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shao26e.html",
+        "title": "MonoScale: Scaling Multi-Agent System with Monotonic Improvement",
+        "authors": [
+          "Shuai Shao",
+          "Yixiang Liu",
+          "Bingwei Lu",
+          "Weinan Zhang"
+        ],
+        "abstract": "In recent years, LLM-based multi-agent systems (MAS) have advanced rapidly, using a router to decompose tasks and delegate subtasks to specialized agents. A natural way to expand capability is to scale up the agent pool by continually integrating new functional agents or tool interfaces, but naive expansion can trigger performance collapse when the router cold-starts on newly added, heterogeneous, and unreliable agents. We propose MonoScale, an expansion-aware update framework that proactively generates a small set of agent-conditioned familiarization tasks, harvests evidence from both successful and failed interactions, and distills it into auditable natural-language memory to guide future routing. We formalize sequential augmentation as a contextual bandit and perform trust-region memory updates, yielding a monotonic non-decreasing performance guarantee across onboarding rounds under a non-interfering expansion assumption. Experiments on GAIA and Humanity’s Last Exam show stable gains as the agent pool grows, outperforming naive scale-up and strong-router fixed-pool baselines. Our code is available here.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shao26e/shao26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shao26h.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shao26h.html",
+        "title": "SciNet: Evaluating AI Agents in Relation-Aware Scientific Literature Retrieval",
+        "authors": [
+          "Chenyang Shao",
+          "Fengli Xu",
+          "Yong Li"
+        ],
+        "abstract": "AI agents have seen widespread adoption in information retrieval for scientific research, giving rise to tools such as Deep Research. However, existing retrieval agents mainly rely on keyword- or embedding-based methods. While effective at capturing content-level similarities, they struggle to understand complex relational networks among scientific papers, such as identifying corroborating or conflicting studies and tracing technological lineages. This fundamental limitation often results in fragmented knowledge structures, misinterpreted research sentiment, and ineffective modeling of collective scientific progress. To address this limitation, we introduce SciNet , the first Sci entific Net work relation-aware dataset for information retrieval agents. Built on a meta-database of 269 million papers across 7 disciplines and containing 8,940 carefully designed tasks, SciNet systematically captures three levels of relational understanding: ego-centric retrieval of papers with novel knowledge structures, pairwise identification of scholarly relationships, and path-wise reconstruction of scientific evolution. Extensive evaluation of three categories of retrieval agents shows that their accuracy on relation-aware tasks often falls below 20%, highlighting a fundamental shortcoming of current retrieval paradigms. Importantly, in a downstream literature review application, agents empowered with SciNet achieve a 25.3% improvement in review quality, highlighting the critical value of relation-aware retrieval for deepening scientific insights. We publicly release SciNet at https://github.com/tsinghua-fib-lab/SciNet to support future research.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shao26h/shao26h.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/tsinghua-fib-lab/SciNet",
+          "https://github.com/tsinghua-fib-lab/SciNet",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shao26i.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shao26i.html",
+        "title": "Lifting Traces to Logic: Programmatic Skill Induction with Neuro-Symbolic Learning for Long-Horizon Agentic Tasks",
+        "authors": [
+          "Jie-Jing Shao",
+          "Haiyan Yin",
+          "Yueming Lyu",
+          "Xingrui Yu",
+          "Lan-Zhe Guo",
+          "Ivor Tsang",
+          "James Kwok",
+          "Yu-Feng Li"
+        ],
+        "abstract": "Foundation model-driven agents often struggle with long-horizon planning due to the transient nature of purely prompting-based reasoning. While existing skill induction methods mitigate this by distilling experience into state-blind parameterized scripts, they fail to capture the conditional logic required for robust execution in dynamic environments. In this paper, we propose Neuro-Symbolic Skill Induction (NSI), a framework that lifts interaction traces into modular, logic-grounded programs. By synthesizing explicit control flows and dynamic variable binding, NSI empowers agents to discover when and why to act. This paradigm enables the efficient generalization, allowing agents to induce skills from few-shot examples and flexibly adapt to unseen goals. Experiments on a series of agentic tasks demonstrate that NSI consistently outperforms state-of-the-art baselines, empowering agents to self-evolve into architects of logic-grounded skills. Project Page: https://sh-jj.github.io/NSI.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shao26i/shao26i.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sharma26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sharma26d.html",
+        "title": "Position: When AI Decides Who Gets an Organ: Multi-Agentic AI Systems in Transplant Medicine Risk Amplifying Disparities Without Targeted Explainability and Deployment Strategies",
+        "authors": [
+          "Divya Sharma",
+          "Ghazal Azarfar",
+          "Bima J. Hasjim",
+          "Mamatha Bhat"
+        ],
+        "abstract": "Agentic AI systems particularly those built on large language models (LLMs) and deployed as autonomous, role-specialized agents are rapidly emerging in clinical decision-making. This position paper argues that without equity and explainability as core design constraints, such systems will exacerbate healthcare disparities. Using empirical evidence from a multi-agent simulation of a liver transplant selection committee, we demonstrate that even high-performing agents can systematically disadvantage patients based on sex, ethnicity, and socioeconomic status. These disparities arise from agents’ reliance on non-clinical proxy variables (insurance type, education level, area deprivation index) and are compounded by the lack of case-level explanations and temporally grounded reasoning. We further contend that without fairness-aware deployment strategies, such systems cannot be reliably audited or ethically integrated into real-world care. In response, we propose a technical roadmap with subgroup-sensitive learning objectives, counterfactual reasoning modules, clinician-in-the-loop governance, and deployment protocols that address the digital divide. We urge the machine learning community to center explainability and health equity in the development and deployment of agentic AI for medicine especially in high-stakes domains where algorithmic decisions may determine who lives and who does not.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sharma26d/sharma26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/gazarfar/Liver-Transplant-AI-Agent-Committee/tree/main",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sharma26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sharma26e.html",
+        "title": "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems",
+        "authors": [
+          "Rishi Sharma",
+          "Martijn De Vos",
+          "Pradyumna Chari",
+          "Ramesh Raskar",
+          "Anne-Marie Kermarrec"
+        ],
+        "abstract": "Collaborative agentic AI is projected to transform entire industries by enabling AI-powered agents to autonomously perceive, plan, and act within digital environments. Yet, current solutions in this field are all built in isolation, and we are rapidly heading toward a landscape of fragmented, incompatible ecosystems. In this position paper, we argue that interoperability, achieved by the adoption of minimal standards, is essential to ensure open, secure, web-scale, and widely-adopted agentic ecosystems. To this end, we devise a minimal architectural foundation for collaborative agentic AI, named Web of Agents, which is composed of four components: agent-to-agent messaging, interaction interoperability, state management, and agent discovery. Web of Agents adopts existing standards and reuses existing infrastructure where possible. With Web of Agents, we take a first but critical step toward interoperable agentic systems and offer a pragmatic path forward before ecosystem fragmentation becomes the norm.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sharma26e/sharma26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/sacs-epfl/web-of-agents",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sheth26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sheth26a.html",
+        "title": "Position: Safety Must Precede the Deployment of Open-Ended AI Agents",
+        "authors": [
+          "Ivaxi Sheth",
+          "Jan Wehner",
+          "Sahar Abdelnabi",
+          "Ruta Binkyte",
+          "Mario Fritz"
+        ],
+        "abstract": "AI advancements have been significantly driven by a combination of foundation models and curiosity-driven learning aimed at increasing capability and adaptability. Within this landscape, open-endedness, where AI agents autonomously and indefinitely generate novel behaviors, representations, or solutions, has gained increasing interest. This has become relevant in the context of self-evolving agents and long-horizon discovery. This position paper argues that the defining properties of open-ended AI systems introduce a distinct and underexplored class of safety challenges, including loss of predictability, emergent misalignment, and difficulties in maintaining effective control as systems evolve beyond their initial design assumptions, that must be addressed preemptively. These challenges differ qualitatively from those associated with task-bounded or static models and are unlikely to be addressed by existing safety frameworks alone, which is why these risks must be examined proactively, before large-scale deployment. The paper proposes a taxonomy for key challenges, discusses research opportunities, and calls for coordinated action to support the safe and responsible development of open-ended AI.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sheth26a/sheth26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26ab.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26ab.html",
+        "title": "Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated Planning",
+        "authors": [
+          "Shanghao Shi",
+          "Xiao Wang",
+          "Chaoyu Zhang",
+          "Hao Li",
+          "Wenjing Lou",
+          "Thomas Hou",
+          "Yevgeniy Vorobeychik",
+          "Chongjie Zhang",
+          "Ning Zhang"
+        ],
+        "abstract": "The integration of external tools has substantially expanded the capabilities of large language model (LLM) agents, but it also introduces new attack surfaces beyond prompt injection. In particular, cross-tool description poisoning can manipulate planner-visible tool metadata to steer an agent’s trajectory, even if the poisoned tool itself is never chosen. To understand the effectiveness of existing defenses against this emerging threat, we first evaluate several prompt-injection defenses and find that they transfer poorly to cross-tool description poisoning. A key observation is that poisoned descriptions persist in the planning context across steps, enabling continuous influence over subsequent tool choices. Building on this insight, we propose Tool-Guard, a novel system-level defense based on a new concept called isolated planning , in which tool invocations that are detected as misaligned or suspicious cause the corresponding tool to be placed in a quarantined list (the influenced list ), breaking further influence from poisoned descriptions. With this influence isolated, the tool can continue to be used to support the task, enabling a robust defense that preserves legitimate tool utility. Experiments on the AgentDojo and ASB benchmarks show that Tool-Guard substantially reduces attack success while maintaining high task utility. Our code is available at https://github.com/shishishi123/Tool-Guard.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26ab/shi26ab.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/shishishi123/Tool-Guard",
+          "https://github.com/shishishi123/Tool-Guard",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26af.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26af.html",
+        "title": "AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction",
+        "authors": [
+          "Ruijie Shi",
+          "Houbin Zhang",
+          "Yuecheng Han",
+          "Yuheng Wang",
+          "Jingru Fan",
+          "Runde Yang",
+          "Yufan Dang",
+          "Huatao Li",
+          "Dewen Liu",
+          "Yuan Cheng",
+          "Chen Qian"
+        ],
+        "abstract": "Large Language Models have shown strong capabilities in complex problem solving, yet many agentic systems remain difficult to interpret and control due to opaque internal workflows. While some frameworks offer explicit architectures for collaboration, many deployed agentic systems operate as black boxes to users. We address this by introducing Agentic Workflow Reconstruction (AWR), a new task aiming to synthesize an explicit, interpretable stand-in workflow that approximates a black-box system using only input–output access. We propose AgentXRay, a search-based framework that formulates AWR as a combinatorial optimization problem over discrete agent roles and tool invocations in a chain-structured workflow space. Unlike model distillation, AgentXRay produces editable white-box workflows that match target outputs under an observable, output-based proxy metric, without accessing model parameters. To navigate the vast search space, AgentXRay employs Monte Carlo Tree Search enhanced by a scoring-based Red-Black Pruning mechanism, which dynamically integrates proxy quality with search depth. Experiments across diverse domains demonstrate that AgentXRay achieves higher proxy similarity and reduces token consumption compared to unpruned search, enabling deeper workflow exploration under fixed iteration budgets.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26af/shi26af.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26n.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26n.html",
+        "title": "A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research",
+        "authors": [
+          "Zhuofan Shi",
+          "Ming Ma",
+          "Zekun Yao",
+          "Fangkai Yang",
+          "Jue Zhang",
+          "Dongge Han",
+          "Victor Rühle",
+          "Qingwei Lin",
+          "Saravan Rajmohan",
+          "Dongmei Zhang"
+        ],
+        "abstract": "Open-Ended Deep Research (OEDR) pushes LLM agents beyond short-form QA toward long-horizon workflows that iteratively search, connect, and synthesize evidence into structured reports. However, existing OEDR agents largely follow either linear \"search-then-generate\" accumulation or outline-centric planning. The former suffers from lost-in-the-middle failures as evidence grows, while the latter relies on the LLM to implicitly infer knowledge gaps from the outline alone, providing weak supervision for identifying missing relations and triggering targeted exploration. We present DualGraph memory, an architecture that separates what the agent knows from how it writes. DualGraph maintains two co-evolving graphs: an Outline Graph (OG), and a Knowledge Graph (KG), a semantic memory that stores fine-grained knowledge units, including core entities, concepts, and their relations. By analyzing the KG topology together with structural signals from the OG, DualGraph generates targeted search queries, enabling more efficient and comprehensive iterative knowledge-driven exploration and refinement. Across four established OEDR benchmarks, DualGraph consistently outperforms state-of-the-art baselines in report depth, breadth, and factual grounding; for example, it reaches a 53.08 RACE score on DeepResearch Bench with GPT-5. Moreover, ablation studies confirm the central role of the dual-graph design.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26n/shi26n.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26p.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26p.html",
+        "title": "PromptPilot: Game-Theoretic Multi-Agent Prompt Optimization for Segment Anything",
+        "authors": [
+          "Guangze Shi",
+          "Yingjie Mi",
+          "Jia Shen",
+          "Feixue Shao",
+          "Jiarui Cao",
+          "Yexin Lai",
+          "Xueyu Liu",
+          "Rui Wang",
+          "Yongfei Wu",
+          "Mingqiang Wei"
+        ],
+        "abstract": "Few shot segmentation with vision foundation models relies on high quality prompts to segment unseen categories from limited support annotations. Existing prompt construction methods depend on test-time adaptation, fixed heuristic sampling, or monolithic reinforcement learning, making it difficult to balance semantic consistency, spatial coverage, and prompt credit assignment. To address these limitations, PromptPilot is proposed as a hierarchical multi-agent reinforcement learning framework for point prompt optimization with frozen DINOv2 and SAM. Prompt construction is formulated as sequential decision making, where feature and physical agents propose complementary prompt modifications, and a manager agent selects actions using SAM feedback and local marginal contribution. PromptPilot functions as an inference-time optimization strategy without parameter updates. Extensive experiments demonstrate that the proposed game-theoretic approach improves segmentation performance and generalization, offering a principled solution for automated prompt engineering. The code is available at https://github.com/L-AILab/PromptPilot.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26p/shi26p.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/L-AILab/PromptPilot",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/shi26r.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/shi26r.html",
+        "title": "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents’ End-to-End Cybersecurity Capabilities",
+        "authors": [
+          "Tianneng Shi",
+          "Robin Rheem",
+          "Dongwei Jiang",
+          "Mona Wang",
+          "Francisco De La Riega",
+          "Zhun Wang",
+          "Jingzhi Jiang",
+          "Alexander Cheung",
+          "Sean Tai",
+          "Jonah Cha",
+          "Jianhong Tu",
+          "Gabriel Han",
+          "Chenguang Wang",
+          "Jingxuan He",
+          "Wenbo Guo",
+          "Dawn Song"
+        ],
+        "abstract": "AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. However, existing cybersecurity evaluations of AI systems are limited in scale or scope, and fail to capture the end-to-end lifecycle of real-world software vulnerability discovery and remediation. To address this gap, we propose CyberGym-E2E, a large-scale and realistic end-to-end cybersecurity benchmark that comprehensively evaluates AI agents’ abilities across the full lifecycle of vulnerability discovery, PoC generation, and patch generation. CyberGym-E2E is comprehensive and scalable, as we build an automated, agent-enhanced pipeline for transforming open-source vulnerability data into realistic evaluation environments. Currently, the benchmark consists of 920 real-world vulnerabilities across 139 different open-source projects.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26r/shi26r.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sonoda26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sonoda26a.html",
+        "title": "Why Agentic Theorem Prover Works: A Statistical Provability Theory of Mathematical Reasoning Models",
+        "authors": [
+          "Sho Sonoda",
+          "Shunta Akiyama",
+          "Yuya Uezato"
+        ],
+        "abstract": "Agentic theorem provers combine a reasoning model, retrieval, search, and a proof assistant verifier, yet it remains unclear which components actually improve finite-budget proof success and why they help on real mathematical workloads. We study this question through statistical provability : the probability of reaching a verified proof within a budget on a specified stream of theorem instances. We model formal proof search as a finite-horizon reachability MDP with deterministic verifier dynamics, and show that under a faithful state abstraction the optimal success probability coincides with ordinary syntactic provability. We then analyze a simple but practically important pipeline: depth-wise offline action-value regression followed by greedy test-time proving. Our main theorem bounds the provability gap between the learned prover and the optimal prover by an occupancy-weighted sum of uniform action-value errors; in the common uniform-error reading, the leading complexity multiplier is the learned prover’s average truncated proof length. The error decomposes into approximation error, geometric coverage of the training distribution, and Monte Carlo label noise, and improves to a fast rate under an action-gap margin condition. The result gives a component-sensitive account of why verifier feedback, retrieval, representation geometry, and proof-shortening mechanisms help on biased theorem workloads, without contradicting classical worst-case hardness.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sonoda26a/sonoda26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/srivastava26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/srivastava26a.html",
+        "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents",
+        "authors": [
+          "Gaurav Srivastava",
+          "Aafiya Hussain",
+          "Chi Wang",
+          "Yingyan Celine Lin",
+          "Xuan Wang"
+        ],
+        "abstract": "Most existing language model agentic systems today are built and optimized for large language models (e.g., GPT, Claude, Gemini) via API calls; while powerful, this approach faces several limitations including high token costs and privacy concerns for sensitive applications. We introduce EffGen , an open-source agentic framework optimized for small language models (SLMs) that enables effective, efficient, and secure local deployment. EffGen makes four major contributions: (1) Enhanced tool-calling with prompt optimization that compresses input prompts by up to 70-80% (and 57% on average across our benchmarks) while preserving task semantics, (2) Intelligent task decomposition that breaks complex queries into parallel or sequential subtasks based on dependencies, (3) Complexity-based routing using five factors to make smart pre-execution decisions, and (4) Unified memory system combining short-term, long-term, and vector-based storage. Additionally, EffGen unifies multiple agent protocols (MCP, A2A, ACP) for cross-protocol communication. Results on 13 benchmarks show EffGen outperforms LangChain, AutoGen, and Smolagents with higher success rates , faster execution , and lower memory . Our results reveal that prompt optimization and complexity routing have complementary scaling behavior : optimization benefits SLMs more (11.2% gain at 1.5B vs 2.4% at 32B), while routing benefits large models more (3.6% at 1.5B vs 7.9% at 32B), providing consistent gains across all scales when combined. EffGen is open-source under the Apache 2.0 License, with the code available at https://github.com/ctrl-gaurav/effGen, the Python package at https://pypi.org/project/effgen/ (pip install effgen), and the project website and documentation at https://effgen.org/ and https://docs.effgen.org/.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/srivastava26a/srivastava26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/ctrl-gaurav/effGen",
+          "https://github.com/ctrl-gaurav/effGen",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/storf26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/storf26a.html",
+        "title": "Constitutional Black-Box Monitoring for Scheming in LLM Agents",
+        "authors": [
+          "Simon Storf",
+          "Rich Barton-Cooper",
+          "James Peters-Gill",
+          "Marius Hobbhahn"
+        ],
+        "abstract": "Safe deployment of Large Language Model (LLM) agents in autonomous settings requires reliable oversight mechanisms. A central challenge is detecting scheming , where agents covertly pursue misaligned goals. One approach to mitigating such risks is LLM-based monitoring: using language models to examine agent behaviors for suspicious actions. We study constitutional black-box monitors : prompted classifiers that detect scheming using only externally observable inputs and outputs, optimized on synthetic data generated from natural-language behavior specifications. We introduce two pipelines for generating synthetic agent trajectories, STRIDE (iterative refinement) and Gloom (agent-environment simulation), from which we generate 1,000 samples each. We optimize monitors on these datasets via prompt sweeps, human refinement, and automated prompt optimization, and evaluate performance on 7,500 held-out trajectories from Control Arena, a suite of grounded environments where agents operate in more realistic contexts. Our results demonstrate that monitors selected purely on synthetic data can generalize to more realistic environments, capturing a meaningful scheming signal. However, we find that performance saturates quickly in our setting, with simple prompt sweeps matching the results of more extensive optimization. Pushing beyond this limit yields no further improvements and instead leads to overfitting.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/storf26a/storf26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sun26am.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sun26am.html",
+        "title": "ADEPT: RL-Aligned Agentic Decoding of Emotion via Evidence Probing Tools — From Consensus Learning to Ambiguity-Driven Emotion Reasoning",
+        "authors": [
+          "Esther Sun",
+          "Bo-Hao Su",
+          "Abinay Reddy Naini",
+          "Shinji Watanabe",
+          "Carlos Busso"
+        ],
+        "abstract": "Speech Large Language Models (SLLMs) enable high-level emotion reasoning, but often produce ungrounded, text-biased judgments without verifiable acoustic evidence. In contrast, SSL encoders such as WavLM yield strong acoustic representations yet remain opaque discriminative models that offer limited interpretability. To bridge this gap, we introduce the Agentic Decoding of Emotion via Probing Tools (ADEPT) framework, which reframes emotion recognition as a multi-turn inquiry process rather than a single-pass prediction. ADEPT transforms an SLLM into an agent that maintains an evolving candidate set and adaptively invokes dedicated semantic and acoustic probing tools within a structured pipeline of candidate generation, evidence collection, and adjudication. Crucially, ADEPT enables a paradigm shift from consensus learning to ambiguity-driven emotion reasoning. Since human affect exhibits complexity and co-occurrence of emotions, we leverage minority annotations as informative signals instead of discarding them as noise. Finally, we integrate Group Relative Policy Optimization (GRPO) with the Evidence Trust Gate to explicitly couple tool-usage behaviors with prediction quality and enforce evidence-based reasoning. Experiments demonstrate that ADEPT improves in most cases the primary emotion accuracy while substantially improving minor emotion characterization, producing explanations grounded in auditable evidence.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sun26am/sun26am.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/sun26v.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/sun26v.html",
+        "title": "CyberJurors: A Multi-Agent Simulation Task for E-Commerce Disputes Verdict",
+        "authors": [
+          "Yanhui Sun",
+          "Wu Liu",
+          "Haifeng Ming",
+          "Xinru Wang",
+          "Hantao Yao",
+          "Yongdong Zhang"
+        ],
+        "abstract": "E-commerce platforms have begun recruiting crowdsourced jurors to adjudicate massive volumes of transaction disputes. Unlike formal legal judgment, E-commerce dispute verdicts require grounding pivotal clues from redundant, multi-round, multimodal evidence and making decisions under flexible platform-specific conventions. These characteristics render existing methods insufficient for this scenario. To bridge this gap, we introduce a pioneering task, E-commerce Dispute Verdicts (EDV), and present VerdictBench , a multimodal benchmark comprising 6,000 real-world cases designed to reflect crowdsourced jury decisions. Building upon this, we propose CyberJurors , a multi-agent framework to clarify the dispute logic and regulate the verdict process. At the individual level, Individual Verdict Chain-of-Thought decomposes the EDV task into four structured reasoning stages, enabling fine-grained clue perception and clarifying causal logic between pivotal clues and the dispute focus. At the collective level, Jury Consensus Verdict simulates multi-round discussion and voting among jurors, while incorporating verdict precedents to mitigate cognitive biases toward either disputant. Experiments on VerdictBench show that CyberJurors outperforms state-of-the-art LLMs, MLLMs, and court simulators, while achieving stronger alignment with real-world jury voting patterns. Code and dataset are available at https://github.com/YanhuiS/CyberJurors and https://huggingface.co/datasets/piggi/VerdictBench.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sun26v/sun26v.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/YanhuiS/CyberJurors",
+          "https://github.com/YanhuiS/CyberJurors",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-20T05:37:07+00:00"
     }
   }
 }
