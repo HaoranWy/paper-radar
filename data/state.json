@@ -2,53 +2,53 @@
   "sources": {
     "arXiv": {
       "status": "partial",
-      "attempted_at": "2026-10-20T04:56:51+00:00",
+      "attempted_at": "2026-10-21T04:56:03+00:00",
       "last_success_at": "",
-      "fetched": 6771,
-      "added": 341,
-      "changed": 52,
+      "fetched": 6864,
+      "added": 183,
+      "changed": 40,
       "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:20+00:00",
-      "last_success_at": "2026-10-20T05:02:20+00:00",
-      "fetched": 259,
+      "attempted_at": "2026-10-21T05:01:07+00:00",
+      "last_success_at": "2026-10-21T05:01:07+00:00",
+      "fetched": 255,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:21+00:00",
-      "last_success_at": "2026-10-20T05:02:21+00:00",
-      "fetched": 19,
+      "attempted_at": "2026-10-21T05:01:09+00:00",
+      "last_success_at": "2026-10-21T05:01:09+00:00",
+      "fetched": 23,
       "added": 1,
-      "changed": 4,
+      "changed": 1,
       "note": ""
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:22+00:00",
-      "last_success_at": "2026-10-20T05:02:22+00:00",
-      "fetched": 11,
+      "attempted_at": "2026-10-21T05:01:10+00:00",
+      "last_success_at": "2026-10-21T05:01:10+00:00",
+      "fetched": 8,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:23+00:00",
-      "last_success_at": "2026-10-20T05:02:23+00:00",
-      "fetched": 557,
+      "attempted_at": "2026-10-21T05:01:11+00:00",
+      "last_success_at": "2026-10-21T05:01:11+00:00",
+      "fetched": 547,
       "added": 0,
-      "changed": 0,
+      "changed": 2,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:26+00:00",
-      "last_success_at": "2026-10-20T05:02:26+00:00",
+      "attempted_at": "2026-10-21T05:01:15+00:00",
+      "last_success_at": "2026-10-21T05:01:15+00:00",
       "fetched": 69,
       "added": 0,
       "changed": 0,
@@ -56,17 +56,17 @@
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:28+00:00",
-      "last_success_at": "2026-10-20T05:02:28+00:00",
-      "fetched": 183,
+      "attempted_at": "2026-10-21T05:01:16+00:00",
+      "last_success_at": "2026-10-21T05:01:16+00:00",
+      "fetched": 189,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:02:29+00:00",
-      "last_success_at": "2026-10-20T05:02:29+00:00",
+      "attempted_at": "2026-10-21T05:01:18+00:00",
+      "last_success_at": "2026-10-21T05:01:18+00:00",
       "fetched": 6,
       "added": 0,
       "changed": 0,
@@ -74,25 +74,25 @@
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:02:30+00:00",
+      "attempted_at": "2026-10-21T05:01:19+00:00",
       "last_success_at": "",
-      "fetched": 229,
+      "fetched": 226,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:08:03+00:00",
+      "attempted_at": "2026-10-21T05:06:51+00:00",
       "last_success_at": "",
-      "fetched": 1430,
+      "fetched": 1435,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:14:17+00:00",
+      "attempted_at": "2026-10-21T05:13:05+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -101,44 +101,44 @@
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:18:17+00:00",
+      "attempted_at": "2026-10-21T05:17:04+00:00",
       "last_success_at": "",
-      "fetched": 194,
+      "fetched": 198,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:24:30+00:00",
+      "attempted_at": "2026-10-21T05:23:18+00:00",
       "last_success_at": "",
-      "fetched": 918,
+      "fetched": 916,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 3/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:30:42+00:00",
+      "attempted_at": "2026-10-21T05:29:32+00:00",
       "last_success_at": "",
-      "fetched": 1041,
+      "fetched": 1043,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "PMLR": {
       "status": "partial",
-      "attempted_at": "2026-10-20T05:36:57+00:00",
+      "attempted_at": "2026-10-21T05:35:47+00:00",
       "last_success_at": "",
-      "fetched": 423,
+      "fetched": 483,
       "added": 9,
       "changed": 51,
-      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 114 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
+      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 54 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:38:09+00:00",
-      "last_success_at": "2026-10-20T05:38:09+00:00",
+      "attempted_at": "2026-10-21T05:36:59+00:00",
+      "last_success_at": "2026-10-21T05:36:59+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,7 +146,7 @@
     },
     "2026.emnlp": {
       "status": "unavailable",
-      "attempted_at": "2026-10-20T05:38:15+00:00",
+      "attempted_at": "2026-10-21T05:37:05+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-10-20T05:38:16+00:00",
+      "attempted_at": "2026-10-21T05:37:06+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -164,8 +164,8 @@
     },
     "CVPR2026": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:38:17+00:00",
-      "last_success_at": "2026-10-20T05:38:17+00:00",
+      "attempted_at": "2026-10-21T05:37:07+00:00",
+      "last_success_at": "2026-10-21T05:37:07+00:00",
       "fetched": 108,
       "added": 0,
       "changed": 0,
@@ -173,8 +173,8 @@
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:38:45+00:00",
-      "last_success_at": "2026-10-20T05:38:45+00:00",
+      "attempted_at": "2026-10-21T05:37:37+00:00",
+      "last_success_at": "2026-10-21T05:37:37+00:00",
       "fetched": 38,
       "added": 0,
       "changed": 0,
@@ -182,8 +182,8 @@
     },
     "ICCV2025": {
       "status": "ok",
-      "attempted_at": "2026-10-20T05:39:01+00:00",
-      "last_success_at": "2026-10-20T05:39:01+00:00",
+      "attempted_at": "2026-10-21T05:37:53+00:00",
+      "last_success_at": "2026-10-21T05:37:53+00:00",
       "fetched": 29,
       "added": 0,
       "changed": 0,
@@ -191,12 +191,12 @@
     }
   },
   "last_run": {
-    "started_at": "2026-10-20T04:56:51+00:00",
-    "finished_at": "2026-10-20T05:39:18+00:00",
+    "started_at": "2026-10-21T04:56:03+00:00",
+    "finished_at": "2026-10-21T05:38:11+00:00",
     "attempted_sources": 21,
     "failed_sources": 0,
-    "added": 351,
-    "changed": 107
+    "added": 193,
+    "changed": 94
   },
   "detail_cache": {
     "https://proceedings.mlr.press/v337/kazantsev26a.html": {
@@ -17462,6 +17462,1935 @@
         ]
       },
       "checked": "2026-10-20T05:37:07+00:00"
+    },
+    "https://proceedings.mlr.press/v306/swaminathan26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/swaminathan26a.html",
+        "title": "Position: Trustworthy Model Context Protocol Enables Responsible Agentic AI!",
+        "authors": [
+          "Arjhun Swaminathan",
+          "Anika Hannemann"
+        ],
+        "abstract": "The Model Context Protocol (MCP) standardises AI agent-tool interaction, accelerating agentic AI adoption through interoperability. This presents an opportunity to embed trustworthiness. As a standard and an interface between agents and tools, MCP becomes a natural enforcement point; any improvements to it automatically propagate to all systems using it. Analyzing MCP through European Commission’s ethics guidelines for trustworthy AI, we identify three things: fundamental shifts in how trustworthiness works, critical challenges these shifts create, and strategic intervention points where protocol-level mechanisms can achieve ecosystem-wide impact. We argue that MCP’s architecture provides a foundation for trustworthiness and propose practical improvements to strengthen it. This position paper posits that building trustworthy MCP enables responsible agentic AI deployments.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/swaminathan26a/swaminathan26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/talokar26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/talokar26a.html",
+        "title": "Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents",
+        "authors": [
+          "Nivya Talokar",
+          "Ayush Kumar Tarun",
+          "Murari Mandal",
+          "Maksym Andriushchenko",
+          "Antoine Bosselut"
+        ],
+        "abstract": "LLM-based agents execute real-world workflows via tools. These affordances enable ill-intended adversaries to also use these agents to carry out complex misuse scenarios. Existing agent-misuse benchmarks largely test single-prompt instructions, leaving a gap in measuring how agents end up helping with harmful or illegal tasks over multiple turns. We introduce STING ( Sequential Testing of Illicit N-step Goal execution ), an automated red-teaming framework that constructs a step-by-step illicit plan grounded in a benign persona and iteratively probes a target agent with adaptive follow-ups, using judge agents to track phase completion. We further introduce an analysis framework that models multi-turn red-teaming as a time-to-first-jailbreak random variable, enabling analysis tools like discovery curves, hazard-ratio attribution by attack language, and a new metric: Restricted Mean Jailbreak Discovery. Across AgentHarm scenarios, STING yields substantially higher illicit-task completion than single-turn prompting and chat-oriented multi-turn baselines adapted to tool-using agents. In multilingual evaluations across six non-English settings, we find that attack success and illicit-task completion do not consistently increase in lower-resource languages, diverging from common chatbot findings. Overall, STING provides a practical way to evaluate and stress-test agent misuse in realistic deployment settings, where interactions are inherently multi-turn and often multilingual. Our code is available at https://github.com/epfl-nlp/helpful-to-a-fault.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/talokar26a/talokar26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/epfl-nlp/helpful-to-a-fault",
+          "https://github.com/epfl-nlp/helpful-to-a-fault",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tang26ae.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tang26ae.html",
+        "title": "NonZero: Interaction-Guided Exploration for Multi-Agent Monte Carlo Tree Search",
+        "authors": [
+          "Sizhe Tang",
+          "Zuyuan Zhang",
+          "Mahdi Imani",
+          "Tian Lan"
+        ],
+        "abstract": "Monte Carlo Tree Search (MCTS) scales poorly in cooperative multi-agent domains because expansion must consider an exponentially large set of joint actions, severely limiting exploration under realistic search budgets. We propose NonZero, which keeps multi-agent MCTS tractable by running surrogate-guided selection over a low-dimensional nonlinear representation using an interaction-guided proposal rule, instead of directly exploring the full joint-action space. Our exploration uses an interaction score: single-agent deviations are ranked by predicted gain, while two-agent deviations are scored by a mixed-difference measure that reveals coordination benefits even when no single agent can improve alone. We formalize candidate proposal as a bandit problem over local deviations and derive a proposal rule, NonUCT, with a sublinear local-regret guarantee for reaching approximate graph-local optima without enumerating the joint-action space. Empirically, NonZero improves sample efficiency and final performance on MatGame, SMAC, and SMACv2 relative to strong model-based and model-free baselines under matched search budgets.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26ae/tang26ae.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tang26ag.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tang26ag.html",
+        "title": "HVR-Met: A Hypothesis-Verification-Replanning Agentic System for Extreme Weather Diagnosis",
+        "authors": [
+          "Shuo Tang",
+          "Jiadong Zhang",
+          "Gengxian Zhou",
+          "Qizhao Jin",
+          "Qinxuan Wang",
+          "Yi Hu",
+          "Ning Hu",
+          "Hongchang Ren",
+          "Lingli He",
+          "Shiming Xiang",
+          "Jingtao Ding",
+          "Jian Xu",
+          "Jiaolan Fu",
+          "Cheng-Lin Liu"
+        ],
+        "abstract": "While deep learning-based weather forecasting paradigms have made significant strides, addressing extreme weather diagnostics remains a formidable challenge. This gap exists primarily because the diagnostic process demands sophisticated multi-step logical reasoning, dynamic tool invocation, and expert-level prior judgment. Although agents possess inherent advantages in task decomposition and autonomous execution, current architectures are still hampered by critical bottlenecks: inadequate expert knowledge integration, a lack of professional-grade iterative reasoning loops, and the absence of fine-grained validation and evaluation systems for complex workflows under extreme conditions. To this end, we propose HVR-Met, a multi-agent meteorological diagnostic system characterized by the deep integration of expert knowledge. Its central innovation is the “Hypothesis-Verification-Replanning” closed-loop mechanism, which facilitates sophisticated iterative reasoning for anomalous meteorological signals during extreme weather events. To bridge gaps within existing evaluation frameworks, we further introduce a novel benchmark focused on atomic-level sub-tasks. Experimental evidence demonstrates that the system excels in complex diagnostic scenarios.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26ag/tang26ag.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tang26n.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tang26n.html",
+        "title": "The Value of Variance: Mitigating Debate Collapse in Multi-Agent Systems via Uncertainty-Driven Policy Optimization",
+        "authors": [
+          "Luoxi Tang",
+          "Yuqiao Meng",
+          "Joseph Costa",
+          "Yingxue Zhang",
+          "Muchao Ye",
+          "Zhaohan Xi"
+        ],
+        "abstract": "Multi-agent debate (MAD) systems improve LLM reasoning through iterative deliberation, but remain vulnerable to debate collapse, a failure type where final agent decisions are compromised on erroneous reasoning. Existing methods lack principled mechanisms to detect or prevent such failures. To address this gap, we first propose a hierarchical metric that quantifies behavioral uncertainty at three levels: intra-agent (individual reasoning uncertainty), inter-agent (interactive uncertainty), and system-level (output uncertainty). Empirical analysis across several benchmarks reveals that our proposed uncertainty quantification reliably indicates system failures, which demonstrates the validity of using them as diagnostic metrics to indicate the system failure. Subsequently, we propose a mitigation strategy by formulating an uncertainty-driven policy optimization to penalize self-contradiction, peer conflict, and low-confidence outputs in a dynamic debating environment. Experiments demonstrate that our proposed uncertainty-driven mitigation reliably calibrates the multi-agent system by consistently improving decision accuracy while reducing system disagreement.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26n/tang26n.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/ltang24/UDPO",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tayebati26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tayebati26a.html",
+        "title": "TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning",
+        "authors": [
+          "Sina Tayebati",
+          "Divake Kumar",
+          "Nastaran Darabi",
+          "Davide Ettori",
+          "Ranganath Krishnan",
+          "Amit Ranjan Trivedi"
+        ],
+        "abstract": "Estimating uncertainty for AI agents in real-world multi-turn tool-using interaction with humans is difficult because failures are often triggered by sparse critical episodes (e.g., looping, incoherent tool use, or user-agent miscoordination) even when local generation appears confident. Existing uncertainty proxies focus on single-shot text generation and therefore miss these trajectory-level breakdown signals. We introduce TRACER, a trajectory-level uncertainty metric for dual-control Tool-Agent-User interaction. TRACER combines content-aware surprisal with situational-awareness signals, semantic and lexical repetition, and tool-grounded coherence gaps, and aggregates them using a tail-focused risk functional with a MAX-composite step risk to surface decisive anomalies. We evaluate TRACER on $\\tau^2$-bench (Barres et al., 2025) by predicting task failure and selective task execution. To this end, TRACER improves AUROC by up to 37.1% and AUARC by up to 55% over baselines, enabling earlier and more accurate detection of uncertainty in complex conversational tool-use settings. Our codebase is available at: https://github.com/sinatayebati/agent-tracer.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tayebati26a/tayebati26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/sinatayebati/agent-tracer",
+          "https://github.com/sinatayebati/agent-tracer",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/teneggi26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/teneggi26a.html",
+        "title": "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents",
+        "authors": [
+          "Jacopo Teneggi",
+          "Sm Bargeen Alam Turzo",
+          "Tanya Marwah",
+          "Alberto Bietti",
+          "P. Douglas Renfrew",
+          "Vikram Khipple Mulligan",
+          "Siavash Golkar"
+        ],
+        "abstract": "Large language models (LLMs) are capable of emulating reasoning and using tools, creating opportunities for autonomous agents that execute complex scientific tasks. Protein design provides a natural testbed: although machine learning (ML) methods achieve strong results, these are largely restricted to canonical amino acids and narrow objectives, leaving unfilled need for a generalist tool for broad design pipelines. We introduce Agent Rosetta, an LLM agent paired with a structured environment for operating Rosetta, the leading physics-based heteropolymer design software, capable of modeling non-canonical building blocks and geometries. Agent Rosetta iteratively refines designs to achieve user-defined objectives, combining LLM reasoning with Rosetta’s generality. We evaluate Agent Rosetta on design with canonical amino acids, matching specialized models and expert baselines, and with non-canonical residues—where ML approaches fail—achieving comparable performance. Critically, prompt engineering alone often fails to generate Rosetta actions, demonstrating that environment design is essential for integrating LLM agents with specialized software. Our results show that properly designed environments enable LLM agents to make scientific software accessible while matching specialized tools and human experts.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/teneggi26a/teneggi26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/PolymathicAI/agent-rosetta",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tewolde26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tewolde26a.html",
+        "title": "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
+        "authors": [
+          "Emanuel Tewolde",
+          "Xiao Zhang",
+          "David Guzman Piedrahita",
+          "Vincent Conitzer",
+          "Zhijing Jin"
+        ],
+        "abstract": "It is increasingly important that LLM agents interact effectively and safely with other goal-pursuing agents, yet, recent works report the opposite trend: LLMs with stronger reasoning capabilities behave less cooperatively in mixed-motive games such as the prisoner’s dilemma and public goods settings. Indeed, our experiments show that recent models—with or without reasoning enabled—consistently defect in single-shot social dilemmas. To tackle this safety concern, we present the first comparative study of game-theoretic mechanisms designed to enable cooperative outcomes between rational agents in equilibrium . Across four social dilemmas testing distinct components of robust cooperation, we evaluate four families of mechanisms: (1) repeating the game for many rounds, (2) reputation systems, (3) third-party mediators to delegate decision making to, and (4) contract agreements for outcome-conditional payments between players. Among our findings, we establish that contracting and mediation are most effective in achieving cooperative outcomes between capable LLM models, and that repetition-induced cooperation deteriorates drastically when co-players vary. Moreover, we demonstrate that the mechanisms become more effective under evolutionary pressures to maximize individual payoffs.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tewolde26a/tewolde26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Xiao215/CoopEval",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tian26g.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tian26g.html",
+        "title": "RGMem: Renormalization Group–inspired Memory Evolution for Language Agents",
+        "authors": [
+          "Ao Tian",
+          "Yunfeng Lu",
+          "Xinxin Fan",
+          "Changhao Wang",
+          "Lanzhi Zhou",
+          "Yeyao Zhang",
+          "Yanfang Liu"
+        ],
+        "abstract": "Personalized and continuous interactions are critical for LLM-based conversational agents, yet finite context windows and static parametric memory hinder the modeling of long-term, cross-session user states. Existing approaches, including retrieval-augmented generation and explicit memory systems, primarily operate at the fact level, making it difficult to distill stable preferences and deep user traits from evolving and potentially conflicting dialogues.To address this challenge, we propose RGMem, a self-evolving memory framework inspired by the renormalization group (RG) perspective on multi-scale organization and emergence. RGMem models long-term conversational memory as a multi-scale evolutionary process: episodic interactions are transformed into semantic facts and user insights, which are then progressively integrated through hierarchical coarse-graining, thresholded updates, and rescaling into a dynamically evolving user profile.By explicitly separating fast-changing evidence from slow-varying traits and enabling non-linear, phase-transition-like dynamics, RGMem enables robust personalization beyond flat retrieval or static summarization. Extensive experiments on the LOCOMO and PersonaMem benchmarks demonstrate that RGMem consistently outperforms SOTA memory systems, achieving stronger cross-session continuity and improved adaptation to evolving user preferences.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tian26g/tian26g.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/fenhg297/RGMem",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tomilin26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tomilin26a.html",
+        "title": "MEAL: A Benchmark for Continual Multi-Agent Reinforcement Learning",
+        "authors": [
+          "Tristan Tomilin",
+          "Luka Van Den Boogaard",
+          "Samuel Garcin",
+          "Constantin Ruhdorfer",
+          "Bram Grooten",
+          "Fabrice Kusters",
+          "Yali Du",
+          "Andreas Bulling",
+          "Mykola Pechenizkiy",
+          "Meng Fang"
+        ],
+        "abstract": "Benchmarks play a central role in reinforcement learning (RL) research, yet their computational constraints often shape what is studied. Despite the motivation of lifelong learning, most continual RL papers consider only 3–10 sequential tasks, as CPU-bound environments make longer sequences impractical. Meanwhile, continual learning in cooperative multi-agent settings remains largely unexplored. To address these gaps, we introduce MEAL ( M ulti-agent E nvironments for A daptive L earning), the first benchmark for continual multi-agent RL. By leveraging JAX and GPU acceleration, MEAL enables training on sequences of 100 tasks on a single GPU in a few hours. We find that long task sequences reveal failure modes that do not appear at smaller scales.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tomilin26a/tomilin26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/TTomilin/MEAL",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/tong26l.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/tong26l.html",
+        "title": "AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning",
+        "authors": [
+          "Siqian Tong",
+          "Li Xuan",
+          "Yiwei Wang",
+          "Baolong Bi",
+          "Yujun Cai",
+          "Shenghua Liu",
+          "Yuchen He",
+          "Hao Chengpeng"
+        ],
+        "abstract": "Large Audio Language Models (LALMs) excel at perception but struggle with complex reasoning requiring precise acoustic measurements. While external tools can extract fine-grained features like exact tempo or pitch, effective integration remains challenging: naively using all tools causes information overload, while prompt-based selection fails to assess context-dependent utility. To address this, we propose AuTAgent ( Au dio T ool Agent ), a reinforcement learning framework that learns when and which tools to invoke. By employing a sparse-feedback training strategy with a novel Differential Reward mechanism, the agent learns to filter out irrelevant tools and invokes external assistance only when it yields a net performance gain over the base model. Experimental results confirm that AuTAgent complements the representation bottleneck of LALMs by providing verifiable acoustic evidence. It improves accuracy by 4.20% / 6.20% and 9.80% / 8.00% for open-source and closed-source backbones on the MMAU Test-mini and the MMAR benchmarks, respectively. In addition, further experiments demonstrate exceptional transferability. We highlight the complementary role of external tools in augmenting audio model reasoning.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tong26l/tong26l.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/vaccaro26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/vaccaro26a.html",
+        "title": "Position: Preregister Experiments with AI Agents",
+        "authors": [
+          "Michelle Vaccaro"
+        ],
+        "abstract": "The proliferation of large language models (LLMs) and autonomous AI agents has given rise to a rapidly growing methodological paradigm: \"in silico\" behavioral experiments. Originally conceived as a way to use AI agents as proxies for human participants in studies of cognition, decision-making, and social dynamics, this approach has taken on new significance—as AI agents increasingly negotiate, transact, and make consequential decisions on behalf of people and organizations, understanding their behavior has become a research priority in its own right. While these experiments with AI agents offer unprecedented advantages in terms of scalability, cost efficiency, and experimental control, they also inherit—and in some cases amplify—methodological vulnerabilities that have long plagued human subjects research. To address these issues, this position paper argues that preregistration practices—central to improving the credibility of human subjects experiments—should now be extended to experiments with AI agents. We systematically catalog the researcher degrees of freedom that experiments with AI agents introduce—model selection, prompt wording, settings, and outcome-contingent redesign, for example—and show how the low cost of iteration and lack of reporting norms make these choices both easy to exploit and difficult to detect. We propose a preregistration template tailored to experiments with AI agents and call on conferences, journals, and funding agencies to make preregistration standard practice for this emerging research paradigm.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/vaccaro26a/vaccaro26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/venkataramani26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/venkataramani26a.html",
+        "title": "MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems",
+        "authors": [
+          "Vishal Venkataramani",
+          "Haizhou Shi",
+          "Zixuan Ke",
+          "Austin Xu",
+          "Xiaoxiao He",
+          "Yingbo Zhou",
+          "Semih Yavuz",
+          "Hao Wang",
+          "Shafiq Joty"
+        ],
+        "abstract": "Multi-Agent Systems (MAS) built on Large Language Models (LLMs) often exhibit high variance in their reasoning trajectories. Process verification, which evaluates intermediate steps in trajectories, has shown promise in general reasoning settings, and has been suggested as a potential tool for guiding coordination of MAS; however, its actual effectiveness in MAS remains unclear. To fill this gap, we present MAS-ProVe, a systematic empirical study of process verification for multi-agent systems (MAS). Our study spans three verification paradigms (LLM-as-a-Judge, reward models, and process reward models), evaluated across two levels of verification granularity (agent-level and iteration-level). We further examine five representative verifiers and four context management strategies, and conduct experiments over six diverse MAS frameworks on multiple reasoning benchmarks. We find that process-level verification does not consistently improve performance and frequently exhibits high variance, highlighting the difficulty of reliably evaluating partial multi-agent trajectories. Among the methods studied, LLM-as-a-Judge generally outperforms reward-based approaches, with trained judges surpassing general-purpose LLMs. We further observe a small performance gap between LLMs acting as judges and as single agents, and identify a context-length-performance trade-off in verification. Overall, our results suggest that effective and robust process verification for MAS remains an open challenge, requiring further advances beyond current paradigms.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/venkataramani26a/venkataramani26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Wang-ML-Lab/MAS-ProVe",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/viano26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/viano26a.html",
+        "title": "Multi-agent imitation learning with function approximation: linear Markov games and beyond",
+        "authors": [
+          "Luca Viano",
+          "Till Freihaut",
+          "Emanuele Nevali",
+          "Volkan Cevher",
+          "Matthieu Geist",
+          "Giorgia Ramponi"
+        ],
+        "abstract": "In this work, we present the first theoretical analysis of multi-agent imitation learning (MAIL) in linear Markov games where both the transition dynamics and each agent’s reward function are linear in some given features. We demonstrate that by leveraging this structure, it is possible to replace the state-action level all policy deviation concentrability coefficient (Freihaut et al., 2025b) with a concentrability coefficient defined at the feature level which can be much smaller than the state-action analog when the features are informative about states’ similarity . Furthermore, to circumvent the need for any concentrability coefficient, we turn to the interactive setting. We provide the first, computationally efficient, interactive MAIL algorithm for linear Markov games and show that its sample complexity depends only on the dimension of the feature map $d$. Building on these theoretical findings, we propose a deep MAIL interactive algorithm which clearly outperforms BC on games such as Tic-Tac-Toe and Connect4.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/viano26a/viano26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/tfreihaut/Multi-agent-imitation-learning-with-function-approximation-linear-Markov-games-and-beyond",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ab.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ab.html",
+        "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
+        "authors": [
+          "Ruipeng Wang",
+          "Yuxin Chen",
+          "Yukai Wang",
+          "Chang Wu",
+          "Junfeng Fang",
+          "Xiaodong Cai",
+          "Qi Gu",
+          "Hui Su",
+          "An Zhang",
+          "Xiang Wang",
+          "Xunliang Cai",
+          "Tat-Seng Chua"
+        ],
+        "abstract": "Recent advances in large language models have enabled LLM-based agents to achieve strong performance on a variety of benchmarks. However, their performance in real-world deployments often that observed on benchmark settings, especially in complex and imperfect environments. This discrepancy largely arises because prevailing training and evaluation paradigms are typically built on idealized assumptions, overlooking the inherent stochasticity and noise present in real-world interactions. To bridge this gap, we introduce AgentNoiseBench, a framework for systematically evaluating the robustness of agentic models under noisy environments. We first conduct an in-depth analysis of biases and uncertainties in real-world scenarios and categorize environmental noise into two primary types: user-noise and tool-noise. Building on this analysis, we develop an automated pipeline that injects controllable noise into existing agent-centric benchmarks while preserving task solvability. Leveraging this pipeline, we perform extensive evaluations across a wide range of models with diverse architectures and parameter scales. Our results reveal consistent performance variations under different noise conditions, highlighting the sensitivity of current agentic models to realistic environmental perturbations.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ab/wang26ab.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ah.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ah.html",
+        "title": "T$^2$PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning",
+        "authors": [
+          "Haixin Wang",
+          "Hejie Cui",
+          "Chenwei Zhang",
+          "Xin Liu",
+          "Shuowei Jin",
+          "Shijie Geng",
+          "Xinyang Zhang",
+          "Nasser Zalmout",
+          "Zhenyu Shi",
+          "Yizhou Sun"
+        ],
+        "abstract": "Recent progress in multi-turn reinforcement learning (RL) has significantly improved reasoning LLMs’ performances on complex interactive tasks. Despite advances in stabilization techniques such as fine-grained credit assignment and trajectory filtering, instability remains pervasive and often leads to training collapse. We argue that this instability stems from inefficient exploration in multi-turn settings, where policies continue to generate low-information actions that neither reduce uncertainty nor advance task progress. To address this issue, we propose Token- and Turn-level Policy Optimization (T$^2$PO), an uncertainty-aware framework that explicitly controls exploration at fine-grained levels. At the token level, T$^2$PO monitors uncertainty dynamics and triggers a thinking intervention once the marginal uncertainty change falls below a threshold. At the turn level, T$^2$PO identifies interactions with negligible exploration progress and dynamically resamples such turns to avoid wasted rollouts. We evaluate T$^2$PO in diverse environments, including WebShop, ALFWorld, and Search QA, demonstrating substantial gains in training stability and performance improvements with better exploration efficiency. Code is available at https://github.com/WillDreamer/T2PO.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ah/wang26ah.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/WillDreamer/T2PO",
+          "https://github.com/WillDreamer/T2PO",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26bn.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26bn.html",
+        "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+        "authors": [
+          "Zihan Wang",
+          "Chi Gui",
+          "Xing Jin",
+          "Qineng Wang",
+          "Licheng Liu",
+          "Kangrui Wang",
+          "Shiqi Chen",
+          "Linjie Li",
+          "Zhengyuan Yang",
+          "Pingyue Zhang",
+          "Yiping Lu",
+          "Jiajun Wu",
+          "Li Fei-Fei",
+          "Lijuan Wang",
+          "Yejin Choi",
+          "Manling Li"
+        ],
+        "abstract": "RL training of multi-turn LLM agents is unstable, and reasoning quality drives task performance. Entropy, the standard reasoning-stability monitor, only measures within-input diversity and misses whether reasoning depends on the input. We identify template collapse : stable entropy alongside input-agnostic boilerplate, invisible to entropy and existing metrics. We diagnose it via a mutual-information (MI) proxy that scores cross-input distinguishability online; across tasks, MI correlates with final performance far more strongly than entropy. We then explain collapse via a signal-to-noise ratio (SNR) mechanism: low within-input reward variance weakens task gradients, letting input-agnostic regularization dominate and erase cross-input differences. We mitigate this with SNR-Aware Filtering , prioritizing high-variance prompts each iteration. Across planning, math reasoning, web navigation, and code execution, the method consistently improves input dependence and task performance.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26bn/wang26bn.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mll-lab-nu/ragen",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26cb.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26cb.html",
+        "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+        "authors": [
+          "Yanan Wang",
+          "Shuaicong Hu",
+          "Jian Liu",
+          "Guohui Zhou",
+          "Aiguo Wang",
+          "Cuiwei Yang"
+        ],
+        "abstract": "The impressive performance of generalist large language models (LLMs) such as GPT and Claude in healthcare raises a critical question: will domain-specific medical specialist models become obsolete? We argue that the future of medical artificial intelligence (AI) lies not in building monolithic medical foundation models, nor in replacing human expertise, but in orchestrating collaboration among generalist LLMs, domain-specific specialist models, and clinicians. We propose HetMedAgent, a heterogeneous medical multi-agent framework that enables conflict-aware evidence fusion, uncertainty-based clinician intervention triggering, and adaptive threshold calibration. Experiments on three real-world clinical decision-making tasks demonstrate that the synergy between generalist LLMs and domain-specific specialist models significantly outperforms using either type of model alone, validating the irreplaceable value of specialist models in modality-specific analysis. HetMedAgent represents a shift from building medical LLMs or foundation models to multi-agent collaboration, achieving a balance between general reasoning capabilities and domain-specific precision.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26cb/wang26cb.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26d.html",
+        "title": "FIRE-Bench: Evaluating AI Agents on the Rediscovery of Scientific Insights",
+        "authors": [
+          "Zhen Wang",
+          "Fan Bai",
+          "Zhongyan Luo",
+          "Jinyan Su",
+          "Kaiser Sun",
+          "Xinle Yu",
+          "Jieyuan Liu",
+          "Kun Zhou",
+          "Claire Cardie",
+          "Mark Dredze",
+          "Zhiting Hu",
+          "Eric P. Xing"
+        ],
+        "abstract": "Autonomous AI agents powered by large language models (LLMs) are increasingly capable of running a full cycle of scientific research, yet we still lack reliable ways to verify that their discoveries are correct. Because novel findings demand costly real-world validation, existing benchmarks fall back on LLM-as-judge scoring of generated papers or single leaderboard metrics, both coarse proxies for scientific reasoning. We introduce FIRE-BENCH (Full-cycle Insight Rediscovery Evaluation), which instead asks agents to rediscover established, verifiable findings from recent, high-impact machine learning research. Given only a high-level research question from a published study, an agent must independently design experiments, run them, and draw evidence-backed conclusions, scored against the study’s documented findings. Across state-of-the-art agents with frontier backbones such as gpt-5, even the strongest reaches limited rediscovery success ($<$50 F1), with high run-to-run variance and recurring failures in experimental design, execution, and evidence-based reasoning. Beyond diagnosing current systems, FIRE-BENCH shows that open-ended discovery can be evaluated rigorously and verifiably, laying a foundation for building reliable environments that improve agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26d/wang26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/maitrix-org/FIRE-Bench",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26do.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26do.html",
+        "title": "OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft",
+        "authors": [
+          "Zihao Wang",
+          "Muyao Li",
+          "Kaichen He",
+          "Xiangyu Wang",
+          "Zhancun Mu",
+          "Minghao Liu",
+          "Anji Liu",
+          "Yitao Liang"
+        ],
+        "abstract": "A critical challenge in developing capable AI agents is defining their \"action space”—the set of possible actions they can take. These spaces can range widely, from generating code and using language skills to operating on latent representations or raw joystick controls. Through a large-scale study in Minecraft, we discovered a major dilemma: no single action space is universally best. The most effective action space is highly task-dependent, which complicates the goal of building one generalist agent that can handle everything. To solve this, we introduce Chain-of-Action (CoA), a novel framework that unifies high-level abstracted actions and low-level control actions within a single model. With CoA, an abstract goal is not just a final command; instead, it serves as an intermediate reasoning step that guides the model to generate the precise, executable actions needed to complete the task. Furthermore, we show that an All-in-One generalist agent, trained on a diverse mix of action spaces using CoA, learns a more generalizable policy. This unified agent achieves a new state-of-the-art, outperforming strong, specialized baselines. To support the research community, we are releasing the OpenHA (Open Hierarchical Agents) suite, which includes our benchmark of over 800 tasks, curated datasets, source code, and all model checkpoints at: https://github.com/ CraftJarvis/OpenHA.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26do/wang26do.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/CraftJarvis/OpenHA",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ek.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ek.html",
+        "title": "Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents",
+        "authors": [
+          "Jiawei Wang",
+          "Jiacai Liu",
+          "Yuqian Fu",
+          "Yingru Li",
+          "Xintao Wang",
+          "Yuan Lin",
+          "Yu Yue",
+          "Lin Zhang",
+          "Yang Wang",
+          "Wang Ke"
+        ],
+        "abstract": "In long-horizon tasks, recent agents based on Large Language Models (LLMs) face a significant challenge that sparse, outcome-based rewards make it difficult to assign credit to intermediate steps. Previous methods mainly focus on creating dense reward signals to guide learning, either through traditional reinforcement learning techniques like inverse reinforcement learning or by using Process Reward Models for step-by-step feedback. In this paper, we identify a fundamental problem in the learning dynamics of LLMs: the magnitude of policy gradients is inherently coupled with the entropy, which leads to inefficient small updates for confident correct actions and potentially destabilizes large updates for uncertain ones. To resolve this, we propose Entropy-Modulated Policy Gradients (EMPG), a framework that recalibrates the learning signal based on step-wise uncertainty and the final task outcome. EMPG amplifies updates for confident correct actions, penalizes confident errors, and attenuates updates from uncertain steps to stabilize exploration. We further introduce a bonus term for future clarity that encourages agents to find more predictable solution paths. Through comprehensive experiments on three challenging agent tasks, WebShop, ALFWorld, and Deep Search, we demonstrate that EMPG achieves substantial performance gains and significantly outperforms strong policy gradient baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ek/wang26ek.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ew.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ew.html",
+        "title": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems",
+        "authors": [
+          "Zhexuan Wang",
+          "Xuebo Liu",
+          "Li Wang",
+          "Zifei Shan",
+          "Yutong Wang",
+          "Zhenxi Song",
+          "Min Zhang"
+        ],
+        "abstract": "Large language model (LLM)-based Multi-agent systems (MAS) have shown promise in tackling complex collaborative tasks, where agents are typically orchestrated via role-specific prompts. While the quality of these prompts is pivotal, jointly optimizing them across interacting agents remains a non-trivial challenge, primarily due to the misalignment between local agent objectives and holistic system goals. To address this, we introduce MASPO, a novel framework designed to automatically and iteratively refine prompts across the entire system. A core innovation of MASPO is its joint evaluation mechanism, which assesses prompts not merely by their local validity, but by their capacity to facilitate downstream success for successor agents. This effectively bridges the gap between local interactions and global outcomes without relying on ground-truth labels. Furthermore, MASPO employs a data-driven evolutionary beam search to efficiently navigate the high-dimensional prompt space. Extensive empirical evaluations across 6 diverse tasks demonstrate that MASPO consistently outperforms state-of-the-art prompt optimization methods, achieving an average accuracy improvement of 2.9. We release our code at https://github.com/wangzx1219/MASPO.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ew/wang26ew.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/wangzx1219/MASPO",
+          "https://github.com/wangzx1219/MASPO",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26fk.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26fk.html",
+        "title": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
+        "authors": [
+          "Siyu Wang",
+          "Ruotian Lu",
+          "Zhihao Yang",
+          "Yuchao Wang",
+          "Yanzhou Zhang",
+          "Lei Xu",
+          "Qimin Xu",
+          "Guojun Yin",
+          "Cailian Chen",
+          "Xinping Guan"
+        ],
+        "abstract": "Large language model(LLM)-driven multi-agent systems(MAS) coordinate specialized agents through predefined topologies and show promise for complex tasks such as competition-level code generation. Recent studies demonstrate that carefully designed multi-agent workflows and communication graphs can significantly improve code generation performance by leveraging collaborative reasoning. However, existing methods neither adapt topology density to task difficulty nor refine the topology within an instance using execution feedback, which leads to redundant communication and performance bottlenecks. To address these issues, we propose AgentConductor: a reinforcement learning-optimized MAS with an LLM-based orchestrator agent as its core, which enables end-to-end feedback-driven dynamic generation of interaction topologies. For each query, AgentConductor infers agent roles and task difficulty, then constructs a task-adapted, density-aware layered directed acyclic graph(DAG) topology, underpinned by two key innovations. First, we design a novel topology density function to quantify communication-aware multi-agent interactions. Second, we adopt difficulty interval partitioning to avoid excessive pruning for precise topological density upper bound measurement per difficulty level and finer-grained control. Across five code datasets, AgentConductor outperforms the strongest baseline by up to 14.6% in pass@1, with 13% lower topology density and 68% lower token cost.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26fk/wang26fk.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26gb.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26gb.html",
+        "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+        "authors": [
+          "Wenhao Wang",
+          "Peizhi Niu",
+          "Gongyi Zou",
+          "Xiyuan Yang",
+          "Jingxing Wang",
+          "Haoting Shi",
+          "Yaxin Du",
+          "Jingyi Chai",
+          "Xianghe Pang",
+          "Shuo Tang",
+          "Yanfeng Wang",
+          "Siheng Chen"
+        ],
+        "abstract": "The Model Context Protocol (MCP) has emerged as a transformative standard for connecting large language models (LLMs) with external data sources and tools, and has been rapidly adopted across personal applications and development platforms. However, existing benchmarks predominantly focus on generic information-seeking tools and fail to capture the practical challenges posed by personal social applications, where tools interact with individual accounts or local databases. To bridge this critical gap, we introduce MCP-Persona, the first benchmark specifically designed for evaluating agent performance on real-world, personalized MCP tools. MCP-Persona encompasses a diverse set of widely-used applications, ranging from social media platforms like Reddit and Xiaohongshu (Rednote) to enterprise collaboration suites such as Lark (Feishu) and Slack. Our extensive experiments on various state-of-the-art (SOTA) agents demonstrate their significant struggles with personalized tool use, thereby highlighting the benchmark’s crucial role in identifying and addressing these limitations. MCP-Persona is publicly available at https://github.com/wwh0411/MCP-Persona",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gb/wang26gb.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/wwh0411/MCP-Persona",
+          "https://github.com/wwh0411/MCP-Persona",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ge.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ge.html",
+        "title": "ABSINT-AI: Agentic Heap Abstractions for Abstract Interpretation",
+        "authors": [
+          "Michael Wang",
+          "Kexin Pei",
+          "Armando Solar-Lezama"
+        ],
+        "abstract": "Static program analysis is a foundational technique in software engineering for reasoning about program behavior. Traditional static analysis algorithms model programs as logical systems with well-defined semantics, but rely on uniform, hard-coded heap abstractions. This limits their precision and flexibility, especially in dynamic languages like JavaScript, where heap structures are heterogeneous and difficult to analyze statically. In this work, we introduce ABSINT-AI, a language-model-guided static analysis framework that augments abstract interpretation with adaptive, per-object heap abstractions for Javascript. This enables the analysis to leverage high-level cues, such as naming conventions and access patterns, without requiring brittle, hand-engineered heuristics. Importantly, the LM agent operates within a bounded interface and never directly manipulates program state, preserving the soundness guarantees of abstract interpretation. To evaluate our approach, we focus on a soundness-critical task: determining whether object property accesses may result in undefined or null dereferences. This task directly models a common requirement in compiler optimizations, where proving that an access is safe enables the removal of dynamic checks or simplifies code motion. On this task, ABSINT-AI reduces false positives by up to 34% compared to traditional static analyses with fixed heap abstractions, while preserving formal guarantees. Our ablations show that the LM’s ability to interact agentically with the analysis environment is crucial, outperforming non-agentic LM predictions by 25%.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ge/wang26ge.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26gf.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26gf.html",
+        "title": "Persistent Semantic Entities in Tool-Augmented LLM Systems",
+        "authors": [
+          "Zhaohui Geoffrey Wang"
+        ],
+        "abstract": "Tool-augmented LLM agents can harbor implicit state that persists across sessions, activates through events, and propagates across agent boundaries—largely invisible to standard debugging. We formalize this as Persistent Semantic Entities (PSEs): constructs defined by name binding, event triggering, and cross-boundary propagation, and evaluate them across 24 models from 11 families (1.5B–1T parameters). First, every tested model is susceptible (20–100% on the 20-model susceptibility panel), with name binding as the necessary and dominant mechanism: without it, contamination is 0%. Second, persistence depends on contamination type rather than scale or deployment: preference contamination persists undecayed on every model probed (100% at t=10) and instruction contamination persists wherever adopted, persona-style injection decays partially (90%$\\rightarrow$10%), while factual injection is model-dependent—self-corrected on Llama-3.1-8B and GPT-4o-mini but held at ceiling on both Qwen2.5-coder variants, so we do not claim it self-corrects in general. The preference and instruction results hold across providers in our controlled setting. Third, context-isolated self-verification achieves 20–79% reduction (median 36.5%) without oracle references while keyword-based detection produces systematic false positives, and contamination compounds 1.9$\\times$ along a four-stage agent pipeline (40%$\\rightarrow$75%). Preference and instruction contamination—persistent, lacking self-correction, and poorly captured by standard monitoring—represent a particularly concerning attack surface for deployed agent systems.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gf/wang26gf.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/GeoffreyWang1117/PSE-ICML2026",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26im.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26im.html",
+        "title": "Agentic Model Predictive Questioning Control in Visual Design",
+        "authors": [
+          "Kuang-Da Wang",
+          "Zhao Wang",
+          "Wei-Yao Wang",
+          "Yotaro Shimose",
+          "Jaechang Kim",
+          "Shingo Takamatsu"
+        ],
+        "abstract": "Recent Large Language Model based approaches for clarifying visual design largely focus on selecting questions that better uncover user intent, but often overlooks the cognitive burden imposed on users, i.e., the effort required to interpret and answer these questions, which is crucial for effective human-agent interaction. In this paper, we propose Agentic Model Predictive Questioning Control (A-MPQC), a test-time framework that reduces proxy-estimated user interaction burden while improving visual design alignment by formulating multi-round clarification as trajectory optimization with receding-horizon replanning to revise its questioning strategy. In addition, we introduce lookahead question plans to reduce ambiguity early, and a lightweight respond-or-reject surrogate reward to steer questions toward lower user-burden formats (e.g., yes/no). Experiments on webpage and ad banner generation benchmarks show that A-MPQC not only generates designs better aligned with user intent, but also achieves lower user-interaction cost across diverse interaction baselines, including fixed-format strategies (e.g., multiple-choice and open-ended) and a retrieval-augmented baseline, without retraining. This paper sets a new perspective that explicitly formulates and optimizes the human cognitive burden jointly with final design alignment, opening new opportunities to advance human-agent interaction.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26im/wang26im.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/sony/a_mpqc",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26jh.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26jh.html",
+        "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+        "authors": [
+          "Zhaoyang Wang",
+          "Canwen Xu",
+          "Boyi Liu",
+          "Yite Wang",
+          "Siwei Han",
+          "Zhewei Yao",
+          "Huaxiu Yao",
+          "Yuxiong He"
+        ],
+        "abstract": "Recent advances in large language model (LLM) have empowered autonomous agents to perform multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments.In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale to 1,000 environments covering everyday scenarios, in which agents can interact with rich toolsets and obtain high-quality observations. Notably, these environments are code-driven and backed by databases, providing more reliable and consistent state transitions than environments simulated by LLMs. Moreover, they enable more efficient agent interaction compared with collecting trajectories from realistic environments. To demonstrate the effectiveness of this resource, we perform large-scale reinforcement learning for multi-turn tool-use agents. Thanks to the fully executable environments and accessible database states, we can also design reliable reward functions. Experiments on three benchmarks show that training exclusively in synthetic environments, rather than benchmark-specific ones, yields strong out-of-distribution generalization. The code is available at https://github.com/Snowflake-Labs/agent-world-model.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26jh/wang26jh.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Snowflake-Labs/agent-world-model",
+          "https://github.com/Snowflake-Labs/agent-world-model",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26jm.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26jm.html",
+        "title": "Milestone-Guided Policy Learning for Long-Horizon Language Agents",
+        "authors": [
+          "Zixuan Wang",
+          "Yuchen Yan",
+          "Hongxing Li",
+          "Teng Pan",
+          "Dingming Li",
+          "Ruiqing Zhang",
+          "Weiming Lu",
+          "Jun Xiao",
+          "Yueting Zhuang",
+          "Yongliang Shen"
+        ],
+        "abstract": "While long-horizon agentic tasks require language agents to perform dozens of sequential decisions, training such agents with reinforcement learning remains challenging. We identify two root causes: credit misattribution, where correct early actions are penalized due to terminal failures, and sample inefficiency, where scarce successful trajectories result in near-total loss of learning signal. We introduce a milestone-guided policy learning framework, BEACON, that leverages the compositional structure of long-horizon tasks to ensure precise credit assignment. BEACON partitions trajectories at milestone boundaries, applies temporal reward shaping within segments to credit partial progress, and estimates advantages at dual scales to prevent distant failures from corrupting the evaluation of local actions. On ALFWorld, WebShop, and ScienceWorld, BEACON consistently outperforms GRPO and GiGPO. Notably, on long-horizon ALFWorld tasks, BEACON achieves 92.9% success rate, nearly doubling GRPO’s 53.5%, while improving effective sample utilization from 23.7% to 82.0%. These results establish milestone-anchored credit assignment as an effective paradigm for training long-horizon language agents. Code is in supplementary materials and will be publicly released.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26jm/wang26jm.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/ZJU-REAL/BEACON",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26k.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26k.html",
+        "title": "EVMbench: Evaluating AI Agents on Smart Contract Security",
+        "authors": [
+          "Justin Wang",
+          "Andreas Bigger",
+          "Xiaohai Xu",
+          "Justin W Lin",
+          "Andy Applebaum",
+          "Tejal Patwardhan",
+          "Alpin Yukseloglu",
+          "Olivia Watkins"
+        ],
+        "abstract": "Smart contracts on public blockchains now manage large amounts of value, and vulnerabilities in these systems can lead to substantial losses. As AI agents become more capable at reading, writing, and running code, it is natural to ask how well they can already navigate this landscape, both in ways that improve security and in ways that might increase risk. We introduce EVMbench, an evaluation that measures the ability of agents to detect, patch, and exploit smart contract vulnerabilities. EVMbench draws on 117 curated vulnerabilities from 40 repositories and, in the most realistic setting, uses programmatic grading based on tests and blockchain state under a local Ethereum execution environment. We evaluate a range of frontier agents and find that they are capable of discovering and exploiting vulnerabilities end-to-end against live blockchain instances. We release code, tasks, and tooling to support continued measurement of these capabilities and future work on security.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26k/wang26k.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/openai/frontier-evals",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26kv.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26kv.html",
+        "title": "ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning",
+        "authors": [
+          "Xiaoxuan Wang",
+          "Han Zhang",
+          "Haixin Wang",
+          "Yidan Shi",
+          "Ruoyan Li",
+          "Kaiqiao Han",
+          "Chenyi Tong",
+          "Haoran Deng",
+          "Alexander K Taylor",
+          "Renliang Sun",
+          "Yanqiao Zhu",
+          "Jason Cong",
+          "Yizhou Sun",
+          "Wei Wang"
+        ],
+        "abstract": "Agentic reinforcement learning (ARL) has rapidly gained attention as a promising paradigm for training agents to solve complex, multi-step interactive tasks. Despite encouraging early results, ARL remains highly unstable, often leading to training collapse. This instability limits scalability to larger environments and longer interaction horizons, and constrains systematic exploration of algorithmic design choices. In this paper, we first propose ARLArena , a stable training recipe and systematic analysis framework that examines training stability in a controlled and reproducible setting. ARLArena first constructs a clean and standardized testbed. Then, we decompose policy gradient into four core design dimensions and assess the performance and stability of each dimension. Through this fine-grained analysis, we propose SAMPO , a stable agentic policy optimization method designed to mitigate the dominant sources of instability in ARL. Empirically, SAMPO achieves consistently stable training and strong performance across diverse agentic tasks. Our code is open-sourced at: https://github.com/WillDreamer/ARL-Arena.git",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26kv/wang26kv.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/WillDreamer/ARL-Arena.git",
+          "https://github.com/WillDreamer/ARL-Arena.git",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26lz.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26lz.html",
+        "title": "Position: Beyond Prediction: Toward Verifiable Physiological Waveform Reasoning with Foundation Models and Agentic LLMs",
+        "authors": [
+          "Xiaoda Wang",
+          "Ching Chang",
+          "Defu Cao",
+          "Kaiqiao Han",
+          "Fang Sun",
+          "Yue Huang",
+          "Minxiao Wang",
+          "Chang Xu",
+          "Xiao Luo",
+          "Runze Yan",
+          "Xiangliang Zhang",
+          "Xiao Hu",
+          "Yan Liu",
+          "Yizhou Sun",
+          "Wei Wang",
+          "Carl Yang"
+        ],
+        "abstract": "Physiological waveforms (e.g., ECG, PPG, EEG) encode clinically meaningful information in fine-grained morphology, precise timing, and cross-channel dynamics, yet most machine learning systems still treat them as generic time series and optimize end-to-end prediction. In this position paper, we argue for verifiable physiological waveform reasoning: extracting localized, measurable signal evidence from raw signals, interpreting that evidence into physiological semantics, and supporting clinically grounded decisions. Waveform reasoning is challenging due to acquisition heterogeneity, signal fidelity, complex semantics and cross-channel coupled dynamics. We analyze why existing model families remain insufficient: physiological foundation models learn strong perceptual representations but remain weak at verifiable reasoning, while LLM-based adaptations have limited waveform understanding. To bridge this gap, we advocate verifiable, closed-loop systems that unify waveform semantics with language intelligence. Concretely, we propose a dual-process architecture that System 1 aligns physiological waveforms with language, and System 2 provides agentic reasoning via a Plan–Act–Verify loop, together enabling verifiable physiological waveform reasoning. We further propose evaluations beyond accuracy, emphasizing traceability, replayability, counterfactual robustness, and calibrated abstention.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26lz/wang26lz.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26ma.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26ma.html",
+        "title": "Position: Agentic Safety is an Epistemic Property, Not a Behavioral One",
+        "authors": [
+          "Charles L. Wang",
+          "Keir Dorchen",
+          "Peter Jin"
+        ],
+        "abstract": "Contemporary AI safety spans pre-training interventions, post-training alignment, deployment-time controls, monitoring, and red-teaming. These methods are necessary, but they primarily certify snapshots of system behavior. As AI systems become more capable, dynamic, embodied, and self-improving, this snapshot view becomes incomplete: safety depends not only on whether a system behaves acceptably now, but whether it remains correctable as it learns, adapts, acts, and modifies itself over time. This paper argues that safety should therefore be treated as an epistemic property of the evolving learner, not merely a behavioral property of the current policy. We introduce teachability as the capacity to preserve future corrective leverage under bounded human, institutional, or environmental intervention. We argue that advanced systems can retain visible competence while eroding the representational, algorithmic, or meta-decision conditions needed for future correction. Safe advanced AI systems must not only behave acceptably now; they must remain teachable later.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ma/wang26ma.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wang26u.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wang26u.html",
+        "title": "Text Before Vision: Staged Knowledge Injection Matters for Agentic RLVR in Ultra-High-Resolution Remote Sensing Understanding",
+        "authors": [
+          "Fengxiang Wang",
+          "Mingshuo Chen",
+          "Yueying Li",
+          "Yulin Wang",
+          "Yang Yajie",
+          "Yuhao Zhou",
+          "Di Wang",
+          "Yifan Zhang",
+          "Haoyu Wang",
+          "Haiyan Zhao",
+          "Hongda Sun",
+          "Jun Song",
+          "Long Lan",
+          "Jing Zhang",
+          "Wenlong Zhang",
+          "Bo Du"
+        ],
+        "abstract": "Multimodal reasoning for ultra-high-resolution (UHR) remote sensing (RS) is usually bottlenecked by visual evidence acquisition: the model necessities localizing tiny task-relevant regions in massive pixel spaces. While Agentic Reinforcement Learning with Verifiable Rewards (RLVR) using zoom-in tools offers a path forward, we find that standard reinforcement learning struggles to navigate these vast visual spaces without structured domain priors. In this paper, we investigate the interplay between post-training paradigms: comparing Cold-start Supervised Fine-Tuning (SFT), RLVR, and Agentic RLVR on the UHR RS benchmark. Our controlled studies yield a counter-intuitive finding: high-quality Earth-science text-only QA is a primary driver of UHR visual reasoning gains. Despite lacking images, domain-specific text injects the concepts, mechanistic explanations, and decision rules necessary to guide visual evidence retrieval. Based on this, we propose a staged knowledge injection recipe: (1) cold-starting with scalable, knowledge-graph-verified Earth-science text QA to instill reasoning structures; and (2) \"pre-warming” on the same hard UHR image–text examples during SFT to stabilize and amplify subsequent tool-based RL. This approach achieves a 60.04% Pass@1 on XLRS-Bench, significantly outperforming larger general-purpose models (e.g., GPT-5.2, Gemini 3.0 Pro, Intern-S1) and establishing a new state-of-the-art. We provide both the automated data pipeline and the rigorous ablation studies that validate this \"Text-Before-Vision” paradigm. Datasets and code will be released.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26u/wang26u.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/MiliLab/Text-Before-Vision",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wei26m.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wei26m.html",
+        "title": "EvoMAS: Heuristics in the Loop—Evolving Smarter Agentic Workflows",
+        "authors": [
+          "Yangbo Wei",
+          "Zhen Huang",
+          "Ronghao Xu",
+          "Hong Wang",
+          "Wei W. Xing"
+        ],
+        "abstract": "The rapid development of Large Language Models has driven Multi-Agent Systems (MAS) growth, but constructing efficient MAS requires labor-intensive manual design. Current automation methods generate templated agents, use monolithic optimization, and ignore task complexity gradients. This paper presents Evolutionary MAS (EvoMAS), a biologically-inspired framework whose core is a dynamic and diverse repertoire of seven evolutionary strategies—six biologically-inspired operators (3 exploration, 3 exploitation) together with a custom operator for domain-specific transformations—driven by adaptive strategy selection. These are complemented by role-level evolution that refines agent specialization and collaboration patterns, and a curriculum-guided schedule that evolves workflows from simple to complex tasks with cross-stage stability. Additionally, to resolve the contradiction between the inefficiency of pure evolution and the rigidity of manual design, we introduce the Cyber Creator , a meta-controller that conducts heuristics-in-the-loop learning by formulating and reflectively updating evolutionary rules and strategies. Evaluations demonstrate that EvoMAS consistently outperforms existing methods across multiple domains while maintaining cost efficiency, with roles evolving from homogeneous actors to specialized reasoning ensembles.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wei26m/wei26m.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wei26q.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wei26q.html",
+        "title": "EvoC2F: Compiling Tool Orchestration for Efficient and Evolvable LLM Agents",
+        "authors": [
+          "Lei Wei",
+          "Qi Liu",
+          "Ruiyang Huang",
+          "Xiao Peng",
+          "Sicong Xie",
+          "Lanbo Lin",
+          "Chenhao Jiang",
+          "Yuanwu Xu",
+          "Tianyuan Yang",
+          "Jiayao Liu",
+          "Li Cai",
+          "Zhaolu Kang",
+          "Bin Wang"
+        ],
+        "abstract": "Tool-augmented language model agents have shown great potential in solving complex real-world tasks, but a key challenge remains balancing planning flexibility with the reliability required for production deployment. Existing approaches either execute tools sequentially without parallelism or generate unconstrained code, hindering optimization and verification. Additionally, agents that learn from experience often suffer from skill library pollution, where unverified abstractions degrade performance over time. We propose EvoC2F, a framework that redefines tool orchestration through program compilation and verified continuous learning. By constraining plan generation to a well-defined intermediate representation with explicit semantic annotations, EvoC2F enables provably correct optimizations, parallelism, and fault tolerance, while ensuring soundness guarantees. Our verification-gated code-to-function evolution process ensures that learned skills undergo rigorous testing before library admission. Experiments across diverse benchmarks demonstrate that EvoC2F outperforms existing methods, reducing latency and establishing a robust foundation for building reliable, evolving autonomous agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wei26q/wei26q.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wen26k.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wen26k.html",
+        "title": "Contextualized Privacy Defense for LLM Agents",
+        "authors": [
+          "Yule Wen",
+          "Yanzhe Zhang",
+          "Jianxun Lian",
+          "Xiaoyuan Yi",
+          "Xing Xie",
+          "Diyi Yang"
+        ],
+        "abstract": "LLM agents increasingly act on users’ personal information, yet existing privacy defenses remain limited in both design and adaptability. Most prior approaches rely on static or passive defenses, such as prompting and guarding. These paradigms are insufficient for supporting contextual, proactive privacy decisions in multi-step agent execution. We propose Contextualized Defense Instructing (CDI) , a new privacy defense paradigm in which an instructor model generates step-specific, context-aware privacy guidance during execution, proactively shaping actions rather than merely constraining or vetoing them. Crucially, CDI is paired with an experience-driven optimization framework that trains the instructor via reinforcement learning (RL), where we convert failure trajectories with privacy violations into learning environments. We formalize baseline defenses and CDI as distinct intervention points in a canonical agent loop, and compare their privacy–helpfulness trade-offs within a unified simulation framework. Empirically, CDI consistently achieves a better balance between privacy preservation (94.2%) and helpfulness (80.6%) than baselines, with superior robustness to adversarial conditions and generalization.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wen26k/wen26k.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/SALT-NLP/contextual_privacy_defense",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26ad.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26ad.html",
+        "title": "Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments",
+        "authors": [
+          "Siwei Wu",
+          "Yizhi Li",
+          "Yuyang Song",
+          "Wei Zhang",
+          "Yang Wang",
+          "Riza Batista-Navarro",
+          "Xian Yang",
+          "Mingjie Tang",
+          "Bryan Dai",
+          "Jian Yang",
+          "Chenghua Lin"
+        ],
+        "abstract": "Training agentic models for terminal-based tasks critically depends on high-quality terminal trajectories that capture realistic long-horizon interactions across diverse domains. However, constructing such data at scale remains challenging due to two key requirements: Executability , since each instance requires a suitable and often distinct Docker environment; and Verifiability , because heterogeneous task outputs preclude unified, standardized verification. To address these challenges, we propose TerminalTraj , a scalable pipeline that (i) filters high-quality repositories to construct Dockerized execution environments, (ii) generates Docker-aligned task instances, and (iii) synthesizes agent trajectories with executable validation code. Using TerminalTraj, we curate 32K Docker images and generate 50,733 verified terminal trajectories across eight domains. Models trained on this data with the Qwen2.5-Coder backbone achieve consistent performance improvements on TerminalBench (TB), with gains of up to 20% on TB 1.0 and 10% on TB 2.0 over their respective backbones. Notably, TerminalTraj-32B achieves strong performance among models with fewer than 100B parameters, reaching 35.30% on TB 1.0 and 22.00% on TB 2.0, and demonstrates improved test-time scaling behavior.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26ad/wu26ad.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/multimodal-art-projection/TerminalTraj",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26an.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26an.html",
+        "title": "MulFCoder: Framework-conditioned Multi-agent for MLLM-based Multi-framework Front-end Code Generation",
+        "authors": [
+          "Jie Wu",
+          "Haoran Ma",
+          "Shisong Tang",
+          "Yulin Xu",
+          "Xiaoyu Kang",
+          "Jiechao Gao"
+        ],
+        "abstract": "Generating runnable front-end code from UI screenshots is a long-standing goal in automated software engineering. Existing MLLM-based methods predominantly focused on HTML/CSS, leaving multi-framework generation for React/Vue/Angular underexplored. Naively modifying prompts leads to substantial performance gaps across multi-framework and highly framework-specific error modes. To address this, we propose MulFCoder, a framework-conditioned multi-agent method that explicitly encodes framework constraints to bring multi-framework differences into a decidable rule space. MulFCoder orchestrates four agents: Grounder constructs an ElementTable, ContentTable, and macro-layout regions from detected UI elements; Planner builds a DOM-like hierarchical layout tree, produces a task schedule, and derives a framework-specific file Contract; Writer generates structured file writes or patches within a restricted edit window; Judger enforces lightweight, framework-conditioned constraints to accept or reject updates and trigger bounded repairs, preventing drift and deadlocks without expensive builds. Experiments demonstrate that MulFCoder substantially improves compilation success rate and reduces framework-specific errors, with particularly pronounced gains on Angular.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26an/wu26an.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26ba.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26ba.html",
+        "title": "From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG",
+        "authors": [
+          "Wenhao Wu",
+          "Zhentao Tang",
+          "Yafu Li",
+          "Shixiong Kai",
+          "Mingxuan Yuan",
+          "Zhenhong Sun",
+          "Chunlin Chen",
+          "Zhi Wang"
+        ],
+        "abstract": "Large Language Models (LLMs) exhibit high reasoning capacity in medical question-answering, but their tendency to produce hallucinations and outdated knowledge poses critical risks in healthcare fields. While Retrieval-Augmented Generation (RAG) mitigates these issues, existing methods rely on noisy token-level signals and lack the multi-round refinement required for complex reasoning. In this paper, we propose MA-RAG ( M ulti-Round A gentic RAG), a framework that facilitates test-time scaling for complex medical reasoning by iteratively evolving both external evidence and internal reasoning history within an agentic refinement loop. At each round, the agent transforms semantic conflict among candidate responses into actionable queries to retrieve external evidence, while optimizing history reasoning traces to mitigate long-context degradation. MA-RAG extends the self-consistency principle by leveraging the lack of consistency as a proactive signal for multi-round agentic reasoning and retrieval, and mirrors a boosting mechanism that iteratively minimizes the residual error toward a stable, high-fidelity medical consensus . Extensive evaluations across 7 medical Q&A benchmarks show that MA-RAG consistently surpasses competitive inference-time scaling and RAG baselines, delivering substantial +6.8 points on average accuracy over the backbone model. Our code is available at https://github.com/NJU-RL/MA-RAG.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26ba/wu26ba.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/NJU-RL/MA-RAG",
+          "https://github.com/NJU-RL/MA-RAG",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26bd.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26bd.html",
+        "title": "ExCyTIn-Bench: Evaluating LLM agents on Cyber Threat Investigation",
+        "authors": [
+          "Yiran Wu",
+          "Mauricio Velazco",
+          "Andrew Zhao",
+          "Manuel Raúl Meléndez Luján",
+          "Srisuma Movva",
+          "Yogesh K Roy",
+          "Quang Nguyen",
+          "Roberto Rodriguez",
+          "Qingyun Wu",
+          "Michael Albada",
+          "Julia Kiseleva",
+          "Anand Mudgerikar"
+        ],
+        "abstract": "We present ExCyTIn-Bench, the first benchmark to Evaluate an LLM agent X on the task of Cyber Threat Investigation through security questions derived from investigation graphs. Real-world security analysts must sift through a large number of heterogeneous security logs, follow multi-hop chains of evidence to investigate threats. With the developments of LLMs, building LLM-based agents for automatic threat investigation is a promising direction. We construct a benchmark from a controlled Azure tenant including a SQL environment covering 57 log tables from Microsoft Sentinel and related services, and 7542 generated questions. We leverage security logs extracted with expert-crafted detection logic to build threat investigation graphs, and then generate questions with LLMs using paired nodes on the graph, taking the start node as background context and the end node as answer. Anchoring each question to these explicit nodes and edges not only provides automatic, explainable ground truth answers but also makes the pipeline reusable and readily extensible to new logs. Our comprehensive experiments on the test set with different models confirm the difficulty of the task: the best model so far can achieve a reward of 0.606, leaving much headroom for future research.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26bd/wu26bd.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/microsoft/SecRL",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26bf.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26bf.html",
+        "title": "From Interactions to Principles: Experience-Driven Self-Distillation for Evolving LLM Agents",
+        "authors": [
+          "Rong Wu",
+          "Xiaoman Wang",
+          "Jianbiao Mei",
+          "Pinlong Cai",
+          "Daocheng Fu",
+          "Cheng Yang",
+          "Licheng Wen",
+          "Xuemeng Yang",
+          "Yufan Shen",
+          "Yuxin Wang",
+          "Botian Shi"
+        ],
+        "abstract": "LLM agents have achieved strong performance in tool-augmented reasoning, but most remain largely stateless: after each episode, the agent discards interaction traces and does not accumulate reusable strategies. Prior work either stores raw trajectories for case-based reuse or relies on external teacher models to write reflections, which limits generalization or leaves the agent’s policy unchanged. We introduce EvolveR, an experience-driven framework that allows an agent to improve using its own interaction history. EvolveR maintains an experience base of distilled strategic principles derived from past trajectories. In an offline phase, the agent self-distills successful and failed trajectories into concise principles, applies semantic deduplication, and assigns each principle an empirical utility score for maintenance and pruning. In an online phase, the agent retrieves top-ranked principles to guide reasoning and tool usage, generating new trajectories. We then perform policy evolution with reinforcement learning on these experience-conditioned trajectories, reinforcing behaviors that effectively retrieve and apply useful principles. We demonstrate the effectiveness of EvolveR on complex multi-hop question-answering benchmarks, where it achieves superior performance over strong agentic baselines. Our work presents a comprehensive blueprint for agents that learn not only from external data but also from the consequences of their own actions, paving the way for more autonomous and continuously improving systems.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26bf/wu26bf.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/KnowledgeXLab/EvolveR",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26bp.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26bp.html",
+        "title": "From Interaction Trajectories to Prompt Rules: Credit Assignment for Multi-Agent Prompt Optimization",
+        "authors": [
+          "Bin Wu",
+          "Haoran Xu",
+          "Xiang Zhuang",
+          "Zonghao Chen",
+          "Zhu Li",
+          "Emine Yilmaz",
+          "Qiang Zhang"
+        ],
+        "abstract": "Large language model (LLM)-based multi-agent systems commonly rely on natural-language prompts to specify agent behavior, yet optimizing these prompts remains challenging when agent roles and interaction structures are fixed by design. In such systems, behaviors emerge over long, noisy interaction trajectories, making it difficult to determine which prompt components are responsible for success or failure. As a result, outcome-level feedback alone is insufficient, while existing prompt optimization methods typically rely on final task scores or global prompt rewrites, limiting their ability to exploit trajectory evidence or support the localized updates. We propose Trajectory-based Rule Credit Estimation (TRUCE), a framework for prompt optimization in multi-agent systems that explicitly addresses this credit assignment challenge. TRUCE performs trajectory-aware attribution by linking outcome feedback to informative sub-trajectories and translating the resulting credit signals into unit-level edits over prompt-defined behavioral rules. By preserving agent roles and interaction structures, TRUCE enables prompt refinement through localized updates aggregated across tasks. Experiments on multiple benchmarks demonstrate that TRUCE consistently improves task performance and efficiency over competitive baselines. Code is available at https://github.com/bingo-w/TRUCE.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26bp/wu26bp.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/bingo-w/TRUCE",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26cc.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26cc.html",
+        "title": "Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation",
+        "authors": [
+          "Chengcan Wu",
+          "Zhixin Zhang",
+          "Mingqian Xu",
+          "Zeming Wei",
+          "Meng Sun"
+        ],
+        "abstract": "Multi-Agent Systems (MAS) have become a prevalent paradigm for Large Language Model (LLM) applications. However, the complex multi-agent design in MAS introduces unique trustworthiness concerns: adversarial agents can inject misleading information that propagates contagiously through the system, corrupting benign agents and leading to false outputs. Existing graph-based defenses model agents as nodes and communications as edges, yet are limited to static-graph defenses. In this paper, we propose a dynamic defense paradigm that models MAS communication as a signed directed acyclic graph and computes each agent’s contribution to the final decision via backward propagation, enabling accurate identification and isolation of malicious agents to secure multi-agent task collaboration. Experimental results in complex and dynamic MAS environments demonstrate that our method notably outperforms existing MAS defense mechanisms, providing an effective guardrail for trustworthy MAS deployment. Our code is available at https://github.com/ChengcanWu/BPD.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26cc/wu26cc.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/ChengcanWu/BPD",
+          "https://github.com/ChengcanWu/BPD",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/wu26p.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/wu26p.html",
+        "title": "OpenDeception: Learning Deception and Trust in Human–AI Interaction via Multi-Agent Simulation",
+        "authors": [
+          "Yichen Wu",
+          "Qianqian Gao",
+          "Xudong Pan",
+          "Geng Hong",
+          "Min Yang"
+        ],
+        "abstract": "As large language models (LLMs) are increasingly deployed as interactive agents, open-ended human-AI interactions can involve deceptive behaviors with serious real-world consequences, yet existing evaluations remain largely scenario-specific and model-centric. We introduce OpenDeception , a lightweight framework for jointly evaluating deception risk from both sides of human-AI dialogue. It consists of a scenario benchmark with 50 real-world deception cases, an IntentNet that infers deceptive intent from agent reasoning, and a TrustNet that estimates user susceptibility. To address data scarcity, we synthesize high-risk dialogues via LLM-based role-and-goal simulation, and train the TrustNet using contrastive learning on controlled response pairs, avoiding unreliable scalar labels. Experiments on 11 LLMs and three large reasoning models show that over 90% of goal-driven interactions in most models exhibit deceptive intent, with stronger models displaying higher risk. A real-world case study adapted from a documented AI-induced suicide incident further demonstrates that our joint evaluation can proactively trigger warnings before critical trust thresholds are reached.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26p/wu26p.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xi26b.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xi26b.html",
+        "title": "Does Reinforcement Fine-Tuning Improve Generalization of LLM Agents? An Empirical Study",
+        "authors": [
+          "Zhiheng Xi",
+          "Xin Guo",
+          "Jiaqi Liu",
+          "Jiazheng Zhang",
+          "Yutao Fan",
+          "Zhihao Zhang",
+          "Shichun Liu",
+          "Mingxu Chai",
+          "Xiaowei Shi",
+          "Yitao Zhai",
+          "Xunliang Cai",
+          "Tao Gui",
+          "Qi Zhang",
+          "Xuanjing Huang"
+        ],
+        "abstract": "Reinforcement fine-tuning (RFT) has shown promise for training LLM agents to perform multi-turn decision-making based on environment feedback. However, most existing evaluations remain largely in-domain—training and testing are conducted in the same environment or even on the same tasks. In real-worlddeployment, agents may operate in unseen environments with different background knowledge, observation spaces, and action interfaces. To characterize the generalization profile of RFT under such shifts, we conduct a systematic study along three axes: (1) within-environment generalization across task difficulty, (2) cross-environment transfer to unseen environments, and (3) sequential multi-environment training to quantify transfer and forgetting. Our results show that RFT generalizes well across task difficulty within an environment, but exhibits unstable transfer to unseen environments, which correlates with shifts in both semantic priors and observation/action interfaces. In contrast, sequential training yields promising downstream gains with minimal upstream forgetting, and mixture training across environments improves the overall balance. We further provide detailed analyses and deeper insights, and hope our work helps the community develop and deploy generalizable LLM agents.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xi26b/xi26b.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xiao26v.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xiao26v.html",
+        "title": "Offline Multi-agent Continual Cooperation via Skill Partition and Reuse",
+        "authors": [
+          "Yuchen Xiao",
+          "Lei Yuan",
+          "Ruiqi Xue",
+          "Tieyue Yin",
+          "Yang Yu"
+        ],
+        "abstract": "Extracting skills from multi-agent offline dataset improves learning efficiency via sharing task-invariant coordination skills among tasks. In settings where tasks occur sequentially and the space of skills grows exponentially, existing approaches that rely on heuristically designed and fixed-sized skill libraries struggle to resolve the problem of distributional shift and interference, facing catastrophic forgetting and plasticity loss. To address this problem and endow agents with the ability to continually discover and reuse coordination skills in open-environment, we propose COMAD, a principled framework for C ontinual O ffline M ulti- a gent Skill D iscovery via Skill Partition and Reuse. We first discover skills from mixed multi-agent behavior data with an auto-encoder to transform coordination knowledge into reusable coordination skills. Then we construct a skill-augmented policy learning objective with multi-head architectures, explicitly guiding the advantage function with reusable skills identified via a density-based reusability estimator. Theoretical analysis shows our method approximates the optimum of a continual skill discovery problem. Empirical results across diverse MARL benchmarks show that COMAD continually expands its skill library to mitigate interference, achieving superior forward and backward transfer for task streams compared to multiple baselines.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xiao26v/xiao26v.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/yuchen2003/comad-icml26",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xie26o.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xie26o.html",
+        "title": "TeamTR: Trust-Region Fine-Tuning for Multi-Agent LLM Coordination",
+        "authors": [
+          "Yi Xie",
+          "Siao Liu",
+          "Falong Fan",
+          "Yuanqi Yao",
+          "Siyang Cao",
+          "Yue Zhao",
+          "Bo Liu"
+        ],
+        "abstract": "Multi-agent LLM systems can improve reasoning and tool use, yet recent evidence shows their gains are often unstable and sensitive to interaction design. A promising direction is to train collaboration, but team post-training introduces a moving-target effect: when agents interact through a shared context, updating one agent shifts the context distribution faced by the others, which can regress coordination under naive sequential updates. We propose TeamTR, a trust-region framework for fine-tuning heterogeneous LLM teams that explicitly controls this occupancy shift. TeamTR evaluates each agent update on rollouts from the intermediate team induced by partially applied updates, and enforces per-agent trust regions via a token-decomposed reverse KL that is directly monitorable from those rollouts. This yields population-level per-update and per-stage improvement lower bounds whose functional form applies to any realized update order, and motivates a practical certificate proxy computed from logged surrogates and KL terms. We instantiate TeamTR for router-based text handoff with sequence-level returns and bounded group-normalized advantages, and show empirically that it mitigates coordination regressions, improves training stability across heterogeneous teams, and supports modular component replacement via a trust-region alignment step.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xie26o/xie26o.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Yydc/TeamTR",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xie26x.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xie26x.html",
+        "title": "MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games",
+        "authors": [
+          "Yunfei Xie",
+          "Kevin Wang",
+          "Bobby Cheng",
+          "Jianzhu Yao",
+          "Zhizhou Sha",
+          "Alexander Duffy",
+          "Yihan Xi",
+          "Hongyuan Mei",
+          "Cheston Tan",
+          "Chen Wei",
+          "Pramod Viswanath",
+          "Zhangyang Wang"
+        ],
+        "abstract": "Multi-turn, multi-agent LLM game evaluations exhibit substantial run-to-run variance. In long-horizon interactions, small deviations compound across turns and are amplified by multi-agent coupling, biasing win rate estimates and destabilizing comparative rankings across repeated tournaments. Prompt choice exacerbates this by inducing different effective policies and interaction dynamics. We address both instability and underperformance in games with MEMO: ( Me mory-augmented MO del context optimization), a self-play framework that treats inference-time context as an optimizable, agentic object by coupling retention and exploration . Retention distills self-play trajectories into a persistent memory bank of structured insights that act as priors; exploration combines tournament-style prompt evolution under TrueSkill with prioritized replay over decisive states. Across five text-based games and a 2,000-game budget per task, MEMO raises mean win rate from 25.1% to 49.5% for GPT-4o-mini and from 20.9% to 45.0% for Qwen-2.5-7B, while sharply reducing run-to-run dispersion. These results suggest substantial headroom in multi-agent LLM game performance and robustness can be unlocked through memory, with MEMO achieving gains in negotiation and imperfect-information settings, while RL remains more effective in perfect-information settings. Project website: https://yunfeixie233.github.io/MEMO/.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xie26x/xie26x.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xin26d.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xin26d.html",
+        "title": "BFS-Prover-V2: Scaling up Multi-Turn Off-Policy RL and Multi-Agent Tree Search for LLM Step-Provers",
+        "authors": [
+          "Ran Xin",
+          "Zeyu Zheng",
+          "Yanchen Nie",
+          "Kun Yuan",
+          "Xia Xiao"
+        ],
+        "abstract": "The integration of Large Language Models (LLMs) with automated theorem proving has shown immense promise, yet is constrained by challenges in scaling up both training-time reinforcement learning (RL) and inference-time compute. This paper introduces BFS-Prover-V2, a step-level theorem proving system designed to address this dual scaling problem. We present two primary innovations. The first is a novel multi-turn off-policy RL framework for continually improving the performance of the LLM step-prover at training time. This framework, inspired by the principles of AlphaZero, utilizes a multi-stage expert iteration pipeline featuring adaptive tactic-level data filtering and periodic retraining to surmount the performance plateaus that typically curtail long-term RL in LLM-based agents. The second innovation is a planner-enhanced multi-agent system that scales reasoning capabilities at inference time. This architecture employs a general reasoning model as a high-level planner to iteratively decompose complex theorems into a sequence of simpler subgoals. This hierarchical approach substantially reduces the search space, enabling a team of parallel prover agents to collaborate efficiently by leveraging a shared proof cache. We demonstrate that this dual approach to scaling yields state-of-the-art results on established formal mathematics benchmarks. BFS-Prover-V2 achieves 95.08% and 41.4% on the miniF2F and ProofNet test sets respectively. While demonstrated in the domain of formal mathematics, the RL and inference techniques presented in this work are of broader interest and may be applied to other domains requiring long-horizon multi-turn reasoning and complex search.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xin26d/xin26d.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/ByteDance-Seed/BFS-Prover-V2",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xu26ax.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xu26ax.html",
+        "title": "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems",
+        "authors": [
+          "Haowen Xu",
+          "Xue Tan",
+          "Lei Ma",
+          "Zhihao Zhang",
+          "Chao Wang",
+          "Qingze Wang",
+          "Ping Chen",
+          "Jun Dai",
+          "Xiaoyan Sun"
+        ],
+        "abstract": "While enabling effective collaboration on complex tasks, LLM-based Multi-Agent Systems (MAS) face critical security challenges due to vulnerabilities at the agent and interaction levels. Most existing MAS security defenses are built upon two core assumptions: semantically-explicit malicious attacks and explicit graph-based modeling of the MAS topology and agent-level interactions. In practice, real-world attacks are becoming more semantically stealthy, while MAS execution is typically asynchronous without the temporal alignment assumed by graph-based propagation models. To address these limitations, we propose AcMAS, an activation-based framework for malicious-behavior detection in MAS. By analyzing internal reasoning states in the activation space of local agents, AcMAS detects even stealthy attacks in a synchronization-robust fashion, without relying on explicit interaction graphs. Moreover, our activation analysis provides critical signals to guide AcMAS in restoring the functionality of compromised agents, rather than the disruptive agent isolation commonly used by the state-of-the-art methods. Comprehensive evaluation demonstrates that AcMAS significantly outperforms graph-based baselines against stealthy attacks, by +0.22 F1 in synchronous settings (0.94 vs. 0.72) and by +0.55 F1 in asynchronous settings (0.93 vs. 0.38), with generalization across diverse open-source LLM backbones, attack intensity, and MAS scale.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26ax/xu26ax.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/tommy-xu268777/AcMAS",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xu26bb.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xu26bb.html",
+        "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
+        "authors": [
+          "Zihan Xu",
+          "Haolin Tian",
+          "Hai Jiang"
+        ],
+        "abstract": "Large language model (LLM)-driven multi-agent systems typically require multiple model invocations and complex coordination during inference, and their execution strategies directly affect system accuracy, latency, and computational cost. Parallel execution provides a means to improve inference-time efficiency. From the perspective of inference-time execution, this paper models parallelism in multi-agent systems as two distinct levels of decision processes: Replica Parallelism, which explores multiple complete solution paths at the task level, and Structural Parallelism, which enables concurrent execution within a single solution path through task decomposition. However, the roles of different forms of parallelism and their interrelationships still lack systematic study in terms of unified organization and coordination. We therefore propose TIPEX, a controllable execution framework that unifies these two levels of parallelism and coordinates their roles within the inference process under a unified execution semantics while supporting systematic combinations and analyses of different parallel strategies and parameter configurations. Systematic experiments on the GAIA benchmark demonstrate that inference-time parallelism can significantly improve accuracy and reduce end-to-end latency at the cost of increased token consumption. Further analysis shows that Replica and Structural Parallelism exhibit complementary effects across task complexities, with tasks of intermediate difficulty benefiting most from their coordination, while overly aggressive parallel strategies do not necessarily yield better performance.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26bb/xu26bb.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xu26k.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xu26k.html",
+        "title": "SWE-Compass: Towards Unified Evaluation of Agentic Coding Abilities for Large Language Models",
+        "authors": [
+          "Jingxuan Xu",
+          "Ken Deng",
+          "Weihao Li",
+          "Songwei Yu",
+          "Haoyang Huang",
+          "Xinping Lei",
+          "Yifan Yao",
+          "Huaixi Tang",
+          "Zhiyi Lai",
+          "Kepeng Lei",
+          "Zizheng Zhan",
+          "Yanan Wu",
+          "Chenchen Zhang",
+          "Wenqiang Zhu",
+          "Wen Xiang",
+          "Zongxian Feng",
+          "Han Li",
+          "Junqi Xiong",
+          "Dailin Li",
+          "Zuchen Gao",
+          "Kun Wu",
+          "Yuanxing Zhang",
+          "Wuxuan Gong",
+          "Ziyuan Gao",
+          "Guanxiang Wang",
+          "Yirong Xue",
+          "Mengfei Xie",
+          "Xiaojiang Zhang",
+          "Jinghui Wang",
+          "Wenhao Zhuang",
+          "Zheng Lin",
+          "Huiming Wang",
+          "Zhaoxiang Zhang",
+          "Yuqun Zhang",
+          "Haotian Zhang",
+          "Ming Sun",
+          "Chen Bin",
+          "Jiaheng Liu"
+        ],
+        "abstract": "Evaluating large language models (LLMs) for software engineering has been limited by narrow task coverage, language bias, and insufficient alignment with real-world developer workflows. Existing benchmarks often focus on algorithmic problems or Python-centric bug fixing, leaving critical dimensions of software engineering underexplored. To address these gaps, we introduce SWE-Compass, a comprehensive benchmark that unifies heterogeneous code-related evaluations into a structured and production-aligned framework. SWE-Compass spans 8 task types, 8 programming scenarios, and 10 programming languages, with 2000 high-quality instances curated from authentic GitHub pull requests and refined through systematic filtering and validation. We benchmark ten state-of-the-art LLMs under two agentic frameworks, SWE-Agent and Claude Code, revealing a clear hierarchy of difficulty across task types, languages, and scenarios. Moreover, by aligning evaluation with real-world developer practices, we hope SWE-Compass can provide a rigorous and reproducible foundation for diagnosing and advancing agentic coding capabilities in large language models.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26k/xu26k.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/kwaipilot/SWE-Compass",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/xue26e.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/xue26e.html",
+        "title": "Learning Disentangled Multi-Agent World Model for Decentralized Control",
+        "authors": [
+          "Di Xue",
+          "Jing Jiang",
+          "Shaowei Zhang",
+          "Wenhao Guo",
+          "Lei Yuan",
+          "Zongzhang Zhang",
+          "Yang Yu"
+        ],
+        "abstract": "World models enable learning policies via latent imagination, offering benefits such as history compression and sample efficiency. The primary challenge in applying world models to multi-agent tasks is that modeling multi-agent dynamics in latent space requires integrating information from different agents, often creating spurious correlations between their latent states. Existing methods either reconstruct the observation for each agent or employ communication to maintain correlation during execution, failing to learn disentangled latent states that are crucial for effective decentralized control. To address this, we present the Disentangled Multi-Agent World Model (DMAWM). It facilitates learning decentralized policies in the latent space through a novel architecture comprising independent agent modules and a shared environment module. During real-environment execution, agent modules independently process local information to form a factorized latent representation. The environment module is then trained to mirror the factorized structure generated by the agent modules, effectively disentangling individual latent states from the interaction dynamics. Consequently, imaginary rollouts generated by the environment module more faithfully simulate decentralized execution dynamics, facilitating the transfer of policies from imagination to decentralized execution. Empirically, DMAWM outperforms existing model-based and model-free approaches in convergence speed and final performance, with additional visualization demonstrating its efficacy in capturing agent interactions.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/xue26e/xue26e.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/DiXue98/DMAWM",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yalcinkaya26a.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yalcinkaya26a.html",
+        "title": "Automata-Conditioned Cooperative Multi-Agent Reinforcement Learning",
+        "authors": [
+          "Beyazit Yalcinkaya",
+          "Marcell Vazquez-Chanlatte",
+          "Ameesh Shah",
+          "Hanna Krasowski",
+          "Sanjit A. Seshia"
+        ],
+        "abstract": "We study learning multi-task, multi-agent policies for cooperative, temporal objectives, under centralized training, decentralized execution. In this setting, using automata to represent tasks assigned to agents enables breaking down a team-level objective into simpler, smaller sub-tasks. However, existing approaches remain sample-inefficient and are limited to the single-task case, requiring retraining policies for each new task. In this work, we present Automata-Conditioned Cooperative Multi-Agent Reinforcement Learning (ACC-MARL), a framework for learning task-conditioned, decentralized team policies. We identify challenges to the feasibility of ACC-MARL, propose solutions, and prove that our approach is optimal. We further show that learned value functions can be used to assign tasks optimally at test time. Experiments demonstrate emergent task-aware, multi-step coordination among agents, such as pressing a button to unlock a door, holding the door, and short-circuiting tasks.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yalcinkaya26a/yalcinkaya26a.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/rad-dfa/acc-marl",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yan26k.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yan26k.html",
+        "title": "GLARE: Scalable Neuro-Symbolic Reward Shaping for LLM Agents via Group-Level Automata",
+        "authors": [
+          "Jingyuan Yan",
+          "Qingchen Liu",
+          "Qichao Ma",
+          "Jiahu Qin"
+        ],
+        "abstract": "Reinforcement Learning (RL) with Group Relative Policy Optimization (GRPO) shows great promise for enhancing LLM reasoning, but remains challenged by sparse and unstable rewards in long-horizon tasks. Existing approaches to reward shaping struggle to balance semantic expressiveness, reliability, and computational efficiency: heuristic rules lack flexibility, while LLM-as-a-Judge incurs high computational cost and suffer from inconsistent and misaligned scoring signals in long-context settings. To address these challenges, we introduce GLARE, a neuro-symbolic reward framework that decouples semantic abstraction from credit assignment. Specifically, to leverage semantic understanding while preserving symbolic determinism, we first extract and symbolize trajectory events into a discrete representation. These events are then translated into Linear Temporal Logic (LTL) formulas, which are compiled into deterministic automata that track the agent’s progress via state transitions. This mechanism yields dense and consistent reward signals, avoiding unstable direct scoring while significantly reducing computational cost. Empirical results on ALFWorld show that GLARE outperforms GRPO by 12.1% in success rate, while achieving an 8.1% improvement over conventional LLM-based judges using only 15% of their computational cost.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yan26k/yan26k.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/USTC-AIR-Lab/GLARE.git",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yan26n.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yan26n.html",
+        "title": "MemIncept: Steering LLM Agents via Cooperative Stealthy Memory Injections",
+        "authors": [
+          "Nan Yan",
+          "Qian Lou",
+          "Jiarong Xing"
+        ],
+        "abstract": "Long-term memory empowers LLM-based agents with adaptive reasoning but exposes a critical attack surface—adversaries can inject malicious records to bias agent behaviors. However, existing attacks face a dilemma: effective injections are often visibly malicious and easily detected, while stealthy, benign-looking injections are often less effective in altering agent behaviors. To address this, we propose MemIncept, a memory poisoning attack that can impact agents even in black-box settings using only benign-appearing queries. Unlike prior methods that inject isolated records, MemIncept generates a cooperative set of queries that work together to bias the agent. It achieves this via a bidirectional evolutionary strategy that optimizes the query set from two ends. A forward pass ensures the queries collectively lead the agent to the target outcome, while a backward pass ensures they are semantically close to victim (benign) queries for reliable retrieval. This “meet-in-the-middle” approach creates injected records that are both easy to retrieve and effective at steering behavior. Through extensive experiments across diverse agents, we show that MemIncept significantly outperforms single-record attacks, achieving high success rates comparable to explicit attacks while remaining difficult to flag under automated filters or human inspection.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yan26n/yan26n.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yang26aj.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yang26aj.html",
+        "title": "Phase-Aware Mixture of Experts for Agentic Reinforcement Learning",
+        "authors": [
+          "Shengtian Yang",
+          "Yu Li",
+          "Shuo He",
+          "Yewen Li",
+          "Qingpeng Cai",
+          "Peng Jiang",
+          "Lei Feng"
+        ],
+        "abstract": "Reinforcement learning (RL) has equipped LLM agents with a strong ability to solve complex tasks. However, existing RL methods normally use a single policy network, causing simplicity bias where simple tasks occupy most parameters and dominate gradient updates, leaving insufficient capacity for complex tasks. A plausible remedy could be employing the Mixture-of-Experts (MoE) architecture in the policy network, as MoE allows different parameters (experts) to specialize in different tasks, preventing simple tasks from dominating all parameters. However, a key limitation of traditional MoE is its token-level routing, where the router assigns each token to specialized experts, which fragments phase-consistent patterns into scattered expert assignments and thus undermines expert specialization. In this paper, we propose Phase-Aware Mixture of Experts (PA-MoE). It first features a lightweight phase router that learns latent phase boundaries directly from the RL objective without pre-defining phase categories. Then, the phase router allocates temporally consistent assignments to the same expert, allowing experts to preserve phase-specific expertise. Experimental results demonstrate the effectiveness of our proposed PA-MoE. Code is available at https://anonymous.4open.science/r/PA-MoE-576C/.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yang26aj/yang26aj.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yang26be.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yang26be.html",
+        "title": "ParEVO: Synthesizing Code for Irregular Data: High-Performance Parallelism through Agentic Evolution",
+        "authors": [
+          "Liu Yang",
+          "Zeyu Nie",
+          "Andrew Liu",
+          "Ruomu Zou",
+          "Deniz Altınbüken",
+          "Amir Yazdanbakhsh",
+          "Quanquan C. Liu"
+        ],
+        "abstract": "Parallelizing code for irregular data structures (sparse graphs, unbalanced trees, non-uniform meshes) is notoriously hard, and current LLMs fail catastrophically on such tasks, generating code riddled with race conditions, deadlocks, and poor scaling. We address this with ParEVO , a framework for synthesizing high-performance parallel algorithms for irregular data, built on three contributions: the Parlay-Instruct Corpus of 13,820 tasks generated via a \"Critic-Refine\" pipeline that filters for empirically performant uses of Work-Span primitives; specialized DeepSeek , Qwen , and Gemini models fine-tuned to the semantics of the ParlayLib library; and an Evolutionary Coding Agent (ECA) that repairs the \"last mile\" of correctness using compiler and profiler feedback. On the ParEval benchmark, ParEVO achieves an average 107x speedup and a 13.6x speedup on highly complex irregular graph problems, outperforming commercial models like GPT-5-Thinking and Gemini-3-Pro, while matching expert human-written baselines and reaching up to a 4.1x speedup on kernels such as Maximal Independent Set. This demonstrates that AI-driven agents can effectively navigate the complex landscape of high-performance computing. Source code and datasets are available at https://github.com/WildAlg/ParEVO.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yang26be/yang26be.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/WildAlg/ParEVO",
+          "https://github.com/WildAlg/ ParEVO",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
+    },
+    "https://proceedings.mlr.press/v306/yang26bo.html": {
+      "record": {
+        "source": "PMLR",
+        "family": "会议",
+        "url": "https://proceedings.mlr.press/v306/yang26bo.html",
+        "title": "AgentTailor: A Semantic-Aware LLM-Based Multi-Agent System with Actor-Critic Structure",
+        "authors": [
+          "Peiting Yang",
+          "Jiahao Shi",
+          "Caiyi Xu",
+          "Ming Liu",
+          "Yanxia Wu",
+          "Rongsheng Li"
+        ],
+        "abstract": "Large Language Model (LLM)-based multi-agent systems often suffer from high communication cost due to redundant interactions, as existing methods optimize communication structures without explicitly measuring whether exchanged messages contribute to the final decision. To better utilize the semantic information in the execution stage to further optimize the structure of multi-agent systems and reduce token costs, we propose AgentTailor , a cost-aware framework that evaluates the semantic contribution of communication edges via an edge judgment mechanism, and employs an Edge Prediction Network (EPN) to estimate edge utilities through virtual execution without invoking LLMs. Experiments show that AgentTailor achieves the best average accuracy (91.36%) on six datasets of diverse fields, while reducing total tokens by 21.2%–61.6%. Our work demonstrates that explicitly modeling semantic edge contribution is crucial for scalable and efficient multi-agent systems, providing a principled approach to communication optimization that goes beyond structural heuristics. The code is available at https://github.com/Pt3Y/AgentTailor.",
+        "published_at": "2026-09-29T00:00:00+00:00",
+        "updated_at": "",
+        "status": "published",
+        "document_type": "research_article",
+        "doi": "",
+        "arxiv_id": "",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yang26bo/yang26bo.pdf",
+        "venue": "International Conference on Machine Learning",
+        "code_links": [
+          "https://github.com/Pt3Y/AgentTailor",
+          "https://github.com/Pt3Y/AgentTailor",
+          "https://github.com/mlresearch/v306"
+        ]
+      },
+      "checked": "2026-10-21T05:35:57+00:00"
     }
   }
 }
