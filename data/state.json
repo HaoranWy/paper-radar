@@ -1,27 +1,27 @@
 {
   "sources": {
     "arXiv": {
-      "status": "partial",
-      "attempted_at": "2026-10-22T04:56:08+00:00",
+      "status": "error",
+      "attempted_at": "2026-10-23T04:58:13+00:00",
       "last_success_at": "",
-      "fetched": 6878,
-      "added": 147,
-      "changed": 28,
-      "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位"
+      "fetched": 0,
+      "added": 0,
+      "changed": 0,
+      "note": "分批检索 2/9，每批最多 8 个词，每页最多 100 条。批次 1: HTTP 429 from export.arxiv.org | 批次 2: HTTP 429 from export.arxiv.org | 连续两个批次请求失败；本次停止其余 7 个批次，保留时间水位"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:39+00:00",
-      "last_success_at": "2026-10-22T05:01:39+00:00",
-      "fetched": 296,
-      "added": 1,
-      "changed": 1,
+      "attempted_at": "2026-10-23T05:00:38+00:00",
+      "last_success_at": "2026-10-23T05:00:38+00:00",
+      "fetched": 321,
+      "added": 0,
+      "changed": 2,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:43+00:00",
-      "last_success_at": "2026-10-22T05:01:43+00:00",
+      "attempted_at": "2026-10-23T05:00:40+00:00",
+      "last_success_at": "2026-10-23T05:00:40+00:00",
       "fetched": 23,
       "added": 0,
       "changed": 0,
@@ -29,70 +29,70 @@
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:44+00:00",
-      "last_success_at": "2026-10-22T05:01:44+00:00",
-      "fetched": 18,
+      "attempted_at": "2026-10-23T05:00:41+00:00",
+      "last_success_at": "2026-10-23T05:00:41+00:00",
+      "fetched": 23,
       "added": 0,
-      "changed": 2,
+      "changed": 0,
       "note": ""
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:45+00:00",
-      "last_success_at": "2026-10-22T05:01:45+00:00",
-      "fetched": 571,
-      "added": 1,
+      "attempted_at": "2026-10-23T05:00:43+00:00",
+      "last_success_at": "2026-10-23T05:00:43+00:00",
+      "fetched": 545,
+      "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:48+00:00",
-      "last_success_at": "2026-10-22T05:01:48+00:00",
-      "fetched": 66,
+      "attempted_at": "2026-10-23T05:00:46+00:00",
+      "last_success_at": "2026-10-23T05:00:46+00:00",
+      "fetched": 115,
       "added": 0,
-      "changed": 0,
+      "changed": 1,
       "note": ""
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:49+00:00",
-      "last_success_at": "2026-10-22T05:01:49+00:00",
-      "fetched": 186,
-      "added": 1,
-      "changed": 0,
+      "attempted_at": "2026-10-23T05:00:47+00:00",
+      "last_success_at": "2026-10-23T05:00:47+00:00",
+      "fetched": 141,
+      "added": 0,
+      "changed": 1,
       "note": ""
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:01:51+00:00",
-      "last_success_at": "2026-10-22T05:01:51+00:00",
-      "fetched": 12,
+      "attempted_at": "2026-10-23T05:00:49+00:00",
+      "last_success_at": "2026-10-23T05:00:49+00:00",
+      "fetched": 6,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:01:52+00:00",
+      "attempted_at": "2026-10-23T05:00:50+00:00",
       "last_success_at": "",
-      "fetched": 225,
+      "fetched": 223,
       "added": 0,
-      "changed": 0,
+      "changed": 1,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:07:25+00:00",
+      "attempted_at": "2026-10-23T05:06:23+00:00",
       "last_success_at": "",
-      "fetched": 1437,
+      "fetched": 1452,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:13:38+00:00",
+      "attempted_at": "2026-10-23T05:12:36+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -101,44 +101,44 @@
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:17:38+00:00",
+      "attempted_at": "2026-10-23T05:16:35+00:00",
       "last_success_at": "",
-      "fetched": 194,
+      "fetched": 196,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:23:53+00:00",
+      "attempted_at": "2026-10-23T05:22:48+00:00",
       "last_success_at": "",
-      "fetched": 920,
+      "fetched": 917,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 3/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-10-22T05:30:08+00:00",
+      "attempted_at": "2026-10-23T05:29:03+00:00",
       "last_success_at": "",
-      "fetched": 1038,
+      "fetched": 1039,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "PMLR": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:36:22+00:00",
-      "last_success_at": "2026-10-22T05:36:22+00:00",
+      "attempted_at": "2026-10-23T05:35:18+00:00",
+      "last_success_at": "2026-10-23T05:35:18+00:00",
       "fetched": 537,
-      "added": 13,
-      "changed": 41,
+      "added": 0,
+      "changed": 0,
       "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:37:27+00:00",
-      "last_success_at": "2026-10-22T05:37:27+00:00",
+      "attempted_at": "2026-10-23T05:35:29+00:00",
+      "last_success_at": "2026-10-23T05:35:29+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,7 +146,7 @@
     },
     "2026.emnlp": {
       "status": "unavailable",
-      "attempted_at": "2026-10-22T05:37:33+00:00",
+      "attempted_at": "2026-10-23T05:35:35+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-10-22T05:37:34+00:00",
+      "attempted_at": "2026-10-23T05:35:36+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -164,8 +164,8 @@
     },
     "CVPR2026": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:37:35+00:00",
-      "last_success_at": "2026-10-22T05:37:35+00:00",
+      "attempted_at": "2026-10-23T05:35:37+00:00",
+      "last_success_at": "2026-10-23T05:35:37+00:00",
       "fetched": 108,
       "added": 0,
       "changed": 0,
@@ -173,8 +173,8 @@
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:38:03+00:00",
-      "last_success_at": "2026-10-22T05:38:03+00:00",
+      "attempted_at": "2026-10-23T05:36:05+00:00",
+      "last_success_at": "2026-10-23T05:36:05+00:00",
       "fetched": 38,
       "added": 0,
       "changed": 0,
@@ -182,8 +182,8 @@
     },
     "ICCV2025": {
       "status": "ok",
-      "attempted_at": "2026-10-22T05:38:18+00:00",
-      "last_success_at": "2026-10-22T05:38:18+00:00",
+      "attempted_at": "2026-10-23T05:36:21+00:00",
+      "last_success_at": "2026-10-23T05:36:21+00:00",
       "fetched": 29,
       "added": 0,
       "changed": 0,
@@ -191,12 +191,12 @@
     }
   },
   "last_run": {
-    "started_at": "2026-10-22T04:56:08+00:00",
-    "finished_at": "2026-10-22T05:38:35+00:00",
+    "started_at": "2026-10-23T04:58:13+00:00",
+    "finished_at": "2026-10-23T05:36:38+00:00",
     "attempted_sources": 21,
-    "failed_sources": 0,
-    "added": 163,
-    "changed": 72
+    "failed_sources": 1,
+    "added": 0,
+    "changed": 5
   },
   "detail_cache": {
     "https://proceedings.mlr.press/v337/kazantsev26a.html": {

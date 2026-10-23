@@ -32129,7 +32129,7 @@
     {
       "id": "0ea2125ad226c5ec",
       "first_seen_at": "2026-10-22T05:01:39+00:00",
-      "record_changed_at": "2026-10-22T05:01:39+00:00",
+      "record_changed_at": "2026-10-23T05:00:38+00:00",
       "aliases": [
         "doi:10.1038/s41586-026-11161-8",
         "titleauthor:the anatomy of a personal health agent|a ali heydari",
@@ -32244,7 +32244,7 @@
           ],
           "abstract": "Abstract Large language models are enabling a new generation of health agents, yet their ability to address the diverse needs of individuals in everyday health settings remains underexplored 1,2 . Here we developed a comprehensive personal health agent that reasons over multimodal data from consumer wellness devices and medical records to provide personalized health support. Through analysis of web search and health forum queries, together with user-centred research involving end users and health experts, we identified four key user journeys: general health knowledge, personal data interpretation, wellness advice, and symptom assessment. These journeys informed three specialist sub-agents: (1) a data science agent that analyses longitudinal wearable and medical data, incorporating population-level statistics to contextualize numerical insights; (2) a health domain expert agent that integrates personal and contextual data with health knowledge to generate personalized insights; and (3) a health coach agent that synthesizes insights, supports multi-turn interaction and goal setting, applies specified psychological strategies and tracks progress. We integrated these capabilities in the personal health agent, an open-source multi-agent framework for dynamic, personalized health interactions. We evaluated the sub-agents and full system across 11 benchmark tasks using automated and human evaluation, with more than 7,000 annotations and 1,350 h of effort from health experts and end users. This represents the most comprehensive evaluation of a personal health agent thus far and provides a concrete foundation for improving access to high-quality personalized health support more broadly.",
           "published_at": "2026-10-21T00:00:00+00:00",
-          "updated_at": "2026-10-21T22:02:49+00:00",
+          "updated_at": "2026-10-22T10:13:11+00:00",
           "status": "published",
           "document_type": "unspecified",
           "doi": "10.1038/s41586-026-11161-8",
@@ -32310,7 +32310,7 @@
       "pdf_url": "",
       "published_at": "2026-10-21T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-10-21T22:02:49+00:00",
+      "source_updated_at": "2026-10-22T10:13:11+00:00",
       "sources": [
         "Nature"
       ],
@@ -90911,7 +90911,7 @@
     {
       "id": "28554415416affb7",
       "first_seen_at": "2026-10-16T11:32:57+00:00",
-      "record_changed_at": "2026-10-16T11:32:57+00:00",
+      "record_changed_at": "2026-10-23T05:00:38+00:00",
       "aliases": [
         "doi:10.1038/s41586-026-11044-y",
         "titleauthor:reimagining research papers as interactive and reliable ai agents|jiacheng miao",
@@ -90932,7 +90932,7 @@
           ],
           "abstract": "",
           "published_at": "2026-09-16T00:00:00+00:00",
-          "updated_at": "2026-09-16T15:44:48+00:00",
+          "updated_at": "2026-10-22T22:02:24+00:00",
           "status": "published",
           "document_type": "unspecified",
           "doi": "10.1038/s41586-026-11044-y",
@@ -90963,7 +90963,7 @@
       "pdf_url": "",
       "published_at": "2026-09-16T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-09-16T15:44:48+00:00",
+      "source_updated_at": "2026-10-22T22:02:24+00:00",
       "sources": [
         "Nature"
       ],
@@ -147761,7 +147761,7 @@
     {
       "id": "41c88fd50bb79f61",
       "first_seen_at": "2026-10-16T13:54:28+00:00",
-      "record_changed_at": "2026-10-16T13:54:28+00:00",
+      "record_changed_at": "2026-10-23T05:00:50+00:00",
       "aliases": [
         "titleauthor:multi agent debate with memory masking|hongduan tian",
         "url:https://openreview.net/forum?id=EdTt8nMAMA"
@@ -147777,12 +147777,12 @@
             "Xiao Feng",
             "Ziyuan ZHAO",
             "XiangyuZhu",
-            "Rolan Yan",
+            "Qiang Yan",
             "Bo Han"
           ],
           "abstract": "Large language models (LLMs) have recently demonstrated impressive capabilities in reasoning tasks. Currently, mainstream LLM reasoning frameworks predominantly focus on scaling up inference-time sampling to enhance performance. In particular, among all LLM reasoning frameworks, *multi-agent debate* (MAD), which employs multiple LLMs as agents to perform reasoning in the way of multi-round debate, has emerged as a powerful reasoning paradigm since it allows agents to access previous memories to alleviate fallacious content and refine their reasoning iteratively in each debate round. However, although MAD significantly improves the reasoning capabilities of LLMs, in this paper, we observe that there remain erroneous memories, and LLM agents are vulnerable to these erroneous memories. To explore this phenomenon, we provide a theoretical insight that the performance of MAD is highly dependent on the quality of memories derived from the previous debate, indicating that the existence of erroneous memories poses a threat to the performance of MAD. To address this problem, we introduce a simple yet effective multi-agent debate framework, *multi-agent debate with memory masking* (MAD-M$^2$), to improve the robustness of MAD by allowing LLM agents to mask erroneous memories from the previous debate round at the beginning of each debate round. In this way, MAD-M$^2$ can polish the contextual information before each debate round by preserving informative and meaningful memories while discarding the erroneous memories. Extensive experiments and analyses on mainstream mathematical and logical reasoning benchmarks demonstrate that MAD-M$^2$ can identify the erroneous memories and achieve better performance in reasoning than MAD.",
           "published_at": "2026-01-26T13:59:39+00:00",
-          "updated_at": "2026-04-11T03:10:46+00:00",
+          "updated_at": "2026-10-22T19:51:22+00:00",
           "status": "accepted",
           "document_type": "research_article",
           "doi": "",
@@ -147800,7 +147800,7 @@
         "Xiao Feng",
         "Ziyuan ZHAO",
         "XiangyuZhu",
-        "Rolan Yan",
+        "Qiang Yan",
         "Bo Han"
       ],
       "status": "accepted",
@@ -147815,7 +147815,7 @@
       "pdf_url": "https://openreview.net/pdf/e427537a83c21ee46356ed07dcebcd0e43b6c37e.pdf",
       "published_at": "2026-01-26T13:59:39+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-04-11T03:10:46+00:00",
+      "source_updated_at": "2026-10-22T19:51:22+00:00",
       "sources": [
         "OpenReview"
       ],
@@ -265234,7 +265234,7 @@
     {
       "id": "778391891299b2e4",
       "first_seen_at": "2026-10-16T11:33:09+00:00",
-      "record_changed_at": "2026-10-16T11:33:09+00:00",
+      "record_changed_at": "2026-10-23T05:00:46+00:00",
       "aliases": [
         "doi:10.1126/science.aeg6779",
         "titleauthor:the virtual biotech a multi agent ai framework for therapeutic discovery and development|harrison g zhang",
@@ -265253,9 +265253,9 @@
             "Andrew B. Mahon",
             "James Zou"
           ],
-          "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, over 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell-type-specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
-          "published_at": "2026-09-17T00:00:00+00:00",
-          "updated_at": "2026-09-17T18:00:29+00:00",
+          "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, more than 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell type–specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
+          "published_at": "2026-10-22T00:00:00+00:00",
+          "updated_at": "2026-10-22T18:00:57+00:00",
           "status": "published",
           "document_type": "unspecified",
           "doi": "10.1126/science.aeg6779",
@@ -265278,15 +265278,15 @@
       "venue": "Science",
       "url": "https://doi.org/10.1126/science.aeg6779",
       "document_type": "unspecified",
-      "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, over 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell-type-specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
+      "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, more than 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell type–specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
       "abstract_source": "https://doi.org/10.1126/science.aeg6779",
       "abstract_note": "来源摘要；未做机器翻译",
       "doi": "10.1126/science.aeg6779",
       "arxiv_id": "",
       "pdf_url": "",
-      "published_at": "2026-09-17T00:00:00+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-09-17T18:00:29+00:00",
+      "source_updated_at": "2026-10-22T18:00:57+00:00",
       "sources": [
         "Science"
       ],
@@ -344847,11 +344847,13 @@
     {
       "id": "9a75c21c76ac5678",
       "first_seen_at": "2026-10-22T05:01:49+00:00",
-      "record_changed_at": "2026-10-22T05:01:49+00:00",
+      "record_changed_at": "2026-10-23T05:00:47+00:00",
       "aliases": [
         "doi:10.1126/sciadv.aei3178",
         "titleauthor:all soft organic electrochemical diodes based on asymmetric active layers for signal isolation in deformable electronics|sehyun kim",
-        "url:https://doi.org/10.1126/sciadv.aei3178"
+        "titleauthor:all soft organic electrochemical diodes based on asymmetric active layers for signal isolation in deformable electronics|sehyun kim minji kim haechan park kihyun sim jihyeon jang yerin kim jinyeong park donghyung shin myeonghyeon na kyoseung sim",
+        "url:https://doi.org/10.1126/sciadv.aei3178",
+        "url:https://www.science.org/doi/abs/10.1126/sciadv.aei3178?af=R"
       ],
       "records": {
         "Science Advances|https://doi.org/10.1126/sciadv.aei3178": {
@@ -344882,6 +344884,25 @@
           "venue": "Science Advances",
           "code_links": [],
           "metadata_provider": "Crossref"
+        },
+        "Science Advances|https://www.science.org/doi/abs/10.1126/sciadv.aei3178?af=R": {
+          "source": "Science Advances",
+          "family": "Science",
+          "url": "https://www.science.org/doi/abs/10.1126/sciadv.aei3178?af=R",
+          "title": "All-soft organic electrochemical diodes based on asymmetric active layers for signal isolation in deformable electronics",
+          "authors": [
+            "Sehyun Kim, Minji Kim, Haechan Park, Kihyun Sim, Jihyeon Jang, Yerin Kim, Jinyeong Park, Donghyung Shin, Myeonghyeon Na, Kyoseung Sim"
+          ],
+          "abstract": "Science Advances, Volume 12, Issue 43, October 2026.",
+          "published_at": "2026-10-21T07:00:00+00:00",
+          "updated_at": "",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1126/sciadv.aei3178",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Science Advances",
+          "code_links": []
         }
       },
       "title": "All-soft organic electrochemical diodes based on asymmetric active layers for signal isolation in deformable electronics",
@@ -344917,7 +344938,8 @@
         "Science"
       ],
       "source_urls": [
-        "https://doi.org/10.1126/sciadv.aei3178"
+        "https://doi.org/10.1126/sciadv.aei3178",
+        "https://www.science.org/doi/abs/10.1126/sciadv.aei3178?af=R"
       ],
       "code_links": [],
       "code_status": "unknown",
