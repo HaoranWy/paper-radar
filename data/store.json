@@ -7812,6 +7812,98 @@
       ]
     },
     {
+      "id": "02f8be6b885f2ab9",
+      "first_seen_at": "2026-10-29T05:59:20+00:00",
+      "record_changed_at": "2026-10-29T05:59:20+00:00",
+      "aliases": [
+        "doi:10.1038/s41467-026-78909-8",
+        "titleauthor:concentration quenching resistant violet blue tadf oleds via indirect conformal distributions tuning in solid state|hong ji tan",
+        "url:https://doi.org/10.1038/s41467-026-78909-8"
+      ],
+      "records": {
+        "Nature Communications|https://doi.org/10.1038/s41467-026-78909-8": {
+          "source": "Nature Communications",
+          "family": "Nature",
+          "url": "https://doi.org/10.1038/s41467-026-78909-8",
+          "title": "Concentration quenching resistant violet-blue TADF OLEDs via indirect conformal distributions tuning in solid-state",
+          "authors": [
+            "Hong-Ji Tan",
+            "Guo-Xi Yang",
+            "Jie-Rong Yu",
+            "Zhi-Qiang Long",
+            "Qing-Xiao Tong",
+            "Ze-Lin Zhu",
+            "Yin-Xuan Zhang",
+            "Daniel M. Dawson",
+            "Sharon E. Ashbrook",
+            "Shi-Jian Su",
+            "Jing-Xin Jian",
+            "Eli Zysman-Colman",
+            "Chun-Sing Lee"
+          ],
+          "abstract": "Abstract Controlling conformation distributions is the key to manipulate material properties of multi-conformal molecules. Distinct from previous strategy with direct change or impact on the flexible groups, we tune the conformation distribution through changing peripheral groups to influence their intermolecular interactions. Two blue violet TADF emitters, namely tert -butyl substituted 5-(2,12-di-tert-butyl-5,9-dioxa-13b-boranaphtho[3,2,1-de]anthracen-7-yl)−10,10-diphenyl-5,10-dihydrodibenzo[b,e][1,4]azagermine (TDBA-PAG) and cumenyl substituted 5-(2,12-bis(2-phenylpropan-2-yl)−5,9-dioxa-13b-boranaphtho[3,2,1-de]anthracen-7-yl)−10,10-diphenyl-5,10-dihydrodibenzo[b,e][1,4]azagermine (TPDBA-PAG) were designed and synthesized. With the same germanium-integrated donor, the two compounds show similar emission properties in solution with calculated conformation dominantly of their quasi-axial (QA) forms (> 97%). However, TPDBA-PAG presents a lower QA ratio compared with TDBA-PAG, which endows the former with more pronounced TADF emission, higher emission efficiency and reduced concentration quenching phenomena in solid state. As a result, TPDBA-PAG performed as one of the best non-doped and doped violet-blue emitters and successfully sensitized MesB-DIDOBNA-N to achieve record high EQE max of 24.7% at 406 nm, making significant progress in NUV OLEDs.",
+          "published_at": "2026-10-28T00:00:00+00:00",
+          "updated_at": "2026-10-28T10:23:40+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1038/s41467-026-78909-8",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Nature Communications",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Concentration quenching resistant violet-blue TADF OLEDs via indirect conformal distributions tuning in solid-state",
+      "authors": [
+        "Hong-Ji Tan",
+        "Guo-Xi Yang",
+        "Jie-Rong Yu",
+        "Zhi-Qiang Long",
+        "Qing-Xiao Tong",
+        "Ze-Lin Zhu",
+        "Yin-Xuan Zhang",
+        "Daniel M. Dawson",
+        "Sharon E. Ashbrook",
+        "Shi-Jian Su",
+        "Jing-Xin Jian",
+        "Eli Zysman-Colman",
+        "Chun-Sing Lee"
+      ],
+      "status": "published",
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-78909-8",
+      "document_type": "unspecified",
+      "abstract": "Abstract Controlling conformation distributions is the key to manipulate material properties of multi-conformal molecules. Distinct from previous strategy with direct change or impact on the flexible groups, we tune the conformation distribution through changing peripheral groups to influence their intermolecular interactions. Two blue violet TADF emitters, namely tert -butyl substituted 5-(2,12-di-tert-butyl-5,9-dioxa-13b-boranaphtho[3,2,1-de]anthracen-7-yl)−10,10-diphenyl-5,10-dihydrodibenzo[b,e][1,4]azagermine (TDBA-PAG) and cumenyl substituted 5-(2,12-bis(2-phenylpropan-2-yl)−5,9-dioxa-13b-boranaphtho[3,2,1-de]anthracen-7-yl)−10,10-diphenyl-5,10-dihydrodibenzo[b,e][1,4]azagermine (TPDBA-PAG) were designed and synthesized. With the same germanium-integrated donor, the two compounds show similar emission properties in solution with calculated conformation dominantly of their quasi-axial (QA) forms (> 97%). However, TPDBA-PAG presents a lower QA ratio compared with TDBA-PAG, which endows the former with more pronounced TADF emission, higher emission efficiency and reduced concentration quenching phenomena in solid state. As a result, TPDBA-PAG performed as one of the best non-doped and doped violet-blue emitters and successfully sensitized MesB-DIDOBNA-N to achieve record high EQE max of 24.7% at 406 nm, making significant progress in NUV OLEDs.",
+      "abstract_source": "https://doi.org/10.1038/s41467-026-78909-8",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1038/s41467-026-78909-8",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-10-28T10:23:40+00:00",
+      "sources": [
+        "Nature Communications"
+      ],
+      "families": [
+        "Nature"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1038/s41467-026-78909-8"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 8,
+      "topics": [
+        "uncertainty"
+      ],
+      "matched_terms": [
+        "conformal"
+      ]
+    },
+    {
       "id": "030b027eaed038bc",
       "first_seen_at": "2026-10-16T13:49:08+00:00",
       "record_changed_at": "2026-10-16T13:49:08+00:00",
@@ -106106,7 +106198,7 @@
     {
       "id": "28554415416affb7",
       "first_seen_at": "2026-10-16T11:32:57+00:00",
-      "record_changed_at": "2026-10-23T05:00:38+00:00",
+      "record_changed_at": "2026-10-29T05:59:14+00:00",
       "aliases": [
         "doi:10.1038/s41586-026-11044-y",
         "titleauthor:reimagining research papers as interactive and reliable ai agents|jiacheng miao",
@@ -106127,7 +106219,7 @@
           ],
           "abstract": "",
           "published_at": "2026-09-16T00:00:00+00:00",
-          "updated_at": "2026-10-22T22:02:24+00:00",
+          "updated_at": "2026-10-28T15:45:09+00:00",
           "status": "published",
           "document_type": "unspecified",
           "doi": "10.1038/s41586-026-11044-y",
@@ -106158,7 +106250,7 @@
       "pdf_url": "",
       "published_at": "2026-09-16T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-10-22T22:02:24+00:00",
+      "source_updated_at": "2026-10-28T15:45:09+00:00",
       "sources": [
         "Nature"
       ],
@@ -427963,6 +428055,88 @@
       ]
     },
     {
+      "id": "a18ea78c9286486b",
+      "first_seen_at": "2026-10-29T05:59:24+00:00",
+      "record_changed_at": "2026-10-29T05:59:24+00:00",
+      "aliases": [
+        "doi:10.1126/sciadv.aec1912",
+        "titleauthor:machine psychology for language models|thilo hagendorff",
+        "url:https://doi.org/10.1126/sciadv.aec1912"
+      ],
+      "records": {
+        "Science Advances|https://doi.org/10.1126/sciadv.aec1912": {
+          "source": "Science Advances",
+          "family": "Science",
+          "url": "https://doi.org/10.1126/sciadv.aec1912",
+          "title": "Machine psychology for language models",
+          "authors": [
+            "Thilo Hagendorff",
+            "Ishita Dasgupta",
+            "Marcel Binz",
+            "Stephanie Chan",
+            "Andrew Lampinen",
+            "Jane X. Wang",
+            "Zeynep Akata",
+            "Eric Schulz"
+          ],
+          "abstract": "Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities is therefore important. We argue that a fruitful direction for research is engaging LLMs in experiments inspired by psychology that have traditionally been aimed at understanding human cognition and behavior. Here, we highlight and summarize theoretical perspectives, experimental paradigms, and computational analysis techniques that this approach brings to the table. It paves the way for a “machine psychology” for LLMs that goes beyond performance measurements and focuses instead on computational insights that move us toward a better understanding and discovery of emergent abilities and behavioral patterns in LLMs. We review existing work taking this approach, synthesize best practices, and highlight promising future directions. We also describe the important caveats of applying methodologies designed for understanding humans to machines. We posit that leveraging tools from experimental psychology to study LLMs will become increasingly valuable as models evolve to be more powerful, opaque, multimodal, and integrated into complex agentic real-world settings.",
+          "published_at": "2026-10-30T00:00:00+00:00",
+          "updated_at": "2026-10-28T18:04:59+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1126/sciadv.aec1912",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Science Advances",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Machine psychology for language models",
+      "authors": [
+        "Thilo Hagendorff",
+        "Ishita Dasgupta",
+        "Marcel Binz",
+        "Stephanie Chan",
+        "Andrew Lampinen",
+        "Jane X. Wang",
+        "Zeynep Akata",
+        "Eric Schulz"
+      ],
+      "status": "published",
+      "venue": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aec1912",
+      "document_type": "unspecified",
+      "abstract": "Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities is therefore important. We argue that a fruitful direction for research is engaging LLMs in experiments inspired by psychology that have traditionally been aimed at understanding human cognition and behavior. Here, we highlight and summarize theoretical perspectives, experimental paradigms, and computational analysis techniques that this approach brings to the table. It paves the way for a “machine psychology” for LLMs that goes beyond performance measurements and focuses instead on computational insights that move us toward a better understanding and discovery of emergent abilities and behavioral patterns in LLMs. We review existing work taking this approach, synthesize best practices, and highlight promising future directions. We also describe the important caveats of applying methodologies designed for understanding humans to machines. We posit that leveraging tools from experimental psychology to study LLMs will become increasingly valuable as models evolve to be more powerful, opaque, multimodal, and integrated into complex agentic real-world settings.",
+      "abstract_source": "https://doi.org/10.1126/sciadv.aec1912",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1126/sciadv.aec1912",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-10-28T18:04:59+00:00",
+      "sources": [
+        "Science Advances"
+      ],
+      "families": [
+        "Science"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.aec1912"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 3,
+      "topics": [
+        "agents"
+      ],
+      "matched_terms": [
+        "agentic"
+      ]
+    },
+    {
       "id": "a18f60e2334e64a3",
       "first_seen_at": "2026-10-27T05:11:57+00:00",
       "record_changed_at": "2026-10-27T05:11:57+00:00",
@@ -623010,6 +623184,84 @@
       "matched_terms": [
         "multi-agent",
         "calibration"
+      ]
+    },
+    {
+      "id": "e92b7cb2e53d0b6c",
+      "first_seen_at": "2026-10-29T05:59:24+00:00",
+      "record_changed_at": "2026-10-29T05:59:24+00:00",
+      "aliases": [
+        "doi:10.1126/sciadv.aei8289",
+        "titleauthor:double layer liquid surface printing of soft films for flexible electronics|mengtian yin",
+        "url:https://doi.org/10.1126/sciadv.aei8289"
+      ],
+      "records": {
+        "Science Advances|https://doi.org/10.1126/sciadv.aei8289": {
+          "source": "Science Advances",
+          "family": "Science",
+          "url": "https://doi.org/10.1126/sciadv.aei8289",
+          "title": "Double-layer liquid-surface printing of soft films for flexible electronics",
+          "authors": [
+            "Mengtian Yin",
+            "Ziyu Chen",
+            "Boshen Xu",
+            "Yue Zhang",
+            "Pei Dong",
+            "Baoxing Xu"
+          ],
+          "abstract": "Soft thin films are essential platforms for developing flexible electronics. However, producing thin films with uniform thickness, free residual stress while often followed by a subsequent defect-free transfer at high yield remains a significant fabrication challenge. Here, we present a liquid-surface printing technique that enables the fabrication of highly uniform, soft, thin films by leveraging controlled spreading of 3D-printed polymeric ink droplets on a double-layer immiscible liquid substrate. The inherent smoothness of the liquid surface together with the self-leveling-driven uniformity of the immiscible liquid layer yields precise control over ink droplet spreading and produces highly uniform soft films free of structural defects or surface irregularities. These films can be programmably transferred onto curvilinear substrates because of the fluidic nature of the underlying liquid substrate and its weak van der Waals interactions with the films while maintaining conformal contact. We demonstrate the versatility of this printing approach by fabricating a broad variety of geometric patterns and local features and also validate its robustness by their extensive mechanical and electrical performance measurement. We further fabricate flexible radio-frequency identification (RFID) tags and conformally deploy them to the “skin” of food or food packaging with diverse curvatures for real-time spoilage monitoring, showcasing this technological capability and potential for fabricating flexible and conformable electronics.",
+          "published_at": "2026-10-30T00:00:00+00:00",
+          "updated_at": "2026-10-28T18:02:27+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1126/sciadv.aei8289",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Science Advances",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Double-layer liquid-surface printing of soft films for flexible electronics",
+      "authors": [
+        "Mengtian Yin",
+        "Ziyu Chen",
+        "Boshen Xu",
+        "Yue Zhang",
+        "Pei Dong",
+        "Baoxing Xu"
+      ],
+      "status": "published",
+      "venue": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aei8289",
+      "document_type": "unspecified",
+      "abstract": "Soft thin films are essential platforms for developing flexible electronics. However, producing thin films with uniform thickness, free residual stress while often followed by a subsequent defect-free transfer at high yield remains a significant fabrication challenge. Here, we present a liquid-surface printing technique that enables the fabrication of highly uniform, soft, thin films by leveraging controlled spreading of 3D-printed polymeric ink droplets on a double-layer immiscible liquid substrate. The inherent smoothness of the liquid surface together with the self-leveling-driven uniformity of the immiscible liquid layer yields precise control over ink droplet spreading and produces highly uniform soft films free of structural defects or surface irregularities. These films can be programmably transferred onto curvilinear substrates because of the fluidic nature of the underlying liquid substrate and its weak van der Waals interactions with the films while maintaining conformal contact. We demonstrate the versatility of this printing approach by fabricating a broad variety of geometric patterns and local features and also validate its robustness by their extensive mechanical and electrical performance measurement. We further fabricate flexible radio-frequency identification (RFID) tags and conformally deploy them to the “skin” of food or food packaging with diverse curvatures for real-time spoilage monitoring, showcasing this technological capability and potential for fabricating flexible and conformable electronics.",
+      "abstract_source": "https://doi.org/10.1126/sciadv.aei8289",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1126/sciadv.aei8289",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-10-28T18:02:27+00:00",
+      "sources": [
+        "Science Advances"
+      ],
+      "families": [
+        "Science"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.aei8289"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 4,
+      "topics": [
+        "uncertainty"
+      ],
+      "matched_terms": [
+        "conformal"
       ]
     },
     {
