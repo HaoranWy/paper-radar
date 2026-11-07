@@ -203499,7 +203499,7 @@
     {
       "id": "435cb9f115c0c009",
       "first_seen_at": "2026-10-16T11:35:29+00:00",
-      "record_changed_at": "2026-10-16T11:35:29+00:00",
+      "record_changed_at": "2026-11-07T06:45:38+00:00",
       "aliases": [
         "doi:10.18653/v1/2026.acl-long.1584",
         "titleauthor:smarter a data efficient framework to improve toxicity detection with explanation via self augmenting large language models|huy nghiem",
@@ -203514,7 +203514,7 @@
           "authors": [
             "Huy Nghiem",
             "Advik Sachdeva",
-            "Hal Daumé Iii"
+            "Hal Daumé III"
           ],
           "abstract": "To address toxic content on social media, we introduce SMARTER, a data-efficient 2-stage framework for explainable content moderation using Large Language Models (LLMs). In Stage 1, we leverage LLMs’ own outputs to generate synthetic explanations for correct and incorrect labels, enabling preference optimization with minimal supervision. In Stage 2, we refine explanation quality through cross-model training, allowing weaker models to align with stronger ones. Experiments on 3 benchmarks (HateXplain, Latent Hate, Implicit Hate) show SMARTER achieves up to 13% macro-F1 improvement over few-shot baselines using only 6-57% of training data. Our framework offers a scalable strategy for low-data settings by harnessing LLMs’ self-improvement for explainable moderation.",
           "published_at": "2026-07",
@@ -203532,7 +203532,7 @@
       "authors": [
         "Huy Nghiem",
         "Advik Sachdeva",
-        "Hal Daumé Iii"
+        "Hal Daumé III"
       ],
       "status": "published",
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -734261,6 +734261,95 @@
       "matched_terms": [
         "llm agents",
         "tool-augmented"
+      ]
+    },
+    {
+      "id": "f07062f44d20ed5a",
+      "first_seen_at": "2026-11-07T06:10:42+00:00",
+      "record_changed_at": "2026-11-07T06:10:42+00:00",
+      "aliases": [
+        "doi:10.1038/d41586-026-03587-x",
+        "titleauthor:these ai agents design your perfect robot powered lab and run it for you|kaia glickman",
+        "url:https://doi.org/10.1038/d41586-026-03587-x",
+        "url:https://www.nature.com/articles/d41586-026-03587-x"
+      ],
+      "records": {
+        "Nature|https://www.nature.com/articles/d41586-026-03587-x": {
+          "source": "Nature",
+          "family": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-03587-x",
+          "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+          "authors": [
+            "Kaia Glickman"
+          ],
+          "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03587-x A team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly and then directs that workspace’s operations.",
+          "published_at": "2026-11-06T00:00:00+00:00",
+          "updated_at": "",
+          "status": "published",
+          "document_type": "commentary",
+          "doi": "10.1038/d41586-026-03587-x",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Nature",
+          "code_links": []
+        },
+        "Nature|https://doi.org/10.1038/d41586-026-03587-x": {
+          "source": "Nature",
+          "family": "Nature",
+          "url": "https://doi.org/10.1038/d41586-026-03587-x",
+          "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+          "authors": [
+            "Kaia Glickman"
+          ],
+          "abstract": "",
+          "published_at": "2026-11-06T00:00:00+00:00",
+          "updated_at": "2026-11-06T17:36:52+00:00",
+          "status": "published",
+          "document_type": "commentary",
+          "doi": "10.1038/d41586-026-03587-x",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Nature",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+      "authors": [
+        "Kaia Glickman"
+      ],
+      "status": "published",
+      "venue": "Nature",
+      "url": "https://doi.org/10.1038/d41586-026-03587-x",
+      "document_type": "commentary",
+      "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03587-x A team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly and then directs that workspace’s operations.",
+      "abstract_source": "https://www.nature.com/articles/d41586-026-03587-x",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1038/d41586-026-03587-x",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-11-06T17:36:52+00:00",
+      "sources": [
+        "Nature"
+      ],
+      "families": [
+        "Nature"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1038/d41586-026-03587-x",
+        "https://www.nature.com/articles/d41586-026-03587-x"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 6,
+      "topics": [
+        "agents"
+      ],
+      "matched_terms": [
+        "ai agents"
       ]
     },
     {
