@@ -131328,7 +131328,7 @@
     {
       "id": "290dc19b4e75777a",
       "first_seen_at": "2026-11-05T06:59:57+00:00",
-      "record_changed_at": "2026-11-05T06:59:57+00:00",
+      "record_changed_at": "2026-11-12T07:22:53+00:00",
       "aliases": [
         "doi:10.1038/s41586-026-11226-8",
         "titleauthor:conjugation regulated self assembled molecules for tandem solar cells|zheng fang",
@@ -131417,7 +131417,7 @@
           ],
           "abstract": "",
           "published_at": "2026-11-04T00:00:00+00:00",
-          "updated_at": "2026-11-04T16:03:20+00:00",
+          "updated_at": "2026-11-11T13:24:49+00:00",
           "status": "published",
           "document_type": "unspecified",
           "doi": "10.1038/s41586-026-11226-8",
@@ -131470,7 +131470,7 @@
       "pdf_url": "",
       "published_at": "2026-11-04T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "2026-11-04T16:03:20+00:00",
+      "source_updated_at": "2026-11-11T13:24:49+00:00",
       "sources": [
         "Nature"
       ],
@@ -366631,6 +366631,110 @@
       ]
     },
     {
+      "id": "724c2a262a9b7ed5",
+      "first_seen_at": "2026-11-12T07:23:05+00:00",
+      "record_changed_at": "2026-11-12T07:23:05+00:00",
+      "aliases": [
+        "doi:10.1126/sciadv.aei3615",
+        "titleauthor:electronic hair transforming hair into a scalable bioelectronic interface|shweta shweta",
+        "url:https://doi.org/10.1126/sciadv.aei3615"
+      ],
+      "records": {
+        "Science Advances|https://doi.org/10.1126/sciadv.aei3615": {
+          "source": "Science Advances",
+          "family": "Science",
+          "url": "https://doi.org/10.1126/sciadv.aei3615",
+          "title": "Electronic hair: Transforming hair into a scalable bioelectronic interface",
+          "authors": [
+            "Shweta Shweta",
+            "Malamati Giompliaki",
+            "Linta Sohail",
+            "Rémy Cornuéjols",
+            "Preston D. Donaldson",
+            "Tobias Abrahamsson",
+            "Dina KC",
+            "Maria Ntzouni",
+            "Sıla Yıldız Cengiz",
+            "Sofia Drakopoulou",
+            "Mary J. Donahue",
+            "Maria Seitanidou",
+            "Zifang Zhao",
+            "Daniel T. Simon",
+            "Magnus Berggren",
+            "Sarah Mclntyre",
+            "Robrecht Raedt",
+            "Xenofon Strakosas",
+            "George D. Spyropoulos"
+          ],
+          "abstract": "In electroencephalography, hair remains a major barrier to electrode-skin contact, limiting signal quality. Here, we introduce electronic hair (eHAIR), a strategy that converts hair into a bioelectronic interface using mixed ionic-electronic conductive polymer dyes. Hair, a keratinized filament anchored within the skin, provides a stable and naturally distributed platform for interfacing. Two complementary approaches based on polythiophene derivatives enable rapid, washable functionalization of hair bundles or semipermanent coating of individual strands. The resulting eHAIR forms conformal, low-impedance interfaces that support electrophysiological recordings with increased signal amplitude and spectral power while preserving the underlying neural dynamics without gels or rigid hardware. Beyond passive sensing, eHAIR-based organic electrochemical transistors enable local signal amplification, with gain defined by hair geometry. By repurposing hair as an active bioelectronic interface, eHAIR establishes a wearable and biointegrated platform that can be implemented from individual hairs to larger hair-covered regions.",
+          "published_at": "2026-11-13T00:00:00+00:00",
+          "updated_at": "2026-11-11T18:59:33+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1126/sciadv.aei3615",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Science Advances",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Electronic hair: Transforming hair into a scalable bioelectronic interface",
+      "authors": [
+        "Shweta Shweta",
+        "Malamati Giompliaki",
+        "Linta Sohail",
+        "Rémy Cornuéjols",
+        "Preston D. Donaldson",
+        "Tobias Abrahamsson",
+        "Dina KC",
+        "Maria Ntzouni",
+        "Sıla Yıldız Cengiz",
+        "Sofia Drakopoulou",
+        "Mary J. Donahue",
+        "Maria Seitanidou",
+        "Zifang Zhao",
+        "Daniel T. Simon",
+        "Magnus Berggren",
+        "Sarah Mclntyre",
+        "Robrecht Raedt",
+        "Xenofon Strakosas",
+        "George D. Spyropoulos"
+      ],
+      "status": "published",
+      "venue": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aei3615",
+      "document_type": "unspecified",
+      "abstract": "In electroencephalography, hair remains a major barrier to electrode-skin contact, limiting signal quality. Here, we introduce electronic hair (eHAIR), a strategy that converts hair into a bioelectronic interface using mixed ionic-electronic conductive polymer dyes. Hair, a keratinized filament anchored within the skin, provides a stable and naturally distributed platform for interfacing. Two complementary approaches based on polythiophene derivatives enable rapid, washable functionalization of hair bundles or semipermanent coating of individual strands. The resulting eHAIR forms conformal, low-impedance interfaces that support electrophysiological recordings with increased signal amplitude and spectral power while preserving the underlying neural dynamics without gels or rigid hardware. Beyond passive sensing, eHAIR-based organic electrochemical transistors enable local signal amplification, with gain defined by hair geometry. By repurposing hair as an active bioelectronic interface, eHAIR establishes a wearable and biointegrated platform that can be implemented from individual hairs to larger hair-covered regions.",
+      "abstract_source": "https://doi.org/10.1126/sciadv.aei3615",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1126/sciadv.aei3615",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-11-11T18:59:33+00:00",
+      "sources": [
+        "Science Advances"
+      ],
+      "families": [
+        "Science"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.aei3615"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 4,
+      "topics": [
+        "uncertainty"
+      ],
+      "matched_terms": [
+        "conformal"
+      ]
+    },
+    {
       "id": "724c5abde1beaad8",
       "first_seen_at": "2026-10-24T04:42:53+00:00",
       "record_changed_at": "2026-10-24T04:42:53+00:00",
@@ -429778,6 +429882,104 @@
       ],
       "matched_terms": [
         "language agents"
+      ]
+    },
+    {
+      "id": "85f2fee05fc86e29",
+      "first_seen_at": "2026-11-12T07:22:53+00:00",
+      "record_changed_at": "2026-11-12T07:22:53+00:00",
+      "aliases": [
+        "doi:10.1038/s41586-026-11241-9",
+        "titleauthor:independent interferometric observable confirms black hole shadow in m87|samuel lai",
+        "url:https://doi.org/10.1038/s41586-026-11241-9",
+        "url:https://www.nature.com/articles/s41586-026-11241-9"
+      ],
+      "records": {
+        "Nature|https://www.nature.com/articles/s41586-026-11241-9": {
+          "source": "Nature",
+          "family": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11241-9",
+          "title": "Independent interferometric observable confirms black hole shadow in M87*",
+          "authors": [
+            "Samuel Lai",
+            "Nithyanandan Thyagarajan",
+            "O. Ivy Wong",
+            "Foivos Diakogiannis"
+          ],
+          "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/s41586-026-11241-9 An imaging algorithm using closure-invariant formalism and diffusion-based reconstruction applied to supermassive black hole very long baseline radio interferometry datasets enables independent recovery of the ring-like shadow and mass that is free from the usual calibration and imaging assumptions.",
+          "published_at": "2026-11-11T00:00:00+00:00",
+          "updated_at": "",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1038/s41586-026-11241-9",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Nature",
+          "code_links": []
+        },
+        "Nature|https://doi.org/10.1038/s41586-026-11241-9": {
+          "source": "Nature",
+          "family": "Nature",
+          "url": "https://doi.org/10.1038/s41586-026-11241-9",
+          "title": "Independent interferometric observable confirms black hole shadow in M87*",
+          "authors": [
+            "Samuel Lai",
+            "Nithyanandan Thyagarajan",
+            "O. Ivy Wong",
+            "Foivos Diakogiannis"
+          ],
+          "abstract": "Abstract A new epoch for direct visualization of accretion dynamics near the event horizon of a black hole began when the Event Horizon Telescope Collaboration synthesized an Earth-sized aperture with millimetre radio interferometry and published the first reconstructed image 1–4 of a black hole shadow at the core of radio galaxy Messier 87 (M87). The image appeared as a ring-like structure, representing the gravitationally lensed and redshifted emission around the central supermassive black hole, M87*, located at the galactic nucleus. However, application of various data analysis and imaging heuristics resulted in divergent representations of M87* fine-scale features 3,5–7 , with some external analyses even challenging the fundamental ring-like morphology of the source 8,9 . Such difficulties arise as a consequence of the inherent sparsity of the very long baseline interferometry measurements, making interferometric image reconstruction an inadequately constrained problem. Moreover, the solution is sensitive to instrument calibration, post-processing algorithms and imaging hyperparameters. Here we apply an independent imaging algorithm that we have developed to the M87* dataset that is free from prescriptive morphological priors and founded on observables immune to instrument calibration errors. We reconstruct the black hole shadow image and unequivocally reproduce a ring-like morphology, with an angular diameter of 42.2 ± 1.5 μas corresponding to a black hole mass of 6.5 ± 0.5 billion solar masses assuming nominal scaling parameters, observed at an inclination angle of approximately 20° from the approaching jet.",
+          "published_at": "2026-11-11T00:00:00+00:00",
+          "updated_at": "2026-11-11T16:02:21+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1038/s41586-026-11241-9",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Nature",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Independent interferometric observable confirms black hole shadow in M87*",
+      "authors": [
+        "Samuel Lai",
+        "Nithyanandan Thyagarajan",
+        "O. Ivy Wong",
+        "Foivos Diakogiannis"
+      ],
+      "status": "published",
+      "venue": "Nature",
+      "url": "https://doi.org/10.1038/s41586-026-11241-9",
+      "document_type": "unspecified",
+      "abstract": "Abstract A new epoch for direct visualization of accretion dynamics near the event horizon of a black hole began when the Event Horizon Telescope Collaboration synthesized an Earth-sized aperture with millimetre radio interferometry and published the first reconstructed image 1–4 of a black hole shadow at the core of radio galaxy Messier 87 (M87). The image appeared as a ring-like structure, representing the gravitationally lensed and redshifted emission around the central supermassive black hole, M87*, located at the galactic nucleus. However, application of various data analysis and imaging heuristics resulted in divergent representations of M87* fine-scale features 3,5–7 , with some external analyses even challenging the fundamental ring-like morphology of the source 8,9 . Such difficulties arise as a consequence of the inherent sparsity of the very long baseline interferometry measurements, making interferometric image reconstruction an inadequately constrained problem. Moreover, the solution is sensitive to instrument calibration, post-processing algorithms and imaging hyperparameters. Here we apply an independent imaging algorithm that we have developed to the M87* dataset that is free from prescriptive morphological priors and founded on observables immune to instrument calibration errors. We reconstruct the black hole shadow image and unequivocally reproduce a ring-like morphology, with an angular diameter of 42.2 ± 1.5 μas corresponding to a black hole mass of 6.5 ± 0.5 billion solar masses assuming nominal scaling parameters, observed at an inclination angle of approximately 20° from the approaching jet.",
+      "abstract_source": "https://doi.org/10.1038/s41586-026-11241-9",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1038/s41586-026-11241-9",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-11-11T16:02:21+00:00",
+      "sources": [
+        "Nature"
+      ],
+      "families": [
+        "Nature"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1038/s41586-026-11241-9",
+        "https://www.nature.com/articles/s41586-026-11241-9"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 4,
+      "topics": [
+        "uncertainty"
+      ],
+      "matched_terms": [
+        "calibration"
       ]
     },
     {
