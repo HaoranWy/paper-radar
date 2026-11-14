@@ -370666,9 +370666,10 @@
     {
       "id": "716fb6239580e372",
       "first_seen_at": "2026-10-16T14:28:49+00:00",
-      "record_changed_at": "2026-10-16T14:28:49+00:00",
+      "record_changed_at": "2026-11-14T06:43:51+00:00",
       "aliases": [
         "titleauthor:asyncspade efficient test time scaling with asynchronous sparse decoding|shuqing luo",
+        "url:https://openreview.net/forum?id=avVTEzRgba",
         "url:https://proceedings.mlr.press/v306/luo26g.html"
       ],
       "records": {
@@ -370697,6 +370698,33 @@
             "https://github.com/UNITES-Lab/AsyncSpade",
             "https://github.com/mlresearch/v306"
           ]
+        },
+        "OpenReview|https://openreview.net/forum?id=avVTEzRgba": {
+          "source": "OpenReview",
+          "family": "会议",
+          "url": "https://openreview.net/forum?id=avVTEzRgba",
+          "title": "AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding",
+          "authors": [
+            "Shuqing Luo",
+            "Yilin Guan",
+            "Pingzhi Li",
+            "Hanrui Wang",
+            "Tianlong Chen"
+          ],
+          "abstract": "Test-time scaling (TTS) can boost LLM reasoning through long chain-of-thought (CoT), but the linear KV-cache growth amplifies the memory-bound bottleneck of LLM decoding. Query-aware sparse decoding methods can achieve state-of-the-art performance under constrained FLOP budget, but are mainly constrained by both sequential-dependent page filtering and coarse-grained token selection, hampering the serving efficiency and model performance on TTS tasks under high concurrency and long CoT scenarios, where token selection can even occupy higher runtime than the forward pipeline itself. In this paper, we first find that the query state of the current decoding token can be approximated in a unified manner from a short sliding window of recent queries, enabling training-free query-aware sparsity without sequential dependency in the decoding loop. Based on the findings, we propose $\\texttt{\\textbf{AsyncSpade}}$, an asynchronous framework for efficient TTS, built on two core components: $\\textbf{(1) a novel light-weight temporal-regressive module}$ that predicts the next-token query state, and $\\textbf{(2) an asynchronous disaggregated framework}$ that decouples the KV cache selection from the auto-regressive decoding loop, overlapping the token-level KV selection with the forward inference computation through asynchronism, thereby eliminating the sequential dependency without sacrificing model performance. We validate the effectiveness of $\\texttt{AsyncSpade}$ on common LLM serving setups with an A100 node, where $\\texttt{AsyncSpade}$ can fully overlap KV-cache operations with the inference pipeline within a certain workload range, $\\textbf{achieving theoretical optimal time-per-output-token~(TPOT)}$. Specifically, $\\texttt{AsyncSpade}$ delivers over 20% reduction on TPOT compared to SoTA baseline ($\\textit{i.e.}$ Quest) and at least 50% TPOT reduction compared to full attention on Qwen3-8B and Qwen3-32B models, while matching or surpassing their accuracy on various TTS benchmarks (AIME-24/25, GPQA-Diamond, MATH-500). Our code is available through https://github.com/UNITES-Lab/AsyncSpade.",
+          "published_at": "2026-04-30T19:14:39+00:00",
+          "updated_at": "2026-09-22T08:56:02+00:00",
+          "status": "accepted",
+          "document_type": "research_article",
+          "doi": "",
+          "arxiv_id": "",
+          "pdf_url": "https://openreview.net/pdf/75e803175e43fe2efcc2aec5cdd7792c4f8bda9c.pdf",
+          "venue": "ICML 2026 regular",
+          "code_links": [
+            "https://github.com/UNITES-Lab/AsyncSpade"
+          ],
+          "venue_id": "ICML.cc/2026/Conference",
+          "submitted_at": "2026-01-22T11:41:53+00:00"
         }
       },
       "title": "AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding",
@@ -370719,15 +370747,17 @@
       "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/luo26g/luo26g.pdf",
       "published_at": "2026-09-29T00:00:00+00:00",
       "preprint_at": "",
-      "source_updated_at": "",
+      "source_updated_at": "2026-09-22T08:56:02+00:00",
       "sources": [
+        "OpenReview",
         "PMLR"
       ],
       "families": [
         "会议"
       ],
       "source_urls": [
-        "https://proceedings.mlr.press/v306/luo26g.html"
+        "https://proceedings.mlr.press/v306/luo26g.html",
+        "https://openreview.net/forum?id=avVTEzRgba"
       ],
       "code_links": [
         "https://github.com/UNITES-Lab/AsyncSpade",
@@ -557153,6 +557183,95 @@
       ],
       "matched_terms": [
         "multi-agent"
+      ]
+    },
+    {
+      "id": "aa2ab564beedbb9d",
+      "first_seen_at": "2026-11-14T06:38:10+00:00",
+      "record_changed_at": "2026-11-14T06:38:10+00:00",
+      "aliases": [
+        "doi:10.1126/sciadv.aeh3126",
+        "titleauthor:direct visualization of light s polarization and spectrum with a compass like meta device|yifeng xiong",
+        "url:https://doi.org/10.1126/sciadv.aeh3126"
+      ],
+      "records": {
+        "Science Advances|https://doi.org/10.1126/sciadv.aeh3126": {
+          "source": "Science Advances",
+          "family": "Science",
+          "url": "https://doi.org/10.1126/sciadv.aeh3126",
+          "title": "Direct visualization of light’s polarization and spectrum with a compass-like meta-device",
+          "authors": [
+            "Yifeng Xiong",
+            "Shaochen Fang",
+            "Haotian Xu",
+            "Tianyue Li",
+            "Xiangyu Ma",
+            "Hong Zhang",
+            "Ye Chen",
+            "Jinhui Chen",
+            "Yu Lei",
+            "C. T. Chan",
+            "Fei Xu"
+          ],
+          "abstract": "Rapid and accurate identification of the spectropolarimetric characteristics of light is increasingly demanded across modern optical technologies. Existing spectral-polarimetric analysis typically relies on a limited number of filters and polarizers, yielding discrete and often disordered outputs that require extensive calibration and computational reconstruction. Here, we present a compass-like meta-device that enables direct visualization of both spectrum and polarization by spatially locating resonant signatures. Through dual-dimensional geometric engineering in polar coordinates—based on collective resonances analogous to quasi-bound states in the continuum with symmetry-broken meta-atom anisotropy—the compass-like meta-device exhibits dihedral group ( D n ) symmetry and radially conformal scaling of unit-cell geometry, mapping polarization and wavelength onto azimuthal and radial spatial positions, respectively. This design enables continuous characterization of linear-polarization orientation with a mean absolute angular error of 6.2°, together with continuous spectral readout over the 1450–1600 nm range at a visually resolvable spectral resolution of ∼6 nm. Our approach functions as an intuitive, single-shot, and robust spectropolarimeter for on-chip multidimensional optical sensing and imaging.",
+          "published_at": "2026-11-13T00:00:00+00:00",
+          "updated_at": "2026-11-13T19:00:25+00:00",
+          "status": "published",
+          "document_type": "unspecified",
+          "doi": "10.1126/sciadv.aeh3126",
+          "arxiv_id": "",
+          "pdf_url": "",
+          "venue": "Science Advances",
+          "code_links": [],
+          "metadata_provider": "Crossref"
+        }
+      },
+      "title": "Direct visualization of light’s polarization and spectrum with a compass-like meta-device",
+      "authors": [
+        "Yifeng Xiong",
+        "Shaochen Fang",
+        "Haotian Xu",
+        "Tianyue Li",
+        "Xiangyu Ma",
+        "Hong Zhang",
+        "Ye Chen",
+        "Jinhui Chen",
+        "Yu Lei",
+        "C. T. Chan",
+        "Fei Xu"
+      ],
+      "status": "published",
+      "venue": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aeh3126",
+      "document_type": "unspecified",
+      "abstract": "Rapid and accurate identification of the spectropolarimetric characteristics of light is increasingly demanded across modern optical technologies. Existing spectral-polarimetric analysis typically relies on a limited number of filters and polarizers, yielding discrete and often disordered outputs that require extensive calibration and computational reconstruction. Here, we present a compass-like meta-device that enables direct visualization of both spectrum and polarization by spatially locating resonant signatures. Through dual-dimensional geometric engineering in polar coordinates—based on collective resonances analogous to quasi-bound states in the continuum with symmetry-broken meta-atom anisotropy—the compass-like meta-device exhibits dihedral group ( D n ) symmetry and radially conformal scaling of unit-cell geometry, mapping polarization and wavelength onto azimuthal and radial spatial positions, respectively. This design enables continuous characterization of linear-polarization orientation with a mean absolute angular error of 6.2°, together with continuous spectral readout over the 1450–1600 nm range at a visually resolvable spectral resolution of ∼6 nm. Our approach functions as an intuitive, single-shot, and robust spectropolarimeter for on-chip multidimensional optical sensing and imaging.",
+      "abstract_source": "https://doi.org/10.1126/sciadv.aeh3126",
+      "abstract_note": "来源摘要；未做机器翻译",
+      "doi": "10.1126/sciadv.aeh3126",
+      "arxiv_id": "",
+      "pdf_url": "",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "preprint_at": "",
+      "source_updated_at": "2026-11-13T19:00:25+00:00",
+      "sources": [
+        "Science Advances"
+      ],
+      "families": [
+        "Science"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.aeh3126"
+      ],
+      "code_links": [],
+      "code_status": "unknown",
+      "code_evidence": "",
+      "score": 8,
+      "topics": [
+        "uncertainty"
+      ],
+      "matched_terms": [
+        "conformal",
+        "calibration"
       ]
     },
     {
