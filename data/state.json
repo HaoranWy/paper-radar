@@ -2,62 +2,62 @@
   "sources": {
     "arXiv": {
       "status": "partial",
-      "attempted_at": "2026-11-17T07:59:49+00:00",
+      "attempted_at": "2026-11-18T07:36:40+00:00",
       "last_success_at": "",
-      "fetched": 5584,
-      "added": 267,
-      "changed": 61,
-      "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位 | 批次 2: ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=35)"
+      "fetched": 5539,
+      "added": 136,
+      "changed": 33,
+      "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位 | 批次 9: HTTP 429 from export.arxiv.org"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:09+00:00",
-      "last_success_at": "2026-11-17T08:08:09+00:00",
-      "fetched": 253,
-      "added": 0,
-      "changed": 0,
+      "attempted_at": "2026-11-18T07:44:24+00:00",
+      "last_success_at": "2026-11-18T07:44:24+00:00",
+      "fetched": 251,
+      "added": 1,
+      "changed": 1,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:15+00:00",
-      "last_success_at": "2026-11-17T08:08:15+00:00",
-      "fetched": 5,
+      "attempted_at": "2026-11-18T07:44:28+00:00",
+      "last_success_at": "2026-11-18T07:44:28+00:00",
+      "fetched": 4,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:25+00:00",
-      "last_success_at": "2026-11-17T08:08:25+00:00",
-      "fetched": 7,
-      "added": 1,
-      "changed": 1,
+      "attempted_at": "2026-11-18T07:44:30+00:00",
+      "last_success_at": "2026-11-18T07:44:30+00:00",
+      "fetched": 8,
+      "added": 0,
+      "changed": 0,
       "note": ""
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:32+00:00",
-      "last_success_at": "2026-11-17T08:08:32+00:00",
-      "fetched": 412,
-      "added": 2,
-      "changed": 1,
+      "attempted_at": "2026-11-18T07:44:31+00:00",
+      "last_success_at": "2026-11-18T07:44:31+00:00",
+      "fetched": 425,
+      "added": 1,
+      "changed": 0,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:37+00:00",
-      "last_success_at": "2026-11-17T08:08:37+00:00",
-      "fetched": 72,
+      "attempted_at": "2026-11-18T07:44:33+00:00",
+      "last_success_at": "2026-11-18T07:44:33+00:00",
+      "fetched": 75,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:43+00:00",
-      "last_success_at": "2026-11-17T08:08:43+00:00",
+      "attempted_at": "2026-11-18T07:44:36+00:00",
+      "last_success_at": "2026-11-18T07:44:36+00:00",
       "fetched": 170,
       "added": 0,
       "changed": 0,
@@ -65,8 +65,8 @@
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:08:51+00:00",
-      "last_success_at": "2026-11-17T08:08:51+00:00",
+      "attempted_at": "2026-11-18T07:44:38+00:00",
+      "last_success_at": "2026-11-18T07:44:38+00:00",
       "fetched": 6,
       "added": 0,
       "changed": 0,
@@ -74,25 +74,25 @@
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:08:56+00:00",
+      "attempted_at": "2026-11-18T07:44:39+00:00",
       "last_success_at": "",
-      "fetched": 220,
+      "fetched": 221,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:14:29+00:00",
+      "attempted_at": "2026-11-18T07:50:11+00:00",
       "last_success_at": "",
-      "fetched": 1448,
+      "fetched": 1455,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:20:43+00:00",
+      "attempted_at": "2026-11-18T07:56:26+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -101,34 +101,34 @@
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:24:43+00:00",
+      "attempted_at": "2026-11-18T08:00:26+00:00",
       "last_success_at": "",
-      "fetched": 200,
+      "fetched": 196,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:30:56+00:00",
+      "attempted_at": "2026-11-18T08:06:41+00:00",
       "last_success_at": "",
-      "fetched": 919,
+      "fetched": 917,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 3/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:37:09+00:00",
+      "attempted_at": "2026-11-18T08:12:58+00:00",
       "last_success_at": "",
-      "fetched": 1039,
+      "fetched": 1041,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "PMLR": {
       "status": "partial",
-      "attempted_at": "2026-11-17T08:43:25+00:00",
+      "attempted_at": "2026-11-18T08:19:13+00:00",
       "last_success_at": "2026-11-15T07:20:57+00:00",
       "fetched": 597,
       "added": 0,
@@ -137,8 +137,8 @@
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:44:34+00:00",
-      "last_success_at": "2026-11-17T08:44:34+00:00",
+      "attempted_at": "2026-11-18T08:20:23+00:00",
+      "last_success_at": "2026-11-18T08:20:23+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,8 +146,8 @@
     },
     "2026.emnlp": {
       "status": "ok",
-      "attempted_at": "2026-11-17T08:44:39+00:00",
-      "last_success_at": "2026-11-17T08:44:39+00:00",
+      "attempted_at": "2026-11-18T08:20:28+00:00",
+      "last_success_at": "2026-11-18T08:20:28+00:00",
       "fetched": 2704,
       "added": 0,
       "changed": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-11-17T08:44:43+00:00",
+      "attempted_at": "2026-11-18T08:20:32+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -163,19 +163,19 @@
       "note": "官方集合尚未发布，或需要更新集合路径；未改用非官方投稿列表。"
     },
     "CVPR2026": {
-      "status": "partial",
-      "attempted_at": "2026-11-16T07:20:22+00:00",
-      "last_success_at": "2026-11-15T07:21:18+00:00",
-      "fetched": 168,
+      "status": "ok",
+      "attempted_at": "2026-11-18T08:20:33+00:00",
+      "last_success_at": "2026-11-18T08:20:33+00:00",
+      "fetched": 156,
       "added": 0,
       "changed": 0,
-      "note": "会集 4042 篇；标题初筛 108 篇；待抓详情 48 篇。 仅标题初筛不保证语义召回完整。"
+      "note": "会集 4042 篇；标题初筛 108 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-11-16T07:21:43+00:00",
-      "last_success_at": "2026-11-16T07:21:43+00:00",
-      "fetched": 76,
+      "attempted_at": "2026-11-18T08:21:40+00:00",
+      "last_success_at": "2026-11-18T08:21:40+00:00",
+      "fetched": 38,
       "added": 0,
       "changed": 0,
       "note": "会集 2871 篇；标题初筛 38 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
@@ -8902,7 +8902,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DualMirage_Hunting_Stealthy_Multimodal_LLM_Agents_via_CAPTCHAs_with_Contour_CVPR_2026_paper.html": {
       "record": {
@@ -8927,7 +8927,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SpaceTools_Tool-Augmented_Spatial_Reasoning_via_Double_Interactive_RL_CVPR_2026_paper.html": {
       "record": {
@@ -8957,7 +8957,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_VideoChat-M1_Collaborative_Policy_Planning_for_Video_Understanding_via_Multi-Agent_Reinforcement_CVPR_2026_paper.html": {
       "record": {
@@ -8990,7 +8990,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Chi_Vinedresser3D_Towards_Agentic_Text-guided_3D_Editing_CVPR_2026_paper.html": {
       "record": {
@@ -9015,7 +9015,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Chng_SenseSearch_Empowering_Vision-Language_Models_with_High-Resolution_Agentic_Search-Reasoning_via_Reinforcement_CVPR_2026_paper.html": {
       "record": {
@@ -9050,7 +9050,7 @@
           "https://github.com/OpenSenseNova/SenseNova-MARS"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Choi_TaskForce_Cooperative_Multi-agent_Reinforcement_Learning_for_Multi-task_Optimization_CVPR_2026_paper.html": {
       "record": {
@@ -9079,7 +9079,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Gui_Beyond_Rule-Based_Agents_Active_Markov_Games_for_Realistic_Multi-Agent_Interaction_CVPR_2026_paper.html": {
       "record": {
@@ -9104,7 +9104,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Agentic_Video_Summarization_via_Self-Reflecting_Multimodal_Understanding_CVPR_2026_paper.html": {
       "record": {
@@ -9130,7 +9130,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Paper2Figure_A_Multi-Agent_Collaborative_System_for_Figure_Generation_Towards_Academic_CVPR_2026_paper.html": {
       "record": {
@@ -9164,7 +9164,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/He_Training_One_Model_to_Master_Cross-Level_Agentic_Actions_via_Reinforcement_CVPR_2026_paper.html": {
       "record": {
@@ -9192,7 +9192,7 @@
           "https://github.com/CraftJarvis/OpenHA"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Jain_NERFIFY_A_Multi-Agent_Framework_for_Turning_NeRF_Papers_into_Code_CVPR_2026_paper.html": {
       "record": {
@@ -9217,7 +9217,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Refer-Agent_A_Collaborative_Multi-Agent_System_with_Reasoning_and_Reflection_for_CVPR_2026_paper.html": {
       "record": {
@@ -9242,7 +9242,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Jiao_Socratic-Geo_Synthetic_Data_Generation_and_Cross-Modal_Geometric_Reasoning_via_Multi-Agent_CVPR_2026_paper.html": {
       "record": {
@@ -9270,7 +9270,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Kuang_VULCAN_Tool-Augmented_Multi_Agents_for_Iterative_3D_Object_Arrangement_CVPR_2026_paper.html": {
       "record": {
@@ -9297,7 +9297,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_Agent4FaceForgery_Multi-Agent_LLM_Framework_for_Realistic_Face_Forgery_Detection_CVPR_2026_paper.html": {
       "record": {
@@ -9324,7 +9324,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AgentDet_A_Shared-Blackboard_Multi-Agent_Framework_for_Zero-Few-Shot_Object_Detection_CVPR_2026_paper.html": {
       "record": {
@@ -9350,7 +9350,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Experience_Transfer_for_Multimodal_LLM_Agents_in_Minecraft_Game_CVPR_2026_paper.html": {
       "record": {
@@ -9381,7 +9381,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Li_InterAgent_Physics-based_Multi-agent_Command_Execution_via_Diffusion_on_Interaction_Graphs_CVPR_2026_paper.html": {
       "record": {
@@ -9411,7 +9411,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Li_LensWalk_Agentic_Video_Understanding_by_Planning_How_You_See_in_CVPR_2026_paper.html": {
       "record": {
@@ -9438,7 +9438,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SyncMos_Scalable_Motion_Synchronisation_for_Multi-Agent_Scene_Interaction_CVPR_2026_paper.html": {
       "record": {
@@ -9465,7 +9465,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Resolving_Evidence_Sparsity_Agentic_Context_Engineering_for_Long-Document_Understanding_CVPR_2026_paper.html": {
       "record": {
@@ -9492,7 +9492,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Scaling_Agentic_Reinforcement_Learning_for_Tool-Integrated_Reasoning_in_VLMs_CVPR_2026_paper.html": {
       "record": {
@@ -9529,7 +9529,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Park_See_and_Fix_the_Flaws_Enabling_VLMs_and_Diffusion_Models_CVPR_2026_paper.html": {
       "record": {
@@ -9558,7 +9558,7 @@
           "https://github.com/krafton-ai/ArtiAgent"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_Agentic_Retoucher_for_Text-To-Image_Generation_CVPR_2026_paper.html": {
       "record": {
@@ -9587,7 +9587,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Shibata_Learning_to_Assist_Physics-Grounded_Human-Human_Control_via_Multi-Agent_Reinforcement_Learning_CVPR_2026_paper.html": {
       "record": {
@@ -9614,7 +9614,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Sung_CRIT_Graph-Based_Automatic_Data_Synthesis_to_Enhance_Cross-Modal_Multi-Hop_Reasoning_CVPR_2026_paper.html": {
       "record": {
@@ -9641,7 +9641,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_MangoBench_A_Benchmark_for_Multi-Agent_Goal-Conditioned_Offline_Reinforcement_Learning_CVPR_2026_paper.html": {
       "record": {
@@ -9668,7 +9668,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Think_Then_Verify_A_Hypothesis-Verification_Multi-Agent_Framework_for_Long_Video_CVPR_2026_paper.html": {
       "record": {
@@ -9695,7 +9695,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_GTR-Turbo_Merged_Checkpoint_is_Secretly_a_Free_Teacher_for_Agentic_CVPR_2026_paper.html": {
       "record": {
@@ -9723,7 +9723,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_Tackling_Model_Bias_via_Game-theoretic_Multi-agent_Collaboration_Framework_for_Hateful_CVPR_2026_paper.html": {
       "record": {
@@ -9753,7 +9753,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html": {
       "record": {
@@ -9786,7 +9786,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_A_Multi-Agent_Perception-Action_Alliance_for_Efficient_Long_Video_Reasoning_CVPR_2026_paper.html": {
       "record": {
@@ -9818,7 +9818,7 @@
           "https://github.com/git-disl/A4VL"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_SciEducator_Scientific_Video_Understanding_and_Educating_via_Deming-Cycle_Multi-Agent_System_CVPR_2026_paper.html": {
       "record": {
@@ -9847,7 +9847,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_VS-Bench_Evaluating_VLMs_for_Strategic_Abilities_in_Multi-Agent_Environments_CVPR_2026_paper.html": {
       "record": {
@@ -9878,7 +9878,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yan_Symphony_A_Cognitively-Inspired_Multi-Agent_System_for_Long-Video_Understanding_CVPR_2026_paper.html": {
       "record": {
@@ -9906,7 +9906,7 @@
           "https://github.com/Haiyang0226/Symphony"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_LongVT_Incentivizing_Thinking_with_Long_Videos_via_Native_Tool_Calling_CVPR_2026_paper.html": {
       "record": {
@@ -9940,7 +9940,7 @@
           "https://github.com/EvolvingLMMs-Lab/LongVT"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_RAAS_LLM_Agentic_System_Architecture_Search_with_GRPO_CVPR_2026_paper.html": {
       "record": {
@@ -9965,7 +9965,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_SVAgent_Storyline-guided_Long_Video_Understanding_via_Cross-Modal_Multi-Agent_Collaboration_CVPR_2026_paper.html": {
       "record": {
@@ -9992,7 +9992,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Unsupervised_Multi-agent_and_Single-agent_Perception_from_Cooperative_Views_CVPR_2026_paper.html": {
       "record": {
@@ -10021,7 +10021,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yin_Hierarchical_Long_Video_Understanding_with_Audiovisual_Entity_Cohesion_and_Agentic_CVPR_2026_paper.html": {
       "record": {
@@ -10047,7 +10047,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Yin_VideoARM_Agentic_Reasoning_over_Hierarchical_Memory_for_Long-Form_Video_Understanding_CVPR_2026_paper.html": {
       "record": {
@@ -10074,7 +10074,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.html": {
       "record": {
@@ -10109,7 +10109,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Thinking_With_Videos_Multimodal_Tool-Augmented_Reinforcement_Learning_for_Long_Video_CVPR_2026_paper.html": {
       "record": {
@@ -10142,7 +10142,7 @@
           "https://github.com/zhang9302002/ThinkingWithVideos"
         ]
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_TopoMA_Topology-Guided_Multi-Agent_Dense_RGB_3D_Reconstruction_via_Distributed_Inference_CVPR_2026_paper.html": {
       "record": {
@@ -10169,7 +10169,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_DRAMA_Next-Gen_Dynamic_Orchestration_for_Resilient_Multi-Agent_Ecosystems_in_Flux_CVPR_2026_paper.html": {
       "record": {
@@ -10199,7 +10199,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_Universal_Guideline-Driven_Image_Clustering_via_a_Hybrid_LLM_Agent_CVPR_2026_paper.html": {
       "record": {
@@ -10230,7 +10230,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Hierarchical_Attacks_for_Multi-Modal_Multi-Agent_Reasoning_CVPR_2026_paper.html": {
       "record": {
@@ -10257,7 +10257,7 @@
         "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "code_links": []
       },
-      "checked": "2026-10-16T14:30:19+00:00"
+      "checked": "2026-11-18T08:20:52+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26bq.html": {
       "record": {
@@ -10286,7 +10286,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26eu.html": {
       "record": {
@@ -10312,7 +10312,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26fp.html": {
       "record": {
@@ -10343,7 +10343,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26fu.html": {
       "record": {
@@ -10369,7 +10369,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26t.html": {
       "record": {
@@ -10398,7 +10398,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/liu26y.html": {
       "record": {
@@ -10425,7 +10425,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/lv26m.html": {
       "record": {
@@ -10457,7 +10457,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/ma26al.html": {
       "record": {
@@ -10490,7 +10490,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/menadjiev26a.html": {
       "record": {
@@ -10518,7 +10518,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/mi26b.html": {
       "record": {
@@ -10555,7 +10555,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/miao26a.html": {
       "record": {
@@ -10582,7 +10582,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/min26c.html": {
       "record": {
@@ -10612,7 +10612,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/min26d.html": {
       "record": {
@@ -10639,7 +10639,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/mo26e.html": {
       "record": {
@@ -10668,7 +10668,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/muller26a.html": {
       "record": {
@@ -10698,7 +10698,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/noorani26b.html": {
       "record": {
@@ -10725,7 +10725,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/ns26a.html": {
       "record": {
@@ -10751,7 +10751,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/park26x.html": {
       "record": {
@@ -10778,7 +10778,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/pion26a.html": {
       "record": {
@@ -10803,7 +10803,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/prinster26a.html": {
       "record": {
@@ -10834,7 +10834,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/ruhlmann26a.html": {
       "record": {
@@ -10862,7 +10862,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/rui26a.html": {
       "record": {
@@ -10890,7 +10890,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/sethi26a.html": {
       "record": {
@@ -10919,7 +10919,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/shaer26a.html": {
       "record": {
@@ -10947,7 +10947,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/sheng26a.html": {
       "record": {
@@ -10973,7 +10973,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26j.html": {
       "record": {
@@ -11002,7 +11002,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/shihab26b.html": {
       "record": {
@@ -11028,7 +11028,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/su26l.html": {
       "record": {
@@ -11058,7 +11058,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/subramani26a.html": {
       "record": {
@@ -11088,7 +11088,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/waldron26a.html": {
       "record": {
@@ -11112,7 +11112,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wang26ap.html": {
       "record": {
@@ -11138,7 +11138,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wang26cd.html": {
       "record": {
@@ -11169,7 +11169,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wang26ck.html": {
       "record": {
@@ -11195,7 +11195,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wang26gg.html": {
       "record": {
@@ -11236,7 +11236,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wang26gw.html": {
       "record": {
@@ -11263,7 +11263,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wilson26a.html": {
       "record": {
@@ -11291,7 +11291,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wu26aa.html": {
       "record": {
@@ -11316,7 +11316,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wu26ap.html": {
       "record": {
@@ -11346,7 +11346,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/wu26b.html": {
       "record": {
@@ -11375,7 +11375,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/xian26c.html": {
       "record": {
@@ -11405,7 +11405,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/xiong26o.html": {
       "record": {
@@ -11432,7 +11432,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yajima26a.html": {
       "record": {
@@ -11458,7 +11458,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yanagisawa26a.html": {
       "record": {
@@ -11484,7 +11484,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yang26ad.html": {
       "record": {
@@ -11510,7 +11510,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yu26bc.html": {
       "record": {
@@ -11542,7 +11542,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yu26by.html": {
       "record": {
@@ -11568,7 +11568,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/yu26v.html": {
       "record": {
@@ -11599,7 +11599,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zeng26o.html": {
       "record": {
@@ -11629,7 +11629,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhang26a.html": {
       "record": {
@@ -11655,7 +11655,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhang26cm.html": {
       "record": {
@@ -11685,7 +11685,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhang26he.html": {
       "record": {
@@ -11715,7 +11715,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhao26ca.html": {
       "record": {
@@ -11745,7 +11745,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhao26cb.html": {
       "record": {
@@ -11773,7 +11773,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhong26c.html": {
       "record": {
@@ -11802,7 +11802,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhong26e.html": {
       "record": {
@@ -11831,7 +11831,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhou26bv.html": {
       "record": {
@@ -11857,7 +11857,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhou26h.html": {
       "record": {
@@ -11888,7 +11888,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/zhu26z.html": {
       "record": {
@@ -11915,7 +11915,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/abbadi26a.html": {
       "record": {
@@ -11941,7 +11941,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/ai26a.html": {
       "record": {
@@ -11969,7 +11969,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-17T05:11:09+00:00"
+      "checked": "2026-11-18T08:19:21+00:00"
     },
     "https://proceedings.mlr.press/v306/asad26a.html": {
       "record": {
