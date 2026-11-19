@@ -10,6 +10,7 @@ from unittest.mock import patch
 import requests
 import yaml
 import run
+from radar.archive import Archive
 from radar.collect import Result, arxiv, openreview, source_error, source_terms
 from radar.core import Store, make_record
 
@@ -258,8 +259,8 @@ class PersistenceHotfixTests(unittest.TestCase):
                  patch.object(run, 'build_site', return_value=root / 'index.html'), \
                  patch('sys.argv', ['run.py']):
                 code = run.main()
-            return code, json.loads((root / 'data/state.json').read_text()), \
-                json.loads((root / 'data/store.json').read_text())
+            payload, state = Archive(root / 'data').read()
+            return code, state, payload
 
     def test_partial_failure_is_saved_but_exit_is_one(self):
         rec = make_record(source='arXiv', family='arXiv',

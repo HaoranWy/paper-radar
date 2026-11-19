@@ -21,9 +21,9 @@ STATE_NAME = '.deploy-state.json'
 UPLOAD_PATHS = (
     '.github/workflows/daily.yml', '.gitignore', 'README.md', 'START_HERE.md',
     'config.yaml', 'overrides.yaml', 'requirements.txt', 'run.py',
-    'deploy_github.py', 'radar/__init__.py', 'radar/collect.py', 'radar/core.py',
+    'deploy_github.py', 'radar/__init__.py', 'radar/collect.py', 'radar/core.py', 'radar/archive.py',
     'web/index.html', 'web/style.css', 'web/app.js', 'tests/test_radar.py',
-    'tests/test_deploy.py', 'data/store.json', 'data/state.json', 'data/preview.json',
+    'tests/test_deploy.py', 'tests/test_archive.py', 'tests/test_source_hotfix.py', 'data/state.json', 'data/preview.json',
     'deploy/README.md', 'preview.html', 'TEST_REPORT.json', 'DEPLOY_TEST_REPORT.json',
 )
 
@@ -68,13 +68,19 @@ def validate_name(value: str) -> str:
 
 
 def check_project(root: Path) -> list[str]:
-    missing = [p for p in UPLOAD_PATHS if not (root / p).is_file()]
+    files = list(UPLOAD_PATHS)
+    if (root / 'data/manifest.json').exists() or (root / 'data/papers').exists():
+        files.append('data/manifest.json')
+        files.extend(f'data/papers/{i:02x}.jsonl' for i in range(256))
+    else:
+        files.append('data/store.json')
+    missing = [p for p in files if not (root / p).is_file()]
     if missing:
         raise DeployError('Missing project files; extract the full ZIP first:\n' + '\n'.join(missing))
-    for path in UPLOAD_PATHS:
+    for path in files:
         if (root / path).is_symlink() or not (root / path).resolve().is_relative_to(root.resolve()):
             raise DeployError(f'Refusing a symlink or external file: {path}')
-    return list(UPLOAD_PATHS)
+    return files
 
 
 def require_owner(actual: str, expected: str | None) -> None:

@@ -113,6 +113,7 @@ def first_author(authors: list[str]) -> str:
 class Store:
     def __init__(self, payload: dict, config: dict):
         self.papers = {p["id"]: p for p in payload.get("papers", [])}
+        self.dirty_prefixes: set[str] = set()
         self.config = config
         self.index: dict[str, str] = {}
         for pid, paper in self.papers.items():
@@ -146,9 +147,11 @@ class Store:
                 pid = hashlib.sha256((aliases[0] if aliases else r["title"]).encode()).hexdigest()[:16]
                 self.papers[pid] = dict(id=pid, first_seen_at=seen, record_changed_at=seen, aliases=[], records={})
                 added += 1
+            self.dirty_prefixes.add(pid[:2])
             p = self.papers[pid]
             # Never merge merely on a fuzzy title; only observed stable identifiers or exact title+author.
             for other_id in existing - {pid}:
+                self.dirty_prefixes.add(other_id[:2])
                 other = self.papers.pop(other_id)
                 p["records"].update(other.get("records", {}))
                 p["aliases"] = list(set(p["aliases"] + other.get("aliases", [])))

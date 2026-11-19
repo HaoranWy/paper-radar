@@ -31,13 +31,13 @@ jobs:
     permissions:
       contents: write
     outputs:
-      collection: ${{ steps.collect.outcome }}
+      collection: ${{ steps.prepare.outputs.migrated == 'true' && 'success' || steps.collect.outcome }}
       archive: ${{ steps.archive.outcome }}
     steps:
       - uses: actions/checkout@v6
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -46,7 +46,15 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Offline tests
         run: python -m unittest discover -s tests -v
+      - name: Migrate the legacy archive before its first sharded deployment
+        id: prepare
+        run: |
+          if [ ! -f data/manifest.json ]; then
+            python run.py --migrate-archive
+            echo 'migrated=true' >> "$GITHUB_OUTPUT"
+          fi
       - name: Collect paper metadata
+        if: steps.prepare.outputs.migrated != 'true'
         id: collect
         timeout-minutes: 45
         continue-on-error: true
@@ -64,18 +72,17 @@ jobs:
           PY
       - name: Persist archive and source status
         id: archive
-        continue-on-error: true
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/store.json data/state.json
+          git fetch --no-tags origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse FETCH_HEAD)" || {
+            echo '::error::main advanced during collection. Re-run on its current archive.'
+            exit 1
+          }
+          git add -- data/manifest.json data/papers data/state.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update paper metadata and source health'
-            # Preserve concurrent user edits; never force-push.
-            if ! git pull --rebase origin main; then
-              git rebase --abort || true
-              exit 1
-            fi
             git push origin HEAD:main
           fi
       - name: Collection summary

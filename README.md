@@ -39,7 +39,9 @@ export CROSSREF_MAILTO="your-email@example.com"
 python run.py
 ```
 
-程序会更新 `data/store.json`、`data/state.json` 和 `site/index.html`。网页端不会跨域直接抓论文，也不会因浏览器关闭而中断服务器上的任务。
+论文按现有 ID 的前两个十六进制字符存入 `data/papers/00.jsonl` 至 `ff.jsonl`，每行保存一篇完整论文。每个来源处理完后，仅写入发生变化的分片，并将 `data/state.json` 的来源水位、详情缓存与 `data/manifest.json` 一起保存。建站时会核对分片数量、论文 ID、别名、条数和 SHA-256，再生成 `site/index.html` 与 `site/papers.json`。
+
+已有单文件归档可运行 `python run.py --migrate-archive` 离线转换和校验。首次 Actions 迁移单独发布这个快照，下次定时或手动运行恢复采集。切换后 `data/store.json` 是冻结的迁移基线，每日更新写入分片。需要用旧版程序时，先运行 `python run.py --export-v1 ../paper-radar-v1`，在指定的新目录得到最新的完整 `store.json` 和同版 `state.json`。网页端不会跨域直接抓论文，也不会因浏览器关闭而中断服务器上的任务。
 
 单独调试某类来源：
 

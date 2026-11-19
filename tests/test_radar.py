@@ -9,6 +9,7 @@ from radar.core import Store, arxiv_of, classify, iso, make_record, rank, safe_u
 from radar.collect import (Result, parse_feed, parse_acl, parse_openreview, parse_crossref,
                            parse_article_html, parse_pmlr_index, parse_cvf_index)
 import run
+from radar.archive import Archive
 
 ROOT=Path(__file__).resolve().parents[1]
 CFG=yaml.safe_load((ROOT/'config.yaml').read_text())
@@ -142,7 +143,7 @@ class BuildTests(unittest.TestCase):
             def broken():raise RuntimeError('offline test')
             with patch.object(run,'ROOT',root),patch.object(run,'build_jobs',return_value=[('bad',broken)]),patch.object(run,'build_site',return_value=root/'index.html'),patch('sys.argv',['run.py']):
                 self.assertEqual(run.main(),1)
-            data=json.loads((root/'data/store.json').read_text());state=json.loads((root/'data/state.json').read_text())
+            data, state = Archive(root/'data').read()
             self.assertEqual(len(data['papers']),1)
             self.assertEqual(state['sources']['bad']['last_success_at'],'2026-01-03T00:00:00+00:00')
             self.assertEqual(state['sources']['bad']['status'],'error')

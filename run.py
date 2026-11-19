@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 import yaml
 from radar import collect
+from radar.archive import Archive, archive_lock
 from radar.core import Store, load_json, now_iso, save_json
 
 ROOT = Path(__file__).resolve().parent
@@ -86,14 +87,15 @@ def build_jobs(cfg: dict, http: collect.HTTP, state: dict):
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--preview", action="store_true", help="使用可溯源的少量人工样例生成离线预览，不联网、不写实时库")
-    parser.add_argument("--build-only", action="store_true", help="只用已保存的库重建页面，不更新抓取时间")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--migrate-archive", action="store_true", help="离线迁移旧归档并核验全库与状态")
+    mode.add_argument("--export-v1", type=Path, metavar="DIR", help="向新目录导出完整旧格式归档及对应状态")
+    mode.add_argument("--preview", action="store_true", help="使用可溯源的少量人工样例生成离线预览，不联网、不写实时库")
+    mode.add_argument("--build-only", action="store_true", help="只用已保存的库重建页面，不更新抓取时间")
     parser.add_argument("--source", action="append", default=[], help="仅运行名称包含该文本的来源，可重复")
     args = parser.parse_args()
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     overrides = yaml.safe_load((ROOT / "overrides.yaml").read_text(encoding="utf-8")) or []
-    state = load_json(ROOT / "data/state.json", {"sources": {}})
-    store = Store(load_json(ROOT / "data/store.json", {"papers": []}), cfg)
     if args.preview:
         store = Store({"papers": []}, cfg)
         fixture = load_json(ROOT / "data/preview.json", {"records": []})
@@ -104,6 +106,29 @@ def main() -> int:
                  "last_run": {"mode": "preview", "checked_at": fixture["checked_at"]}}
         print("Preview:", build_site(store, cfg, state, preview=True))
         return 0
+    data = ROOT / "data"
+    with archive_lock(data):
+        archive = Archive(data)
+        payload, state = archive.read()
+        store = Store(payload, cfg)
+        if args.migrate_archive:
+            if not archive.manifest:
+                state_bytes = (data / "state.json").read_bytes()
+                archive.checkpoint(store, state, full=True, state_bytes=state_bytes)
+                restored, _ = archive.read()
+                if restored != store.payload() or (data / "state.json").read_bytes() != state_bytes:
+                    raise ValueError("Migration verification failed")
+            print(f"Verified sharded archive: {len(store.papers)} papers, {len(store.index)} aliases")
+            return 0
+        if args.export_v1:
+            args.export_v1.mkdir(parents=True, exist_ok=False)
+            save_json(args.export_v1 / "store.json", store.payload())
+            (args.export_v1 / "state.json").write_bytes((data / "state.json").read_bytes())
+            return 0
+        return run_live(args, archive, store, state, cfg, overrides)
+
+
+def run_live(args, archive, store, state, cfg, overrides):
     if args.build_only:
         for p in store.papers.values():
             store.summarize(p)
@@ -143,8 +168,7 @@ def main() -> int:
         state["sources"][name] = report
         print(f"[{name}] {report['status']}: {report['fetched']} metadata records. {report['note']}", flush=True)
         # Checkpoints allow a later run to recover progress after interruption.
-        save_json(ROOT / "data/store.json", store.payload())
-        save_json(ROOT / "data/state.json", state)
+        archive.checkpoint(store, state)
     if not attempted:
         print("No sources selected.", file=sys.stderr)
         return 2
@@ -154,8 +178,7 @@ def main() -> int:
     store.apply_overrides(overrides)
     state["last_run"] = {"started_at": started, "finished_at": now_iso(), "attempted_sources": attempted,
                          "failed_sources": errors, "added": added, "changed": changed}
-    save_json(ROOT / "data/store.json", store.payload())
-    save_json(ROOT / "data/state.json", state)
+    archive.checkpoint(store, state, full=True)
     print("Site:", build_site(store, cfg, state))
     return 1 if errors else 0
 
