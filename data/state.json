@@ -2,71 +2,71 @@
   "sources": {
     "arXiv": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:24:09+00:00",
+      "attempted_at": "2026-11-21T07:17:17+00:00",
       "last_success_at": "",
-      "fetched": 5823,
-      "added": 165,
-      "changed": 45,
+      "fetched": 5685,
+      "added": 0,
+      "changed": 1,
       "note": "分批检索 9/9，每批最多 8 个词，每页最多 100 条。批次 1 达到分页上限；保留时间水位"
     },
     "Nature": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:35+00:00",
-      "last_success_at": "2026-11-20T07:28:35+00:00",
-      "fetched": 252,
+      "attempted_at": "2026-11-21T07:21:37+00:00",
+      "last_success_at": "2026-11-21T07:21:37+00:00",
+      "fetched": 249,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Machine Intelligence": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:38+00:00",
-      "last_success_at": "2026-11-20T07:28:38+00:00",
-      "fetched": 5,
+      "attempted_at": "2026-11-21T07:21:39+00:00",
+      "last_success_at": "2026-11-21T07:21:39+00:00",
+      "fetched": 7,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Nature Computational Science": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:40+00:00",
-      "last_success_at": "2026-11-20T07:28:40+00:00",
-      "fetched": 17,
-      "added": 0,
-      "changed": 0,
+      "attempted_at": "2026-11-21T07:21:39+00:00",
+      "last_success_at": "2026-11-21T07:21:39+00:00",
+      "fetched": 29,
+      "added": 1,
+      "changed": 1,
       "note": ""
     },
     "Nature Communications": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:41+00:00",
-      "last_success_at": "2026-11-20T07:28:41+00:00",
-      "fetched": 449,
-      "added": 0,
-      "changed": 1,
+      "attempted_at": "2026-11-21T07:21:40+00:00",
+      "last_success_at": "2026-11-21T07:21:40+00:00",
+      "fetched": 441,
+      "added": 1,
+      "changed": 0,
       "note": ""
     },
     "Science": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:44+00:00",
-      "last_success_at": "2026-11-20T07:28:44+00:00",
-      "fetched": 115,
+      "attempted_at": "2026-11-21T07:21:43+00:00",
+      "last_success_at": "2026-11-21T07:21:43+00:00",
+      "fetched": 67,
       "added": 0,
       "changed": 0,
       "note": ""
     },
     "Science Advances": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:47+00:00",
-      "last_success_at": "2026-11-20T07:28:47+00:00",
-      "fetched": 135,
-      "added": 0,
+      "attempted_at": "2026-11-21T07:21:43+00:00",
+      "last_success_at": "2026-11-21T07:21:43+00:00",
+      "fetched": 225,
+      "added": 2,
       "changed": 0,
       "note": ""
     },
     "Science Robotics": {
       "status": "ok",
-      "attempted_at": "2026-11-20T07:28:49+00:00",
-      "last_success_at": "2026-11-20T07:28:49+00:00",
+      "attempted_at": "2026-11-21T07:21:45+00:00",
+      "last_success_at": "2026-11-21T07:21:45+00:00",
       "fetched": 6,
       "added": 0,
       "changed": 0,
@@ -74,7 +74,7 @@
     },
     "ICLR.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:28:51+00:00",
+      "attempted_at": "2026-11-21T07:21:45+00:00",
       "last_success_at": "",
       "fetched": 230,
       "added": 0,
@@ -83,25 +83,25 @@
     },
     "ICML.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:34:22+00:00",
+      "attempted_at": "2026-11-21T07:27:16+00:00",
       "last_success_at": "",
       "fetched": 1459,
-      "added": 0,
+      "added": 1,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2026/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:40:38+00:00",
+      "attempted_at": "2026-11-21T07:33:29+00:00",
       "last_success_at": "",
-      "fetched": 1452,
+      "fetched": 1469,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "ICLR.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:46:52+00:00",
+      "attempted_at": "2026-11-21T07:39:43+00:00",
       "last_success_at": "",
       "fetched": 204,
       "added": 0,
@@ -110,35 +110,35 @@
     },
     "ICML.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:53:05+00:00",
+      "attempted_at": "2026-11-21T07:45:58+00:00",
       "last_success_at": "",
-      "fetched": 908,
+      "fetched": 917,
       "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 3/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "NeurIPS.cc/2025/Conference": {
       "status": "partial",
-      "attempted_at": "2026-11-20T07:59:20+00:00",
+      "attempted_at": "2026-11-21T07:52:11+00:00",
       "last_success_at": "",
-      "fetched": 1050,
-      "added": 1,
+      "fetched": 1046,
+      "added": 0,
       "changed": 0,
       "note": "/notes 不可用 (HTTP 403 from api2.openreview.net (ChallengeRequiredError))；使用官方 /notes/search 主题检索。完成 0/71 个关键词；仅保留 venueid 精确匹配的公开已录用论文。这是降级检索，不是完整会集，时间水位不前移。 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成 | 达到检索分页或请求预算，部分关键词未完成"
     },
     "PMLR": {
       "status": "partial",
-      "attempted_at": "2026-11-20T08:05:35+00:00",
+      "attempted_at": "2026-11-21T07:58:25+00:00",
       "last_success_at": "2026-11-15T07:20:57+00:00",
       "fetched": 597,
       "added": 0,
       "changed": 0,
-      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 120 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
+      "note": "Volume 337 Proceedings of UAI 2026: 会集 330 篇；标题初筛 37 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 336 Proceedings of COLT 2026: 会集 197 篇；标题初筛 4 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。 | Volume 306 Proceedings of ICML 2026: 会集 6552 篇；标题初筛 474 篇；待抓详情 114 篇。 仅标题初筛不保证语义召回完整。 | Volume 300 Proceedings of AISTATS 2026: 会集 588 篇；标题初筛 22 篇；待抓详情 0 篇。 仅标题初筛不保证语义召回完整。"
     },
     "2026.acl": {
       "status": "ok",
-      "attempted_at": "2026-11-20T08:06:46+00:00",
-      "last_success_at": "2026-11-20T08:06:46+00:00",
+      "attempted_at": "2026-11-21T07:59:34+00:00",
+      "last_success_at": "2026-11-21T07:59:34+00:00",
       "fetched": 2296,
       "added": 0,
       "changed": 0,
@@ -146,8 +146,8 @@
     },
     "2026.emnlp": {
       "status": "ok",
-      "attempted_at": "2026-11-20T08:06:52+00:00",
-      "last_success_at": "2026-11-20T08:06:52+00:00",
+      "attempted_at": "2026-11-21T07:59:38+00:00",
+      "last_success_at": "2026-11-21T07:59:38+00:00",
       "fetched": 2704,
       "added": 0,
       "changed": 0,
@@ -155,7 +155,7 @@
     },
     "2026.naacl": {
       "status": "unavailable",
-      "attempted_at": "2026-11-20T08:06:59+00:00",
+      "attempted_at": "2026-11-21T07:59:42+00:00",
       "last_success_at": "",
       "fetched": 0,
       "added": 0,
@@ -164,8 +164,8 @@
     },
     "CVPR2026": {
       "status": "ok",
-      "attempted_at": "2026-11-20T08:06:59+00:00",
-      "last_success_at": "2026-11-20T08:06:59+00:00",
+      "attempted_at": "2026-11-21T07:59:42+00:00",
+      "last_success_at": "2026-11-21T07:59:42+00:00",
       "fetched": 108,
       "added": 0,
       "changed": 0,
@@ -173,8 +173,8 @@
     },
     "CVPR2025": {
       "status": "ok",
-      "attempted_at": "2026-11-20T08:07:26+00:00",
-      "last_success_at": "2026-11-20T08:07:26+00:00",
+      "attempted_at": "2026-11-21T08:00:01+00:00",
+      "last_success_at": "2026-11-21T08:00:01+00:00",
       "fetched": 38,
       "added": 0,
       "changed": 0,
@@ -182,8 +182,8 @@
     },
     "ICCV2025": {
       "status": "ok",
-      "attempted_at": "2026-11-20T08:07:41+00:00",
-      "last_success_at": "2026-11-20T08:07:41+00:00",
+      "attempted_at": "2026-11-21T08:00:12+00:00",
+      "last_success_at": "2026-11-21T08:00:12+00:00",
       "fetched": 29,
       "added": 0,
       "changed": 0,
@@ -191,12 +191,12 @@
     }
   },
   "last_run": {
-    "started_at": "2026-11-20T07:24:09+00:00",
-    "finished_at": "2026-11-20T08:07:59+00:00",
+    "started_at": "2026-11-21T07:17:17+00:00",
+    "finished_at": "2026-11-21T08:00:25+00:00",
     "attempted_sources": 21,
     "failed_sources": 0,
-    "added": 166,
-    "changed": 46
+    "added": 5,
+    "changed": 2
   },
   "detail_cache": {
     "https://proceedings.mlr.press/v337/kazantsev26a.html": {
@@ -15659,7 +15659,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/marro26b.html": {
       "record": {
@@ -15684,7 +15684,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/mccormick26a.html": {
       "record": {
@@ -15708,7 +15708,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/meng26b.html": {
       "record": {
@@ -15741,7 +15741,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/mguni26a.html": {
       "record": {
@@ -15771,7 +15771,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/mi26d.html": {
       "record": {
@@ -15801,7 +15801,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/mothukuri26a.html": {
       "record": {
@@ -15827,7 +15827,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/nie26c.html": {
       "record": {
@@ -15862,7 +15862,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/ning26a.html": {
       "record": {
@@ -15891,7 +15891,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/nother26a.html": {
       "record": {
@@ -15919,7 +15919,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/okawa26a.html": {
       "record": {
@@ -15943,7 +15943,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/ouyang26a.html": {
       "record": {
@@ -15975,7 +15975,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/overman26b.html": {
       "record": {
@@ -16000,7 +16000,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pan26k.html": {
       "record": {
@@ -16034,7 +16034,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pan26p.html": {
       "record": {
@@ -16075,7 +16075,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/panchal26b.html": {
       "record": {
@@ -16104,7 +16104,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pang26f.html": {
       "record": {
@@ -16137,7 +16137,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/papamarkou26a.html": {
       "record": {
@@ -16190,7 +16190,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pappu26a.html": {
       "record": {
@@ -16221,7 +16221,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/park26h.html": {
       "record": {
@@ -16246,7 +16246,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pei26a.html": {
       "record": {
@@ -16273,7 +16273,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pei26d.html": {
       "record": {
@@ -16303,7 +16303,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/peng26f.html": {
       "record": {
@@ -16330,7 +16330,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/peng26h.html": {
       "record": {
@@ -16361,7 +16361,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pfaff26a.html": {
       "record": {
@@ -16390,7 +16390,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pitre26a.html": {
       "record": {
@@ -16419,7 +16419,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/potter26b.html": {
       "record": {
@@ -16452,7 +16452,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/pu26a.html": {
       "record": {
@@ -16479,7 +16479,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qiao26a.html": {
       "record": {
@@ -16513,7 +16513,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qiao26d.html": {
       "record": {
@@ -16542,7 +16542,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qin26m.html": {
       "record": {
@@ -16570,7 +16570,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qiu26c.html": {
       "record": {
@@ -16596,7 +16596,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qiu26v.html": {
       "record": {
@@ -16626,7 +16626,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/qu26h.html": {
       "record": {
@@ -16656,7 +16656,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/rafieioskouei26a.html": {
       "record": {
@@ -16683,7 +16683,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/rank26a.html": {
       "record": {
@@ -16714,7 +16714,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/rashwan26a.html": {
       "record": {
@@ -16741,7 +16741,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/ruan26e.html": {
       "record": {
@@ -16777,7 +16777,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/saveliev26a.html": {
       "record": {
@@ -16807,7 +16807,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/seely26a.html": {
       "record": {
@@ -16833,7 +16833,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sehgal26a.html": {
       "record": {
@@ -16864,7 +16864,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/seo26a.html": {
       "record": {
@@ -16897,7 +16897,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shan26e.html": {
       "record": {
@@ -16929,7 +16929,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shao26a.html": {
       "record": {
@@ -16974,7 +16974,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shao26e.html": {
       "record": {
@@ -17001,7 +17001,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shao26h.html": {
       "record": {
@@ -17029,7 +17029,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shao26i.html": {
       "record": {
@@ -17060,7 +17060,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sharma26d.html": {
       "record": {
@@ -17088,7 +17088,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sharma26e.html": {
       "record": {
@@ -17117,7 +17117,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sheth26a.html": {
       "record": {
@@ -17145,7 +17145,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26ab.html": {
       "record": {
@@ -17179,7 +17179,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26af.html": {
       "record": {
@@ -17213,7 +17213,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26n.html": {
       "record": {
@@ -17246,7 +17246,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26p.html": {
       "record": {
@@ -17280,7 +17280,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/shi26r.html": {
       "record": {
@@ -17319,7 +17319,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sonoda26a.html": {
       "record": {
@@ -17345,7 +17345,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/srivastava26a.html": {
       "record": {
@@ -17375,7 +17375,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/storf26a.html": {
       "record": {
@@ -17402,7 +17402,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sun26am.html": {
       "record": {
@@ -17430,7 +17430,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/sun26v.html": {
       "record": {
@@ -17461,7 +17461,7 @@
           "https://github.com/mlresearch/v306"
         ]
       },
-      "checked": "2026-10-20T05:37:07+00:00"
+      "checked": "2026-11-21T07:58:33+00:00"
     },
     "https://proceedings.mlr.press/v306/swaminathan26a.html": {
       "record": {
